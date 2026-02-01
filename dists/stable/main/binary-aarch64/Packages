@@ -1675,6 +1675,173 @@ SHA256: 35071d45d9a2ddab3e7236445d9ef57bc130379cd50e8bd878e571fa626ffb0a
 Homepage: https://github.com/showwin/speedtest-go/
 Description: Command line interface to test internet speed using speedtest.net
 
+Package: spglib
+Version: 2.6.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2712
+Filename: pool/main/s/spglib/spglib_2.6.0-1_aarch64.deb
+Size: 390824
+MD5sum: 7cc3dd86335e53457e27130501a382bd
+SHA1: 3c819db94f81322603885d44a6cec30d6f480a59
+SHA256: 9752484b2cb24a5b01bf3ff735341d919002ae74fb1f2c1ce11ba0476e8c8fdf
+Homepage: https://spglib.github.io/spglib/index.html
+Description: C library for finding and handling crystal symmetries
+
+Package: spidermonkey
+Version: 128.10.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 38632
+Depends: libicu, libnspr, libnss, zlib
+Filename: pool/main/s/spidermonkey/spidermonkey_128.10.0-1_aarch64.deb
+Size: 11342756
+MD5sum: 11dc59dda16d8ee90e957818f2d76ac9
+SHA1: b9aa048452ac9aff3087fe5ce9945a1dc5a03742
+SHA256: efef65ae79913fe4d098454e2dd82008aad5a486ca48667a61e474295d9588ea
+Homepage: https://spidermonkey.dev
+Description: Mozilla's JavaScript engine
+
+Package: spiped
+Version: 1.6.4-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 228
+Depends: openssl
+Filename: pool/main/s/spiped/spiped_1.6.4-1_aarch64.deb
+Size: 48312
+MD5sum: 6a646975c73c6b5037b9bb7bc824f24c
+SHA1: 47d66828c36419f02fce86d4055487c7254a6fff
+SHA256: f9ba22f51d44dfb16df93a16ab797c3c8480e3f74fa9d006cfb24f8dd5ab04ee
+Homepage: https://www.tarsnap.com/spiped.html
+Description: a utility for creating symmetrically encrypted and authenticated pipes between socket addresses
+
+Package: sqlcipher
+Version: 4.6.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2872
+Depends: libedit, openssl
+Filename: pool/main/s/sqlcipher/sqlcipher_4.6.1-1_aarch64.deb
+Size: 803280
+MD5sum: a2fb34643b93347d976e58a1301026a9
+SHA1: e22c696cad642a6591ce85f6c2b50b5fdbde47f1
+SHA256: 61c9be3e1983036fb39e9dbf4bc7f11f7f8d82414db3732bf368fd6c377b7411
+Homepage: https://github.com/sqlcipher/sqlcipher
+Description: SQLCipher is an SQLite extension that provides 256 bit AES encryption of database files
+
+Package: sqlcipher-static
+Version: 4.6.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1252
+Depends: sqlcipher (= 4.6.1-1)
+Filename: pool/main/s/sqlcipher-static/sqlcipher-static_4.6.1-1_aarch64.deb
+Size: 395636
+MD5sum: 1b71edaf898b9ec96aa199236f8ba6c6
+SHA1: 41d31b36d14755d2590f1affa66b40487538293a
+SHA256: 9911b6fe880d3116863bd7532f24fb30006f3254964fb275cb869959438eb550
+Homepage: https://github.com/sqlcipher/sqlcipher
+Description: Static libraries for sqlcipher
+
+Package: squashfs-tools-ng
+Version: 1.3.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 596
+Depends: liblz4, liblzma, liblzo, zlib, zstd
+Filename: pool/main/s/squashfs-tools-ng/squashfs-tools-ng_1.3.2-1_aarch64.deb
+Size: 123860
+MD5sum: 3f68320bbd38691b095559e1c9b7f150
+SHA1: 665421d9ca2e4f6ab5d62827a52e02963ccb2f59
+SHA256: d501768e39e8eabe6b10202152a6c821717b0e44b3babc64e54ff75b690172b6
+Homepage: https://github.com/AgentD/squashfs-tools-ng
+Description: New set of tools for working with SquashFS images
+
+Package: squashfs-tools-ng-static
+Version: 1.3.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 204
+Depends: squashfs-tools-ng (= 1.3.2-1)
+Filename: pool/main/s/squashfs-tools-ng-static/squashfs-tools-ng-static_1.3.2-1_aarch64.deb
+Size: 38072
+MD5sum: 36912a33fa47484dd79d7eefa1910086
+SHA1: efc823ff1c9bf6f76fe79790ff8b24ed2f68ac54
+SHA256: 710daf501612b66e5af8120e7fc153f8e6b8413a51ce2424c93d7b6b391c27d4
+Homepage: https://github.com/AgentD/squashfs-tools-ng
+Description: Static libraries for squashfs-tools-ng
+
+Package: squeezelite
+Version: 2.0.0.1517-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 128
+Depends: libflac, libmad, libvorbis, libmpg123, pulseaudio
+Filename: pool/main/s/squeezelite/squeezelite_2.0.0.1517-2_aarch64.deb
+Size: 34336
+MD5sum: ea538d13106ac33de537632247c4a1b4
+SHA1: 2710d1a7d71720da89684253a6c429590caaff9a
+SHA256: 1bfb7e77f56e772359b66ccd33643ba4df761f252546c506905c8fb594e73e82
+Homepage: https://ralph-irving.github.io/squeezelite.html
+Description: A small headless Logitech Squeezebox emulator
+
+Package: squid
+Version: 7.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 7284
+Depends: libc++, libcrypt, libexpat, libgnutls, libltdl, libnettle, libxml2, openldap, resolv-conf
+Filename: pool/main/s/squid/squid_7.1-1_aarch64.deb
+Size: 1761796
+MD5sum: 14c501bc310f95c148738ed62677c106
+SHA1: 571106c0fb896602c0390952871b129e20ca5e37
+SHA256: ff3e7c68e57f25c77807b3afe60a001d73333660e89b602cabc14c4851e77346
+Homepage: http://www.squid-cache.org
+Description: Full-featured Web proxy cache server
+
+Package: srelay
+Version: 0.4.8p3-8
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 128
+Depends: libcrypt
+Filename: pool/main/s/srelay/srelay_0.4.8p3-8_aarch64.deb
+Size: 26460
+MD5sum: a49f84918b896b21cbe1c628acdc8b3b
+SHA1: 80c3d2df0cefda85be8730e4823903ae7ac23b3d
+SHA256: 4a5c8087c3e6748064f4a70d18ac04c774f2a5162395e90c281002c8bbfd2d0f
+Homepage: https://sourceforge.net/projects/socks-relay/
+Description: A Free SOCKS proxy server
+
+Package: srt2vobsub
+Version: 1.0-4
+Architecture: all
+Maintainer: @termux
+Installed-Size: 140
+Depends: bdsup2sub, ffmpeg, fontconfig-utils, imagemagick, mediainfo, python, python-pip
+Filename: pool/main/s/srt2vobsub/srt2vobsub_1.0-4_all.deb
+Size: 28064
+MD5sum: 9ef47d0b179a1e5233e431f09482dfe9
+SHA1: f8d49615cf838a5c4b935747504455fdd5748b59
+SHA256: 43026b86f47b04c29d7c06fedee742f0797c310fce09bb2b1694af5299a3119a
+Homepage: https://srt2vobsub.sourceforge.io/
+Description: A command-line tool that generates a pair of .idx/.sub subtitle files from a textual subtitles file
+
+Package: ssdb
+Version: 1.9.9-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2148
+Depends: leveldb, libc++
+Filename: pool/main/s/ssdb/ssdb_1.9.9-3_aarch64.deb
+Size: 287260
+MD5sum: bff20579d8c46f9d1bc7f448144039c5
+SHA1: 68103d087926f1cac2465869799f50fb2464365a
+SHA256: a171fc2255055a2ffd5076328820b2ccdd1429defd885d1dd278ed7b07403770
+Homepage: https://ssdb.io/
+Description: A Redis compatible NoSQL database stored on disk
+
 Package: unrar
 Version: 7.1.10-1
 Architecture: aarch64
