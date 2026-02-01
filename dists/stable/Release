@@ -1,0 +1,24 @@
+Origin: com.neonide.studio
+Label: com.neonide.studio
+Suite: stable
+Codename: stable
+Date: Sun, 01 Feb 2026 06:59:23 +0000
+Architectures: aarch64
+Components: main
+Description: NeonIDE APT repo
+MD5Sum:
+ dd69dc4f43d6f98e031047cc05a9f26c              200 Release
+ df00eda8d9dbf517b2b1ad25ab9a0060             6600 main/binary-aarch64/Packages
+ 0c9de4f9c726c8e529a8ebc22cff8921             2826 main/binary-aarch64/Packages.gz
+SHA1:
+ a52369fbac15f91e5e1878df8e03070aedcd6696              428 Release
+ 7490848b7dd192f6d8dedbfb82542bc5ff6fd4da             6600 main/binary-aarch64/Packages
+ b4cfde7b7d4bb9c4ba4e9687dafcf98153b49769             2826 main/binary-aarch64/Packages.gz
+SHA256:
+ 8a4b1c1fe05b8948197f212e72f0405cbfb46f5fbb24c7828dddd8aa2ffeb9db              682 Release
+ 93fc2e06eb1e34affa89f29631d360874db63ba1f513ecd066056bc63eda4abc             6600 main/binary-aarch64/Packages
+ db030ef4baa26a7080212dce29f214bafae696b0b5c3da71b03eb8c8bf91f7a4             2826 main/binary-aarch64/Packages.gz
+SHA512:
+ f637bf808cebcfb07009051008b0cfe4ec3150c14f0d3cf9839579e521e2ffac34286e42f07d20433557e8154b1be8ae2bfe6435c9dc9a50031cb13af1f3683a             1008 Release
+ a4ade4161fda71332beddc817245114a8ad6aa9a5e5735f6ae2ceebeb9f7705612779b58022735978bb7e53d2621cf89f209586ef491958a23c38bc8cefce9a3             6600 main/binary-aarch64/Packages
+ fe40647571fe565dad5f34a70e17d84635add5a72481b81b5fcb0d742f877648fe7ab969670df96ce58560ef20f898e52b87da080a6109887691e81f7024211d             2826 main/binary-aarch64/Packages.gz

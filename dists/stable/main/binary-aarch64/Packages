@@ -1,0 +1,194 @@
+Package: quilt
+Version: 0.69
+Architecture: all
+Maintainer: @termux
+Installed-Size: 704
+Depends: coreutils, diffstat, gawk, graphviz, perl
+Filename: pool/main/q/quilt/quilt_0.69_all.deb
+Size: 359388
+MD5sum: 5bbe0aa12704555a7fef152b691da942
+SHA1: f58524a7ce38b3bbadcb94393ea69d037b46d67f
+SHA256: d116927dcbfc01e896ae1346ef799036eaa870daccf56690e5323e0e33c6f8a2
+Homepage: https://savannah.nongnu.org/projects/quilt
+Description: Allows you to easily manage large numbers of patches
+
+Package: reptyr
+Version: 0.10.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 100
+Filename: pool/main/r/reptyr/reptyr_0.10.0-1_aarch64.deb
+Size: 15476
+MD5sum: 23b0be783e2250b598e2d7be50149f32
+SHA1: 4ed147cb62cd83e1b0af332f6b4d1a39f2393e2e
+SHA256: dd1d17d29f7b451556e4efc6e4216f7c6ce8c237c9c37a9af6124921c3d957eb
+Homepage: https://github.com/nelhage/reptyr
+Description: Tool for reparenting a running program to a new terminal
+
+Package: restic
+Version: 0.18.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 44532
+Suggests: openssh, rclone, restic-server
+Filename: pool/main/r/restic/restic_0.18.1_aarch64.deb
+Size: 8876904
+MD5sum: 31edef2de4473aa4f927d90c3cf759f9
+SHA1: 44044f6aafa19665e36655a58c36c992afbcdb2a
+SHA256: e11412634dd3a8ea81e7b57b61c7a58d6da0d41c2550093e6d4774810edbce73
+Homepage: https://restic.net/
+Description: Fast, secure, efficient backup program
+
+Package: restic-server
+Version: 0.14.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 9688
+Filename: pool/main/r/restic-server/restic-server_0.14.0-1_aarch64.deb
+Size: 2590708
+MD5sum: a8683a9a9c51e7a611b30cff479acf57
+SHA1: 261b4771c67d4bb8e66644f8570bbe2d6d4a5998
+SHA256: 26cf5223ed6d6455bff443ddd968dc00f89affa309aedadfc8f06c7d67f2c869
+Homepage: https://restic.net/
+Description: Restic's REST backend API server
+
+Package: restish
+Version: 0.21.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 33108
+Filename: pool/main/r/restish/restish_0.21.0-1_aarch64.deb
+Size: 6402160
+MD5sum: 19892b8d4a3c2f367a7df771b020f9dd
+SHA1: 38e4cbcb43b8f3560dbff36f5a7fb6a8f79c64b7
+SHA256: 15c606f5e10ebc0c71f6ae02519876ca1b0bfcee1c5c9b36322a8becab2f1cef
+Homepage: https://github.com/danielgtaylor/restish
+Description: A CLI for interacting with REST-ish HTTP APIs
+
+Package: rgbds
+Version: 0.9.4-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1020
+Depends: libandroid-spawn, libandroid-support, libc++, libpng
+Filename: pool/main/r/rgbds/rgbds_0.9.4-1_aarch64.deb
+Size: 316736
+MD5sum: 7e19e7d61737385920161c7d62c3d2f0
+SHA1: 25a282d6ab39ea369430b1e696607d6134481128
+SHA256: 26125c6d76f5e282223c8bdffca9f9c83d8b86a274060ffb1201cf8f610264d6
+Homepage: https://rgbds.gbdev.io
+Description: Rednex Game Boy Development System - An assembly toolchain for the Nintendo Game Boy & Game Boy Color
+
+Package: rig
+Version: 1.11-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 144
+Depends: libc++
+Filename: pool/main/r/rig/rig_1.11-2_aarch64.deb
+Size: 31516
+MD5sum: 4c36e871451f0d226af120d0e060ce5b
+SHA1: 1c7d5e2676cd8499883cef0497f8fa32e13382a9
+SHA256: cc0e3825ac5710f4064f59ea05bc0078098d7aed41c27049bd891045772380f0
+Homepage: https://rig.sourceforge.net/
+Description: A program that generates fake identities
+
+Package: rinetd
+Version: 1:0.73-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 88
+Filename: pool/main/r/rinetd/rinetd_1+0.73-2_aarch64.deb
+Size: 15016
+MD5sum: fff5c95044687f15c70ff49bbd40b04d
+SHA1: cf52a2ce5f7aa48036cdeb8c4aa54f9fe89913fd
+SHA256: 319551861dcf4cbc7305e5c8f72ed649b12f1089f5dbed603239cce5a95b00ff
+Homepage: https://github.com/samhocevar/rinetd
+Description: A user-mode TCP port redirection server
+
+Package: rip2
+Version: 0.9.5
+Architecture: aarch64
+Maintainer: Joshua Kahn @TomJo2000
+Installed-Size: 1364
+Breaks: rip
+Replaces: rip
+Filename: pool/main/r/rip2/rip2_0.9.5_aarch64.deb
+Size: 415724
+MD5sum: 65f70d8d383e5931e464ad215eef45e1
+SHA1: f9c0f6901a690bb934237febd8793c1effed0281
+SHA256: e01fe3f9030af7cd1890d808b614fce70e3f0dce2feaaea54e7aa5061268f433
+Homepage: https://github.com/MilesCranmer/rip2
+Description: A safe and ergonomic alternative to rm
+
+Package: ripgrep
+Version: 14.1.1-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4852
+Depends: pcre2
+Filename: pool/main/r/ripgrep/ripgrep_14.1.1-2_aarch64.deb
+Size: 1215692
+MD5sum: 95cbc915fad4f6d93d894c7f62092e8e
+SHA1: 6c0f8072e1e554a079540c8bfd1a87858aaced8e
+SHA256: 0347b0af83e13ddc7d05e3ab3f34049bdda99b8ea4edb2a2513d473d2a3216af
+Homepage: https://github.com/BurntSushi/ripgrep
+Description: Search tool like grep and The Silver Searcher
+
+Package: ripgrep-all
+Version: 1.0.0-alpha.5-4
+Architecture: aarch64
+Maintainer: Krishna Kanhaiya @kcubeterm
+Installed-Size: 10456
+Depends: ripgrep, fzf
+Recommends: ffmpeg, poppler, sqlite
+Filename: pool/main/r/ripgrep-all/ripgrep-all_1.0.0-alpha.5-4_aarch64.deb
+Size: 2109856
+MD5sum: 872fbeed0032c528775ca0c409051dc0
+SHA1: fb63916bbdb4be55d5473f019526e826104dc9d1
+SHA256: ac77543aeff5d9be590167e9950e8834fbc67d1d39f237aebf3fca127601fcbb
+Homepage: https://github.com/phiresky/ripgrep-all
+Description: Search tool able to locate in PDFs, E-Books, zip, tar.gz, etc
+
+Package: ripsecrets
+Version: 0.1.11-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3288
+Filename: pool/main/r/ripsecrets/ripsecrets_0.1.11-1_aarch64.deb
+Size: 927232
+MD5sum: 5cdfba391187e6b39cdcd800c59761e6
+SHA1: a4e48492fd0807b42af4682aac5b48815ec49c72
+SHA256: 3c876eeef9682f1acd2c462963865414664d5c35a6f9e063410b318466749704
+Homepage: https://github.com/sirwart/ripsecrets
+Description: A command-line tool to prevent committing secret keys into your source code
+
+Package: rirc
+Version: 0.1.7-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 200
+Depends: ca-certificates, mbedtls
+Filename: pool/main/r/rirc/rirc_0.1.7-2_aarch64.deb
+Size: 46888
+MD5sum: f17aa31a42f81ee0c69e5ca228b6f4da
+SHA1: 0658f04f5f69d904182de5e77ef84356f323686e
+SHA256: 6a407c377cf5bb1aaa771e2434cfdb05efe67368a2d668c7601533a062007692
+Homepage: https://github.com/rcr/rirc
+Description: A terminal IRC client in C
+
+Package: rizin
+Version: 0.8.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 25424
+Depends: capstone, file, libandroid-execinfo, liblz4, liblzma, libzip, openssl, tree-sitter, xxhash, zlib, zstd
+Suggests: python, apk-tools, apktool, apksigner
+Filename: pool/main/r/rizin/rizin_0.8.1-1_aarch64.deb
+Size: 5278384
+MD5sum: 752c490dfa156421a378fae4b31d3396
+SHA1: 217435845354eb1b820fdda4f063fecbf7fbc79c
+SHA256: cc5cea7b0cadca57605ded3abcd098f90619ae2c402bcee464a058d0355b663f
+Homepage: https://rizin.re
+Description: UNIX-like reverse engineering framework and command-line toolset.
+
