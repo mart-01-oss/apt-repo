@@ -192,3 +192,198 @@ SHA256: cc5cea7b0cadca57605ded3abcd098f90619ae2c402bcee464a058d0355b663f
 Homepage: https://rizin.re
 Description: UNIX-like reverse engineering framework and command-line toolset.
 
+Package: rlwrap
+Version: 0.47.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 424
+Depends: ncurses, readline
+Filename: pool/main/r/rlwrap/rlwrap_0.47.1_aarch64.deb
+Size: 95816
+MD5sum: ee44cfc6c835f2891922fbbd6d391cfc
+SHA1: 3efdb215a13684342224d1470dda2692e4ae834a
+SHA256: 071df4e42563c48ac21ed50d4f75022d0f0dd60d2f5648f06e626a836fd9ada8
+Homepage: https://github.com/hanslub42/rlwrap
+Description: Wrapper using readline to enable editing of keyboard input for commands
+
+Package: rnr
+Version: 0.5.0-1
+Architecture: aarch64
+Maintainer: @flosnvjx
+Installed-Size: 3452
+Filename: pool/main/r/rnr/rnr_0.5.0-1_aarch64.deb
+Size: 945752
+MD5sum: cc0549d1423402bfbce679144eca6943
+SHA1: e8f58f5fce6ff5215242fc80d68bca351d8c3192
+SHA256: cd2d530ec27d16ae6e064fb74358cf8bbe700f75f95b25ecb692dbdd72941d39
+Homepage: https://github.com/ismaelgv/rnr
+Description: Batch rename files and directories using regular expression (rust)
+
+Package: robin-map
+Version: 1.4.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 192
+Filename: pool/main/r/robin-map/robin-map_1.4.0_aarch64.deb
+Size: 20064
+MD5sum: 497a2bde2068753870b5c5e4a5475c64
+SHA1: 19641781736c5a16c06700d9c06b8aa4825e4060
+SHA256: 5c5cdb31736d3aa10e0a16631ba89f51defbfc02181b30f22b4f4f2c10e607f0
+Homepage: https://github.com/Tessil/robin-map/
+Description: C++ implementation of a fast hash map and hash set using robin hood hashing
+
+Package: robotfindskitten
+Version: 2022.05.21-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 124
+Depends: ncurses
+Filename: pool/main/r/robotfindskitten/robotfindskitten_2022.05.21-1_aarch64.deb
+Size: 25572
+MD5sum: 494045a3aa1d04d3f90aaeecfdfa4b1a
+SHA1: 8b646d85714b9179cd04469813dfe113324f27cd
+SHA256: 70d787d39ba8b4d517beb330c6dfd3dfef2db6ea3a02305c3f7f827cb69194c4
+Homepage: https://github.com/noncombatant/robotfindskitten
+Description: A very fun adventure game for robots and humans
+
+Package: root-repo
+Version: 2.4-2
+Architecture: all
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 52
+Depends: termux-keyring
+Filename: pool/main/r/root-repo/root-repo_2.4-2_all.deb
+Size: 1212
+MD5sum: 8bb8fc11d960eb7bf5cc4173f847e5ca
+SHA1: d1b7edf567b9b64a15edbb28ee6d4552a12c6235
+SHA256: f5c8d8b84581a8462bf8f7a4a7bf3a44beb741d35520d4c90365ef2d69767b6d
+Homepage: https://github.com/termux/termux-root-packages
+Description: Package repository containing programs for rooted devices
+
+Package: rpm
+Version: 4.18.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2396
+Depends: file, libandroid-spawn, libarchive, libbz2, libgcrypt, libiconv, liblua54, liblzma, libpopt, libsqlite, readline, zlib, zstd
+Filename: pool/main/r/rpm/rpm_4.18.1-1_aarch64.deb
+Size: 401472
+MD5sum: 7c444e5e3677aee514e7418a3ab90a2e
+SHA1: 81735d106ceabefb661f42b330f641379d2c0ee4
+SHA256: 0b4552ab2aecb9f717c5dfee96aa0cbaf639f49f44d4bdcf0e98e1d18608b8a4
+Homepage: https://rpm.org/
+Description: RPM Package Manager
+
+Package: rq
+Version: 1.0.4-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3460
+Filename: pool/main/r/rq/rq_1.0.4-1_aarch64.deb
+Size: 958440
+MD5sum: e44773286793862f1b711762a0f44590
+SHA1: d18459e493934be48ca23b65530c938827b610a3
+SHA256: 470aef4a5805d1d8a3251c0eda0e24d9849c4dbf2650307a0c0accf8dbb5b299
+Homepage: https://github.com/dflemstr/rq
+Description: A tool for doing record analysis and transformation
+
+Package: rsgain
+Version: 3.6-2
+Architecture: aarch64
+Maintainer: Joshua Kahn @TomJo2000
+Installed-Size: 336
+Depends: taglib, libc++, libinih, libebur128, ffmpeg
+Filename: pool/main/r/rsgain/rsgain_3.6-2_aarch64.deb
+Size: 91456
+MD5sum: fe9d29c50cc8e2aa4fe5e233264dd1b1
+SHA1: 8b54c8b6f2d0b0167d003a159afdb302936a3215
+SHA256: df649d940176942ac7ba838991d7e899b9ed03171e582b9c41b91ab33e5e2e3f
+Homepage: https://github.com/complexlogic/rsgain
+Description: A simple audio normalizazion utility
+
+Package: rsnapshot
+Version: 1.5.1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 320
+Depends: coreutils, openssh, perl, rsync
+Filename: pool/main/r/rsnapshot/rsnapshot_1.5.1_all.deb
+Size: 68724
+MD5sum: 89d7d03a809b77586d4ecb09c000fc1a
+SHA1: 3deba221a8c396fb2158ce0333a49ecfcda01bb1
+SHA256: e78a7c8df97300e838592af5aeefc314c7ceb1a04f1f3016b263cb94fea62fc4
+Homepage: https://www.rsnapshot.org/
+Description: A remote filesystem snapshot utility
+
+Package: rsync
+Version: 3.4.1-1
+Architecture: aarch64
+Maintainer: Joshua Kahn @TomJo2000
+Installed-Size: 580
+Depends: libiconv, liblz4, libpopt, openssh | dropbear, openssl, openssl-tool, xxhash, zlib, zstd
+Filename: pool/main/r/rsync/rsync_3.4.1-1_aarch64.deb
+Size: 268096
+MD5sum: 665bde832ea6fc4ad9148f9065f40708
+SHA1: 288f63224adda9e30c917291bf439c456b94aef4
+SHA256: b2ac86bd75fb6c73fc71076718d8bb0d3bf884363dccad1524368f37eb8e4c9c
+Homepage: https://rsync.samba.org/
+Description: Fast incremental file transfer utility
+
+Package: rtmpdump
+Version: 2.6-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 332
+Depends: openssl, zlib
+Breaks: rtmpdump-dev
+Replaces: rtmpdump-dev
+Filename: pool/main/r/rtmpdump/rtmpdump_2.6-1_aarch64.deb
+Size: 86276
+MD5sum: 1deecb4cb27eef3675c0e27fbe0d751c
+SHA1: fa82d5416b818fdbb1fb5d4f956d669f40c634ea
+SHA256: 070db74dc3bfdd124470e6f190c95b5038e0203cd363827b7defb43ca5c7dbeb
+Homepage: https://rtmpdump.mplayerhq.hu/
+Description: Small dumper for media content streamed over the RTMP protocol
+
+Package: rtmpdump-static
+Version: 2.6-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 208
+Depends: rtmpdump (= 2.6-1)
+Filename: pool/main/r/rtmpdump-static/rtmpdump-static_2.6-1_aarch64.deb
+Size: 50884
+MD5sum: 03233ec69f1944c8cceaa824b51be495
+SHA1: fd23e33ce199b473d773938572800e6d136edb6c
+SHA256: b99c008d0c47c4a69933547ab9e0788d7ece384c1238019148e88a9c58ca31b9
+Homepage: https://rtmpdump.mplayerhq.hu/
+Description: Static libraries for rtmpdump
+
+Package: rtorrent
+Version: 0.15.6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1716
+Depends: libc++, libcurl, libtorrent, libxmlrpc, ncurses
+Filename: pool/main/r/rtorrent/rtorrent_0.15.6_aarch64.deb
+Size: 364452
+MD5sum: 2cd5e71571a25dbaf9eff8fb1db2e676
+SHA1: 562adbc284140c53a3dea7d395c5775cba9a79ca
+SHA256: 27e0679ca9b644c5e6593c7b1d1c73ce25a3c4f26e12c5291d8bfe6936e10204
+Homepage: https://rakshasa.github.io/rtorrent/
+Description: Ncurses BitTorrent client based on libTorrent
+
+Package: rubiks-cube
+Version: 1.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 88
+Depends: ncurses
+Filename: pool/main/r/rubiks-cube/rubiks-cube_1.2-1_aarch64.deb
+Size: 19752
+MD5sum: caf42affc1b1ee2db8b7b16ce9809b60
+SHA1: 18d000859821b18e15c21b00ea14419d28cb3827
+SHA256: 2da3efac3a6d7cbe8a708c5c64a5430675bbe0903e65a1f567054ae0d32d86bb
+Homepage: https://github.com/been-jamming/rubiks_cube
+Description: A rubik's cube that runs in your terminal
+
