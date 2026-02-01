@@ -387,3 +387,369 @@ SHA256: 2da3efac3a6d7cbe8a708c5c64a5430675bbe0903e65a1f567054ae0d32d86bb
 Homepage: https://github.com/been-jamming/rubiks_cube
 Description: A rubik's cube that runs in your terminal
 
+Package: runit
+Version: 2.1.2-4
+Architecture: aarch64
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 272
+Filename: pool/main/r/runit/runit_2.1.2-4_aarch64.deb
+Size: 53104
+MD5sum: f615fefd2b0e4b95b368eae25eea6f83
+SHA1: 490b7096340cf95c9d575fe7f99a73bcae0ac165
+SHA256: 45bdda085b06b196148b08dafc5ddb0107a6514838e4b8c73e8a5898afd1dc18
+Homepage: http://smarden.org/runit
+Description: Tools to provide service supervision and to manage services
+
+Package: runit-static
+Version: 2.1.2-4
+Architecture: aarch64
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 160
+Depends: runit (= 2.1.2-4)
+Filename: pool/main/r/runit-static/runit-static_2.1.2-4_aarch64.deb
+Size: 15972
+MD5sum: 4f9ae7d7b62df187b78c7c41ae6cf508
+SHA1: bf3217680b56b98be4a822e98f7c889769cbdb4a
+SHA256: 691a09e655eb639a75ad75ee4053c26d5699f41c789388b4caf847348a4b08c4
+Homepage: http://smarden.org/runit
+Description: Static libraries for runit
+
+Package: rush
+Version: 0.7.0-1
+Architecture: aarch64
+Maintainer: Krishna kanhaiya @kcubeterm
+Installed-Size: 8696
+Filename: pool/main/r/rush/rush_0.7.0-1_aarch64.deb
+Size: 2380748
+MD5sum: 2b013596964086599480dd21dcf6d311
+SHA1: 94617eb2afed2ff279d2f1b9a1ebdc07692651d6
+SHA256: 565dc69db4e16bdb34b6b376a8a836fb18dbc3f164a517193e679a0e848df74c
+Homepage: https://github.com/shenwei356/rush
+Description: A cross-platform command-line tool for executing jobs in parallel
+
+Package: rust
+Version: 1.90.0+really1.89.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 163220
+Depends: clang, libandroid-execinfo, libc++, libllvm (<< 21), lld, openssl, zlib, rust-std-aarch64-linux-android
+Suggests: rust-analyzer
+Filename: pool/main/r/rust/rust_1.90.0+really1.89.0_aarch64.deb
+Size: 34740380
+MD5sum: 7326753f603a30170f5d9fb7225d8d9e
+SHA1: 470df1c61bdd1c5665f8cc64b0a1e2fb7dcd26b3
+SHA256: 659e46e1f3f189b11538d567b63260c4cb5a70d6ef9e8eb62f0167f02f78e9ff
+Homepage: https://www.rust-lang.org/
+Description: Systems programming language focused on safety, speed and concurrency
+
+Package: rust-analyzer
+Version: 20250825
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 35908
+Depends: rust-src
+Filename: pool/main/r/rust-analyzer/rust-analyzer_20250825_aarch64.deb
+Size: 7652276
+MD5sum: f5a284faa78e91874f9e5c3a4cad81e3
+SHA1: f4046c9cc9559d4606f5a398381c783641c28805
+SHA256: 75f6f1cdb35908ada1a7b6fcbd4f68f9c8ad8cf7f871969228596916837d6aa1
+Homepage: https://rust-analyzer.github.io/
+Description: A Rust compiler front-end for IDEs
+
+Package: rust-bindgen
+Version: 0.72.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 6448
+Filename: pool/main/r/rust-bindgen/rust-bindgen_0.72.1_aarch64.deb
+Size: 1646564
+MD5sum: 50a88c8ab8a253a608142730eec28ada
+SHA1: 658e05136d0836506ee5d3b0751ea7f200f11906
+SHA256: 18ef94d03bf5f73897607f35ff7f72fa7fc217f0fd5bccb14d001749fa340088
+Homepage: https://github.com/rust-lang/rust-bindgen
+Description: Automatically generates Rust FFI bindings to C (and some C++) libraries
+
+Package: rust-docs
+Version: 1.90.0+really1.89.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 702920
+Filename: pool/main/r/rust-docs/rust-docs_1.90.0+really1.89.0_all.deb
+Size: 28581944
+MD5sum: 2c62fca61ddfe9d2306cf495ded62e8a
+SHA1: 57f143a90af7905c3c47605dd59dbec69e524802
+SHA256: 79eb8b6a3c6092f719e315b3f64c2ede8a4e598fa78a24be421d437a63eb8c7f
+Homepage: https://www.rust-lang.org/
+Description: Rust documentation
+
+Package: rust-src
+Version: 1.90.0+really1.89.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 44092
+Breaks: rust (<< 1.74.1-1)
+Replaces: rust (<< 1.74.1-1)
+Filename: pool/main/r/rust-src/rust-src_1.90.0+really1.89.0_all.deb
+Size: 3582040
+MD5sum: 1e44af597d9f07d0fa76f06b4c5d9883
+SHA1: 16fc3ee107843a51d8236eda97d4c5dcf5840e31
+SHA256: 44b1efd008b854e72b41c0b8554a2c3bd0a5c2a7c21be918c68df4eb80b1e1f6
+Homepage: https://www.rust-lang.org/
+Description: Rust source code files
+
+Package: rust-std-aarch64-linux-android
+Version: 1.90.0+really1.89.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 114064
+Breaks: rust (<< 1.74.1-1)
+Replaces: rust (<< 1.74.1-1)
+Filename: pool/main/r/rust-std-aarch64-linux-android/rust-std-aarch64-linux-android_1.90.0+really1.89.0_all.deb
+Size: 26517168
+MD5sum: 288aca56d980d51b9dca7dcbf409cf76
+SHA1: be2aa7c0960cb2a9bfa4e95eac9772f9dc59a21d
+SHA256: a9663ad0151d5c48c25996232e2e6628899fec2e0d592e8f2962d0943f6ec7c8
+Homepage: https://www.rust-lang.org/
+Description: Rust std for target aarch64-linux-android
+
+Package: rust-std-armv7-linux-androideabi
+Version: 1.90.0+really1.89.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 100852
+Breaks: rust (<< 1.74.1-1)
+Replaces: rust (<< 1.74.1-1)
+Filename: pool/main/r/rust-std-armv7-linux-androideabi/rust-std-armv7-linux-androideabi_1.90.0+really1.89.0_all.deb
+Size: 24485768
+MD5sum: 87a969ec416484da3970d32835e9917d
+SHA1: 012e9fefad514334f63760205a9b11f2c59de1ef
+SHA256: 2360888fecc4980174c48817daa405274ff93dcf0767177c389ab3988a8fa00e
+Homepage: https://www.rust-lang.org/
+Description: Rust std for target armv7-linux-androideabi
+
+Package: rust-std-i686-linux-android
+Version: 1.90.0+really1.89.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 112472
+Breaks: rust (<< 1.74.1-1)
+Replaces: rust (<< 1.74.1-1)
+Filename: pool/main/r/rust-std-i686-linux-android/rust-std-i686-linux-android_1.90.0+really1.89.0_all.deb
+Size: 26077124
+MD5sum: de1f5485375b128b25dfe96481b7ad51
+SHA1: 548a9c9013cfc8831346451dc21b21b57845410b
+SHA256: 4ed6b4d4a0b7f8d060e784cfc2ca48d5d4d819d982440dcab2a261f209d91159
+Homepage: https://www.rust-lang.org/
+Description: Rust std for target i686-linux-android
+
+Package: rust-std-wasm32-unknown-unknown
+Version: 1.90.0+really1.89.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 78216
+Breaks: rust-std-wasm32 (<< 1.74.1-1)
+Replaces: rust-std-wasm32 (<< 1.74.1-1)
+Filename: pool/main/r/rust-std-wasm32-unknown-unknown/rust-std-wasm32-unknown-unknown_1.90.0+really1.89.0_all.deb
+Size: 19273240
+MD5sum: 55c44e5aaeb6ddc668aa8399259bec2f
+SHA1: 9cc15cd992883d95f1ef273a64400bb812d7fbb8
+SHA256: c3a99398ccf970c81a023153cedae718049c72a095963e79bc6c16ff56ca6184
+Homepage: https://www.rust-lang.org/
+Description: Rust std for target wasm32-unknown-unknown
+
+Package: rust-std-wasm32-wasip1
+Version: 1.90.0+really1.89.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 82084
+Filename: pool/main/r/rust-std-wasm32-wasip1/rust-std-wasm32-wasip1_1.90.0+really1.89.0_all.deb
+Size: 20245340
+MD5sum: 63b7ba7ea84878a3b30e075a03222e8a
+SHA1: 9c8cf8dc87243ed8d347d55b52d9005dc8601235
+SHA256: 50c06822ec7d95e4676f31bf8d3a690b4a4e30642827b37d60b0d9fda4013851
+Homepage: https://www.rust-lang.org/
+Description: Rust std for target wasm32-wasip1
+
+Package: rust-std-wasm32-wasip2
+Version: 1.90.0+really1.89.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 82828
+Filename: pool/main/r/rust-std-wasm32-wasip2/rust-std-wasm32-wasip2_1.90.0+really1.89.0_all.deb
+Size: 20415728
+MD5sum: 463fe69f70c644d24b62608a32eb7f41
+SHA1: c8cd2a8f01a9fcca228cd9a877e235329268ceec
+SHA256: 13b72f73c39d3307b182fc3afea06305ee75fe7f0fa1eb9fa77bfbfd5725786b
+Homepage: https://www.rust-lang.org/
+Description: Rust std for target wasm32-wasip2
+
+Package: rust-std-x86-64-linux-android
+Version: 1.90.0+really1.89.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 116780
+Breaks: rust (<< 1.74.1-1)
+Replaces: rust (<< 1.74.1-1)
+Filename: pool/main/r/rust-std-x86-64-linux-android/rust-std-x86-64-linux-android_1.90.0+really1.89.0_all.deb
+Size: 26390172
+MD5sum: 9b99ec159c7c7bcf8b78f8ad53b8067e
+SHA1: 1dba28f6b249f5d08bb4bd47c9e0c8f89ed4cefd
+SHA256: 8db7994a7aad96046c570488f3d68f39883716310ab1dcc9725dc35f7f97404b
+Homepage: https://www.rust-lang.org/
+Description: Rust std for target x86_64-linux-android
+
+Package: rustc-dev
+Version: 1.90.0+really1.89.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 279388
+Breaks: rust (<< 1.74.1-1)
+Replaces: rust (<< 1.74.1-1)
+Filename: pool/main/r/rustc-dev/rustc-dev_1.90.0+really1.89.0_aarch64.deb
+Size: 70139268
+MD5sum: 25c9a46a8db23dbb38205772a9eba295
+SHA1: 815e8e76fb0afef16e8aafbadd5a2e6e36cdea5a
+SHA256: eda1d34de905f31d04fa5cf46f2c00b9ec15a1d7e107363427a79a29de1f181b
+Homepage: https://www.rust-lang.org/
+Description: Rust compiler development libs
+
+Package: rustc-src
+Version: 1.90.0+really1.89.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 40048
+Breaks: rust (<< 1.74.1-1)
+Replaces: rust (<< 1.74.1-1)
+Filename: pool/main/r/rustc-src/rustc-src_1.90.0+really1.89.0_all.deb
+Size: 5099044
+MD5sum: 4fd18fd68e985b1eab49f1bc4444c145
+SHA1: 979c383b9f7eb9ece6f49c3f45f6f471643d9773
+SHA256: 77da040e0778e9253d499b551a13b05cce1bf27808a9b2bc3618d9e6efbba73a
+Homepage: https://www.rust-lang.org/
+Description: Rust compiler source code files
+
+Package: rustscan
+Version: 2.4.1-1
+Architecture: aarch64
+Maintainer: Krishna Kanhaiya @kcubeterm
+Installed-Size: 4088
+Depends: nmap
+Filename: pool/main/r/rustscan/rustscan_2.4.1-1_aarch64.deb
+Size: 1503956
+MD5sum: 6dcfd6fd5e11063c68ae07b9e228658b
+SHA1: 6cd0b726acd41bf0b106444565e9aaae1315118b
+SHA256: 2cd3969d13a4546e19f704bfa52510716c488ed3ac7e957cd04025bfed4a6be5
+Homepage: https://rustscan.github.io/RustScan
+Description: The modern,fast,smart and effective port scanner
+
+Package: rw
+Version: 1.0.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 388
+Filename: pool/main/r/rw/rw_1.0.1-1_aarch64.deb
+Size: 137412
+MD5sum: ef87bc3531abc2136ce29478c3130d6f
+SHA1: 77a29431408a679bcc7246b58f05f4079d27c09b
+SHA256: c22932c6d271522bfac38a529cced899a346fff34e4d56fcb42276da3d9e4725
+Homepage: https://github.com/jridgewell/rw
+Description: A Rust implementation of sponge(1) that never write to TMPDIR
+
+Package: rxfetch
+Version: 2023.01.07
+Architecture: all
+Maintainer: @termux
+Installed-Size: 52
+Depends: bash
+Conflicts: rxfetch-termux
+Replaces: rxfetch-termux
+Filename: pool/main/r/rxfetch/rxfetch_2023.01.07_all.deb
+Size: 3892
+MD5sum: f8ffa9917000ba9aec62bceba35e4dd2
+SHA1: 252484f8afe215a0aaeff37a454b0188bd6434ce
+SHA256: 560400a3a56b0aaf9728a80f3970f786be6e0b7e9763d9e328b9718c367c6e21
+Homepage: https://github.com/Mangeshrex/rxfetch
+Description: A custom system info fetching tool
+
+Package: sabnzbd
+Version: 4.5.3
+Architecture: all
+Maintainer: @termux
+Installed-Size: 8308
+Depends: python, python-cryptography, python-sabyenc3, termux-tools, par2, unrar, p7zip, unzip
+Filename: pool/main/s/sabnzbd/sabnzbd_4.5.3_all.deb
+Size: 1117508
+MD5sum: e77bc9e2efa2fdd5b269a219e41c503e
+SHA1: 29448738b16586e0f3fbb52efbde4e82605eced3
+SHA256: feac9a6ba0cbaca90b3ba6caa89e72843a727c571f9e21866d46c72fb72ad0ed
+Homepage: https://sabnzbd.org/
+Description: Fully automated Usenet Binary Downloader
+
+Package: salty-chat
+Version: 0.0.22-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 39588
+Filename: pool/main/s/salty-chat/salty-chat_0.0.22-4_aarch64.deb
+Size: 9664396
+MD5sum: f95970a3797ecda513ec636deee205d2
+SHA1: d84aa6b323b5be222176e6e9bed582b53d0ab165
+SHA256: 40072ef264a48fd153466c0f6ea57b96d294a9aae686449dfa07c9fb75a8d0fb
+Homepage: https://salty.im/
+Description: A secure, easy, self-hosted messaging
+
+Package: samba
+Version: 4.16.11-5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 27460
+Depends: krb5, libandroid-execinfo, libandroid-spawn, libbsd, libcap, libcrypt, libgnutls, libiconv, libicu, libpopt, libtalloc, libtasn1, libtirpc, ncurses, openssl, readline, tdb-tools, zlib
+Filename: pool/main/s/samba/samba_4.16.11-5_aarch64.deb
+Size: 6228232
+MD5sum: f9d4f2b77bb151a87cdf524d01482bb6
+SHA1: a8db358657333bdb2ad2706a505e099923206cf8
+SHA256: 4b292bee78b372576f3586b1dd03d6b5ffa8f352da8492270555ac986de3e6e4
+Homepage: https://www.samba.org/
+Description: SMB/CIFS fileserver
+
+Package: samefile
+Version: 2.15-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 76
+Filename: pool/main/s/samefile/samefile_2.15-6_aarch64.deb
+Size: 12808
+MD5sum: b4ce86c6c147fb28d7c84b1a5b8437cd
+SHA1: 87e91887f26fb50b3469357c301ace8b45262b28
+SHA256: d01654927d9a17c18097a2e7a2f86854fa5b4f5679d23585036c956ad90eacaf
+Homepage: http://www.schweikhardt.net/samefile/
+Description: Finds files with identical contents, independent of file name
+
+Package: unrar
+Version: 7.1.10-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 468
+Depends: libandroid-support, libc++
+Filename: pool/main/u/unrar/unrar_7.1.10-1_aarch64.deb
+Size: 162324
+MD5sum: e78b5ab7d4fd16ab11021dc37271ebda
+SHA1: 6fd48ba1bf20a40fdebc170a9d67547e4b4c676c
+SHA256: 41af15f199fd89d25aff4a53b6fa257724dec1b711c47840f58a2459df6b9204
+Homepage: https://www.rarlab.com/
+Description: Tool for extracting files from .rar archives
+
+Package: wasi-libc
+Version: 27
+Architecture: all
+Maintainer: @termux
+Installed-Size: 271320
+Recommends: wasm-component-ld
+Filename: pool/main/w/wasi-libc/wasi-libc_27_all.deb
+Size: 44417680
+MD5sum: 71a2315a2ac8162f727a3d236a9ad5c4
+SHA1: 63156976aaf386707df81c42a50a99aa9ce87a68
+SHA256: f71b9a72d0192f2d9daf3d3b5eae25fc5deeb0bc5a1b773cb6a83ac550731fd9
+Homepage: https://wasi.dev/
+Description: Libc for WebAssembly programs built on top of WASI system calls
+
