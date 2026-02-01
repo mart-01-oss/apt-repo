@@ -725,6 +725,144 @@ SHA256: d01654927d9a17c18097a2e7a2f86854fa5b4f5679d23585036c956ad90eacaf
 Homepage: http://www.schweikhardt.net/samefile/
 Description: Finds files with identical contents, independent of file name
 
+Package: samurai
+Version: 1.2-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 100
+Depends: libandroid-spawn
+Filename: pool/main/s/samurai/samurai_1.2-2_aarch64.deb
+Size: 22420
+MD5sum: 68c3c26c74abf67a278f99f1a374a33b
+SHA1: 28ab5e6d522ff21b479550d526d4767c0342af02
+SHA256: be6a4161bfbc863cf7300e27a82c3e2142197d9eb94177807ed53787f8aed473
+Homepage: https://github.com/michaelforney/samurai
+Description: ninja-compatible build tool written in C
+
+Package: sassc
+Version: 3.6.2-1
+Architecture: aarch64
+Maintainer: @Yisus7u7
+Installed-Size: 60
+Depends: libsass
+Filename: pool/main/s/sassc/sassc_3.6.2-1_aarch64.deb
+Size: 6108
+MD5sum: 0e9722c64abe0433b39ebf29cc610f6c
+SHA1: 1469b1934792d2a37a0b652e236d20eccdb10ab2
+SHA256: 7164a79868c9d96938f0e48585c786decb1261d5659380814c4a98957be677c7
+Homepage: https://github.com/sass/sassc
+Description: libsass command line driver
+
+Package: sc-im
+Version: 0.8.5-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 544
+Depends: libandroid-support, libandroid-wordexp, liblua54, libxls, libxlsxwriter, libxml2, libzip, ncurses
+Suggests: gnuplot
+Filename: pool/main/s/sc-im/sc-im_0.8.5-2_aarch64.deb
+Size: 157724
+MD5sum: d6c576066a465a7aeb79fcd0734692a5
+SHA1: dfa710bfc652f6cea66325319d588d4a1cb5ce14
+SHA256: 64e1d140c93ff31db34a31438b259b67f8b47aaab482bd73427c79aed6835538
+Homepage: https://github.com/andmarti1424/sc-im
+Description: An improved version of sc, a spreadsheet calculator
+
+Package: scc
+Version: 3.5.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 6752
+Filename: pool/main/s/scc/scc_3.5.0-1_aarch64.deb
+Size: 1688244
+MD5sum: ad2c658339aa8061e38c1482dc6fd556
+SHA1: 99616962ed0b720924067ca71956c03fb3df49e4
+SHA256: ce966d5941b81fd9c887784de326e6270b947abffee09421304d027d089c2490
+Homepage: https://github.com/boyter/scc
+Description: Counts physical the lines of code, blank lines, comment lines, and physical lines of source code
+
+Package: sccache
+Version: 0.10.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 13596
+Depends: openssl
+Filename: pool/main/s/sccache/sccache_0.10.0-1_aarch64.deb
+Size: 4370096
+MD5sum: e84403627547985041e7e786be85183d
+SHA1: 1c24442d09944078ef87b541b094a578418a0a33
+SHA256: 1e1dc32058d5f4c822fe204519462f2ed0f2463be3967051920236abfe45de23
+Homepage: https://github.com/mozilla/sccache
+Description: sccache is ccache with cloud storage
+
+Package: scdoc
+Version: 1.11.3-1
+Architecture: aarch64
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Installed-Size: 96
+Filename: pool/main/s/scdoc/scdoc_1.11.3-1_aarch64.deb
+Size: 11904
+MD5sum: 2772493e9ebaf7df601c1c2e8f4a3b60
+SHA1: 176fb77290e930803edbf098d068194971dab61a
+SHA256: adee7bea4cfab94f86cccd1b25f7c991b2f9f9518a683e6c4cd64582d6d24414
+Homepage: https://git.sr.ht/~sircmpwn/scdoc
+Description: Small man page generator
+
+Package: screen
+Version: 5.0.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 796
+Depends: libandroid-support, ncurses, termux-auth
+Filename: pool/main/s/screen/screen_5.0.1-1_aarch64.deb
+Size: 372904
+MD5sum: 506fd4f4eed184a9d82b79c8bf949dd0
+SHA1: 20e897f8912e8ed31816edce55d1d7b24f20913f
+SHA256: 81adc597ea7d413099e90138953a47fa42b3e3e6ca950dca8d01f8abcd2b11f1
+Homepage: https://www.gnu.org/software/screen/
+Description: Terminal multiplexer with VT100/ANSI terminal emulation
+
+Package: screenfetch
+Version: 3.9.9
+Architecture: all
+Maintainer: @termux
+Installed-Size: 308
+Depends: bash
+Filename: pool/main/s/screenfetch/screenfetch_3.9.9_all.deb
+Size: 52800
+MD5sum: 752a891457292eecd5e80867b484d069
+SHA1: b7a69f4a2800a4f786fa45be8c71cd3383f1aa18
+SHA256: cf6df65ef8c86027fc17ec078c15fcbc841b3a11d2ed77d44c90de0c68cbe07a
+Homepage: https://github.com/KittyKatt/screenFetch
+Description: Bash Screenshot Information Tool
+
+Package: scrub
+Version: 2.6.1-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 132
+Filename: pool/main/s/scrub/scrub_2.6.1-2_aarch64.deb
+Size: 20116
+MD5sum: 34cbf0be8b16f8c2dbd782421d8009d0
+SHA1: c0f65a5fa51c01c21c462cf809dbb46e9814d4c5
+SHA256: 24165cf1c3bc062493a840d236215ed0c02186f75ddc5f8f08792be2e2977e00
+Homepage: https://github.com/chaos/scrub
+Description: Iteratively writes patterns on files or disk devices to make retreiving the data more difficult
+
+Package: scrypt
+Version: 1.3.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 104
+Depends: openssl
+Filename: pool/main/s/scrypt/scrypt_1.3.3-1_aarch64.deb
+Size: 24376
+MD5sum: 6dd19c96d7c9674f19749d8dd317d25b
+SHA1: 9133fdb31cbdb07611741ea9bc06a44dfe45d136
+SHA256: 55bfd2ae438d806b826f2c75bf78d017d64b1177987ad7d7ee807255147be9f1
+Homepage: https://www.tarsnap.com/scrypt.html
+Description: scrypt KDF library and file encryption tool
+
 Package: unrar
 Version: 7.1.10-1
 Architecture: aarch64
