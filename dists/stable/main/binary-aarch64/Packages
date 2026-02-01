@@ -1029,6 +1029,142 @@ SHA256: a590f117da949445b1e1c7a351a42f36e3cf8568fb0999ccc291ca545db47bdb
 Homepage: https://codemadness.org/sfeed-simple-feed-parser.html
 Description: Shell-script/crontab oriented feed aggregator and parser utility (curses-based reader included)
 
+Package: sftpgo
+Version: 2.6.6-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 75300
+Filename: pool/main/s/sftpgo/sftpgo_2.6.6-1_aarch64.deb
+Size: 14540460
+MD5sum: 8ab6be90186cea5e4ab3d621f61416cc
+SHA1: 467b22b75a5f721ad21a05dfe575e90b5c82ee47
+SHA256: 422c1f312995e68309ec3c814ba97500ea04540911dc689e7ccf44c4622e9b22
+Homepage: https://sftpgo.com/
+Description: Full-featured and highly configurable SFTP, HTTP/S, FTP/S and WebDAV server
+
+Package: shaderc
+Version: 2025.4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 63696
+Depends: libc++
+Conflicts: glslang, spirv-tools
+Filename: pool/main/s/shaderc/shaderc_2025.4_aarch64.deb
+Size: 8009504
+MD5sum: a92b9a922b127f0eca14d0b16fa03f74
+SHA1: 3e6014190985f6922406a0a323104a669b63e4b0
+SHA256: 73df166a81d326006c82ccd17c87a4094b63a41b2926dea89e43aa8989b35bb3
+Homepage: https://github.com/google/shaderc
+Description: Collection of tools, libraries, and tests for Vulkan shader compilation
+
+Package: sharutils
+Version: 4.15.2-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 616
+Depends: libandroid-support
+Filename: pool/main/s/sharutils/sharutils_4.15.2-4_aarch64.deb
+Size: 119952
+MD5sum: 59a881669387ca8de8033c3d06b38506
+SHA1: d09c1b9c62c0d8d24b10593bb52e3fa382986c00
+SHA256: 66d71f8c0050132fee033ca2548f8f69718cc60c714ddb495cfdbfcdd2bcff5e
+Homepage: https://www.gnu.org/software/sharutils/
+Description: Utilities for packaging and unpackaging shell archives
+
+Package: shc
+Version: 4.0.3-4
+Architecture: aarch64
+Maintainer: Krishna Kanhaiya @kcubeterm
+Installed-Size: 108
+Depends: clang
+Filename: pool/main/s/shc/shc_4.0.3-4_aarch64.deb
+Size: 17748
+MD5sum: e74ca8b619da5c033756f05e4ebe456e
+SHA1: 7e2ca9ae7473b89c837169fa280026f4ff598dc1
+SHA256: d674977926d01418e11891e0a155bd49505d8e57b6b9907cef025045ef26c968
+Homepage: https://neurobin.org/projects/softwares/unix/shc/
+Description: Shell script compiler
+
+Package: sheldon
+Version: 0.8.5-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4656
+Depends: libcurl, libssh2, openssl, zlib
+Filename: pool/main/s/sheldon/sheldon_0.8.5-1_aarch64.deb
+Size: 1421872
+MD5sum: 35fb4392c414492d8c4d1ec5a9e9832c
+SHA1: ea36e8231ca1b7802dc872af7344711c56f98b21
+SHA256: d88283c7148a87beac6dd029861b1c03855fda07c58fece860d3472f85bef1af
+Homepage: https://sheldon.cli.rs/
+Description: Fast, configurable, shell plugin manager
+
+Package: shell2http
+Version: 1.17.0-1
+Architecture: aarch64
+Maintainer: Krishna kanhaiya @kcubeterm
+Installed-Size: 6680
+Filename: pool/main/s/shell2http/shell2http_1.17.0-1_aarch64.deb
+Size: 1922228
+MD5sum: 7e9c914c85125080a8f82a6b36bba9ca
+SHA1: 1cce920edd4d1c68049f4d5a19b7ce07036a44d3
+SHA256: 70c39f2e3716746e924f0e678e6b043c5c9c40ad930f7b0db25b4c0b8eb6322e
+Homepage: https://github.com/msoap/shell2http
+Description: Executing shell commands via HTTP server
+
+Package: shellharden
+Version: 4.3.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 424
+Filename: pool/main/s/shellharden/shellharden_4.3.1-1_aarch64.deb
+Size: 148568
+MD5sum: 0e12d007225a82a7dce52fa3024aec0d
+SHA1: ad244e5e760847efd49361421b2c48b892b53f65
+SHA256: 7054b7de436585bbd8ce0d35c06e3c8b863d2a7047c5cd64a9f5934c46542a12
+Homepage: https://github.com/anordal/shellharden
+Description: The corrective bash syntax highlighter
+
+Package: shellinabox
+Version: 2.21-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 464
+Depends: openssl, openssl-tool, termux-auth (>= 1.2), zlib
+Filename: pool/main/s/shellinabox/shellinabox_2.21-1_aarch64.deb
+Size: 110356
+MD5sum: 26f7a12292e662f78c4fdb45b6e1665c
+SHA1: 5945cf310b10d4068b47be76813441b7e813cff7
+SHA256: 206a36b38ceeb9bc6b347aec6bd29b6e21dcc9f3180c615e700ed47bf6302989
+Homepage: https://github.com/shellinabox/shellinabox
+Description: Implementation of a web server that can export arbitrary command line tools to a web based terminal emulator
+
+Package: shfmt
+Version: 3.12.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3248
+Filename: pool/main/s/shfmt/shfmt_3.12.0-1_aarch64.deb
+Size: 923680
+MD5sum: 85fb638d16cc8832575e17157015a093
+SHA1: 109237ca682e2516c751f36430fa88d9c724de0b
+SHA256: 9b6c8d48f6fed119dbd1671174bee0c046af56e73c882d9acc3dcf96f874807e
+Homepage: https://github.com/mvdan/sh
+Description: A shell parser and formatter
+
+Package: shiori
+Version: 1.8.0
+Architecture: aarch64
+Maintainer: Krishna Kanhaiya @kcubeterm
+Installed-Size: 41464
+Filename: pool/main/s/shiori/shiori_1.8.0_aarch64.deb
+Size: 13913756
+MD5sum: 0c6789c6a91943690c9909a64fb10600
+SHA1: 8b84c45b059cd4041162bd74554b454c6548b221
+SHA256: 46f6a208ceb2440b87d1c7e2baf705888e846a85549defff6756bce3bb1673e3
+Homepage: https://github.com/go-shiori/shiori
+Description: Simple bookmark manager built with Go
+
 Package: unrar
 Version: 7.1.10-1
 Architecture: aarch64
