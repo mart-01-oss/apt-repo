@@ -1300,6 +1300,188 @@ SHA256: 9f2330f1d8ce5c450906426e0a86d23c3f324df82cd5cb0f5c782d3f1e880f30
 Homepage: https://sing-box.sagernet.org
 Description: The universal proxy platform
 
+Package: skate
+Version: 1.0.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 12620
+Filename: pool/main/s/skate/skate_1.0.1-1_aarch64.deb
+Size: 3208728
+MD5sum: d6703cf31375a582a994c6b7ad9b56c0
+SHA1: 4136cb7c8a6cd9014a0305df6afa5a1fd8804d81
+SHA256: 88493150fb943775dd67c19e6145dc15c49472fb7f35c968785d91f786a84f78
+Homepage: https://github.com/charmbracelet/skate
+Description: A personal key-value store
+
+Package: sl
+Version: 5.05-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 80
+Depends: ncurses
+Filename: pool/main/s/sl/sl_5.05-1_aarch64.deb
+Size: 7256
+MD5sum: 5b4dd821d91d65d117ce7fe1f504db6e
+SHA1: 90a0414afffa2cca184acee3efca5633b059f8a8
+SHA256: b82d964c84f8fd363e7068ed12e474844c1138acce50f18ce75587da06384968
+Homepage: https://github.com/mtoyoda/sl
+Description: Tool curing your bad habit of mistyping
+
+Package: slashtime
+Version: 2023.01.04-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 52
+Depends: perl
+Filename: pool/main/s/slashtime/slashtime_2023.01.04-1_all.deb
+Size: 4048
+MD5sum: d95eeddf2482b3410bdaa3dc75267a40
+SHA1: f22ad6e10bf3ba1295d020a7214c63bb655d5dee
+SHA256: 8e02a25eca582155ff3686d570ef5b8585b13cff206e686e966c3f336477fafa
+Homepage: https://github.com/istathar/slashtime
+Description: A small program which displays the time in various places
+
+Package: sleuthkit
+Version: 4.14.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 14588
+Depends: libc++, libsqlite, zlib
+Filename: pool/main/s/sleuthkit/sleuthkit_4.14.0-1_aarch64.deb
+Size: 1400784
+MD5sum: 1defb6b979ba2f69576240f65cd070aa
+SHA1: b852a921c78291ec6825ed4020a2b919dc8cd16a
+SHA256: 4ec416ae2e10a819dbfe1706799e799423046b8318a56f8d0956a57646e0c6ce
+Homepage: https://sleuthkit.org/
+Description: The Sleuth Kit® (TSK) is a library for digital forensics tools.
+
+Package: sleuthkit-static
+Version: 4.14.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2612
+Depends: sleuthkit (= 4.14.0-1)
+Filename: pool/main/s/sleuthkit-static/sleuthkit-static_4.14.0-1_aarch64.deb
+Size: 407140
+MD5sum: 58853d71d2d225cc5629548265955861
+SHA1: ae20da47fd039fcf5af2828a04d0f04f21dc8797
+SHA256: 18e7ef3e11a05373704953a2d0212fed844f8282771759e3ff895dc8d37e9a4d
+Homepage: https://sleuthkit.org/
+Description: Static libraries for sleuthkit
+
+Package: slides
+Version: 0.9.0-5
+Architecture: aarch64
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Installed-Size: 19116
+Filename: pool/main/s/slides/slides_0.9.0-5_aarch64.deb
+Size: 4261940
+MD5sum: e91e8b397c14548970021b55e3599a8a
+SHA1: feac2ef9a492243786e776eb5f98dc4de73c6891
+SHA256: fe920b410fbec8c04d1371ca4320434ef2eb0c42ed7540a03f97f7b2bf01b471
+Homepage: https://github.com/maaslalani/slides
+Description: Slides in your terminal
+
+Package: slugify
+Version: 2016.01.23
+Architecture: all
+Maintainer: @termux
+Installed-Size: 60
+Depends: bash
+Filename: pool/main/s/slugify/slugify_2016.01.23_all.deb
+Size: 4644
+MD5sum: fd0c16877df9e2bcb468bcc31850eecb
+SHA1: bd9a280c7e2b083514dbb0e0e20c4feebcee7bce
+SHA256: 6f5002f982c07433fd26241ebc6b8a6f75ee0586c8c63f4d91ec1cb922e8225c
+Homepage: https://github.com/benlinton/slugify
+Description: Bash command that converts filenames and directories to a web friendly format
+
+Package: smalltalk
+Version: 3.2.91-15
+Architecture: aarch64
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 16680
+Depends: gdbm, glib, libandroid-support, libexpat, libffi, libgmp, libiconv, libltdl, libsigsegv, libsqlite, zlib
+Breaks: smalltalk-dev
+Replaces: smalltalk-dev
+Filename: pool/main/s/smalltalk/smalltalk_3.2.91-15_aarch64.deb
+Size: 2255180
+MD5sum: 1c28a5b76924f69afad964009d9a90b3
+SHA1: 72a7232dd00c171284e1d697585f57da06cbf041
+SHA256: 65568b6af78cbd9a50676e5ef03826a7a32f540de6ebe13edcae4bde9a48c117
+Homepage: http://smalltalk.gnu.org/
+Description: A free implementation of the Smalltalk-80 language
+
+Package: smalltalk-static
+Version: 3.2.91-15
+Architecture: aarch64
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 1396
+Depends: smalltalk (= 3.2.91-15)
+Filename: pool/main/s/smalltalk-static/smalltalk-static_3.2.91-15_aarch64.deb
+Size: 264436
+MD5sum: 695cb7554893f4e8bd6b986e52b6eeb6
+SHA1: b8189423d6354c6ee84c6c27f125c05846d1bbd1
+SHA256: 28b6b0d021bece48d8518425edabe8212801904f616b58e178a80e157fe679f4
+Homepage: http://smalltalk.gnu.org/
+Description: Static libraries for smalltalk
+
+Package: snake
+Version: 2022.11.07-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 88
+Depends: libc++
+Filename: pool/main/s/snake/snake_2022.11.07-1_aarch64.deb
+Size: 16880
+MD5sum: 045a95733744c4ac62cf1db33eb6f1c8
+SHA1: 4b21d7902110fd68e7f49f8f1915c95014577cac
+SHA256: cabc4e960f97e66304b25e287b4255d04d7ba0e0218b0db465b71d3471109e30
+Homepage: https://github.com/gogakoreli/snake
+Description: Eat as much as you want while avoiding walls
+
+Package: snapcast-client
+Version: 0.33.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1612
+Depends: pulseaudio, libc++, libexpat, libflac, libogg, libopus, libsoxr, libvorbis, openssl
+Filename: pool/main/s/snapcast-client/snapcast-client_0.33.0_aarch64.deb
+Size: 422136
+MD5sum: 110ac5a86baf1cd457efda6ecbec6f38
+SHA1: 5b895b5ef0f6f13732e4d471b194c50f57bec35e
+SHA256: cef9eb1f530acbeebae3f5d880da4f349e9faf7d554d798ac8857300141f93c7
+Homepage: https://github.com/badaix/snapcast
+Description: A multiroom client-server audio player (client)
+
+Package: snapcast-server
+Version: 0.33.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4404
+Depends: libc++, libexpat, libflac, libogg, libopus, libsoxr, libvorbis, openssl
+Filename: pool/main/s/snapcast-server/snapcast-server_0.33.0_aarch64.deb
+Size: 847088
+MD5sum: 14354c3b5981ab2a9073f8252961a0c1
+SHA1: 141a591dc6ddf2e3979cea498fd4ecd8d8f891e5
+SHA256: 200b1b11cce7991f7b75555da9a0eb31c920db1a24f0afcd4b0fa1ed36c5d68c
+Homepage: https://github.com/badaix/snapcast
+Description: A multiroom client-server audio player (server)
+
+Package: snmptt
+Version: 1.5
+Architecture: all
+Maintainer: @termux
+Installed-Size: 388
+Depends: net-snmp, perl
+Filename: pool/main/s/snmptt/snmptt_1.5_all.deb
+Size: 53208
+MD5sum: 54f59415dbcdc29cacf255276074fb8b
+SHA1: 1f78179136359b99a1f3440bfc2de774d2fd46d5
+SHA256: 319d3ab784f3ed9e0cf2db0142d61bf5ec1a3dc55737ab30ef164d0fd02109e7
+Homepage: http://www.snmptt.org/
+Description: SNMP trap translator
+
 Package: unrar
 Version: 7.1.10-1
 Architecture: aarch64
