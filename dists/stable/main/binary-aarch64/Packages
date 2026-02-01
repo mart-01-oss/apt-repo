@@ -1994,6 +1994,172 @@ SHA256: c037603210b589fa4b646c2e480b6b98ad0d4a6b872f634bca66a26222502fc1
 Homepage: https://github.com/jeaye/stdman
 Description: Formatted C++23 stdlib man pages (cppreference)
 
+Package: stdoutisatty
+Version: 1.0-1
+Architecture: aarch64
+Maintainer: @flosnvjx
+Installed-Size: 68
+Filename: pool/main/s/stdoutisatty/stdoutisatty_1.0-1_aarch64.deb
+Size: 4828
+MD5sum: 6b6b3785c494dee13e56a0b44b46c77b
+SHA1: c99340d02f87014122b63e5dd98701a155ced1b0
+SHA256: 33933babc5fb05de6752f228a2be9b4183a7d0280abf09b524682f3ecc4d0a2f
+Homepage: https://github.com/lilydjwg/stdoutisatty
+Description: Patch the isatty() calls for colored output in pipeline
+
+Package: steghide
+Version: 0.5.1-8
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 440
+Depends: libc++, libjpeg-turbo, libmcrypt, libmhash, zlib
+Filename: pool/main/s/steghide/steghide_0.5.1-8_aarch64.deb
+Size: 126136
+MD5sum: 0ff889b86bd0584a5ff06568c0894243
+SHA1: 08eea0733d26ffeff2679f2c3eab29a7fa5c42ed
+SHA256: 91c724b90474de86580672a980939e10b723fd7e91f5acccc1793f03e4c9f76e
+Homepage: https://steghide.sourceforge.net/
+Description: Embeds a message in a file by replacing some of the least significant bits
+
+Package: step-cli
+Version: 0.28.7-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 38976
+Depends: termux-tools
+Filename: pool/main/s/step-cli/step-cli_0.28.7-1_aarch64.deb
+Size: 8549992
+MD5sum: 166fa3c15dd9cdd54cb6d3629e2f27f3
+SHA1: 4b56ae31ca472b035e0c3d493c053037f8c648a8
+SHA256: 017bff917be2e4af84f9aa1c47688a27c3a344928556429564aa5a58c69cdd49
+Homepage: https://smallstep.com/cli
+Description: An easy-to-use CLI tool for building, operating, and automating Public Key Infrastructure (PKI) systems and workflows
+
+Package: stoken
+Version: 0.93-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 176
+Depends: libnettle, libxml2
+Filename: pool/main/s/stoken/stoken_0.93-3_aarch64.deb
+Size: 39252
+MD5sum: 6ddbda9a56f10ecf3149f7afd757ec45
+SHA1: 8f6740e1f4fde7d9f10fcc105a641e7e909aa8ba
+SHA256: 73f09d292dd5953673c24f22d1a2878dd9a93d2f7d66c74ea966a606d3ba49be
+Homepage: https://github.com/cernekee/stoken
+Description: Software Token for Linux/UNIX
+
+Package: stoken-static
+Version: 0.93-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 104
+Depends: stoken (= 0.93-3)
+Filename: pool/main/s/stoken-static/stoken-static_0.93-3_aarch64.deb
+Size: 21204
+MD5sum: be00b5b257d3f063eb8760574e984758
+SHA1: f18fc12ac6fda1472ee322f4f8799d13b9a99cde
+SHA256: 9275ecf6ad2fee743411b8e6bb1ad47e6097ffe7c502dd15676006ecb0be1640
+Homepage: https://github.com/cernekee/stoken
+Description: Static libraries for stoken
+
+Package: stone
+Version: 2.4-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 160
+Depends: openssl
+Filename: pool/main/s/stone/stone_2.4-3_aarch64.deb
+Size: 47952
+MD5sum: b80edc60ccc6f4f3b765b14ca5fac0fc
+SHA1: d3143d6c0e47aada38b9de785b9f50de8f55353f
+SHA256: 4a64badb9e28120f64461d391bf78cfb40971181924a57fabfc3ec42df463bc2
+Homepage: https://www.gcd.org/sengoku/stone/
+Description: A TCP/IP repeater in the application layer
+
+Package: storj-uplink
+Version: 1.136.4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 17356
+Filename: pool/main/s/storj-uplink/storj-uplink_1.136.4_aarch64.deb
+Size: 4221504
+MD5sum: f583f677b6bce63c194ccd0492d7d499
+SHA1: 7ff5ffc53f3cb6bd75563ce1d3884716e5b24fcf
+SHA256: 7836004c87b9b0082dcc82719fae08acedd0cf8b810b7173a61feac478aa3a02
+Homepage: https://www.storj.io/integrations/uplink-cli
+Description: Storj DCS Uplink CLI
+
+Package: stow
+Version: 2.4.1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 860
+Depends: perl
+Filename: pool/main/s/stow/stow_2.4.1_all.deb
+Size: 108172
+MD5sum: 7455c5ad0f481606421996f422634886
+SHA1: a59cf2d15b3846d1e16b88df293bb73add62c6e3
+SHA256: e6d858895c5acfab0f63e43c9eb63ade7b694d3785c146139d55cda212365c33
+Homepage: https://www.gnu.org/software/stow/
+Description: Tool for managing the installation of multiple software packages into a single directory
+
+Package: strace
+Version: 6.16
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1820
+Depends: libdw
+Filename: pool/main/s/strace/strace_6.16_aarch64.deb
+Size: 412596
+MD5sum: 387df20fadae43c0e69b8f3634d77bb9
+SHA1: a105c4097b1c5592e5cf949176894a8d2f90994c
+SHA256: 58d29ef02a4db0544a0723a8a6cde6ff13bd45fb683e7a8bd291da3cbe8ba5ff
+Homepage: https://strace.io/
+Description: Debugging utility to monitor system calls and signals received
+
+Package: streamripper
+Version: 1.64.6-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 172
+Depends: glib, libmad, libogg, libvorbis
+Filename: pool/main/s/streamripper/streamripper_1.64.6-3_aarch64.deb
+Size: 54140
+MD5sum: 998436541e0eaae0abdf2d50aee4ee04
+SHA1: decb82bd8920fb603ea64bfacf1085b0c65b2beb
+SHA256: 6944e5a9fb1b82f21a959a5cb1d002667d3a528986d0acd47d420d52b242ca39
+Homepage: https://streamripper.sourceforge.net/
+Description: Records and splits streaming mp3 into tracks
+
+Package: stunnel
+Version: 5.76-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 640
+Depends: openssl
+Filename: pool/main/s/stunnel/stunnel_5.76-1_aarch64.deb
+Size: 161848
+MD5sum: 31383e73f7f4f97adf1db28687c5e158
+SHA1: c2787b22f7a28a76f50f277131e27b021c2d2379
+SHA256: 94b8d6528f0e0851487dafd3956cb64321511b27d89cf0a9c60510c9e54a739b
+Homepage: https://www.stunnel.org/
+Description: Socket wrapper which can provide TLS support to ordinary applications
+
+Package: stunnel-static
+Version: 5.76-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 40
+Depends: stunnel (= 5.76-1)
+Filename: pool/main/s/stunnel-static/stunnel-static_5.76-1_aarch64.deb
+Size: 1932
+MD5sum: 24b1f9e00110a46fec818ee6760e434f
+SHA1: a4d9b39e0e61d0837bd04e789cc785851caad807
+SHA256: 92ce16b225345c7681c9ef3fd4916c1585efbb1a1aef407cbf0d95005db25ffd
+Homepage: https://www.stunnel.org/
+Description: Static libraries for stunnel
+
 Package: unrar
 Version: 7.1.10-1
 Architecture: aarch64
