@@ -2160,6 +2160,146 @@ SHA256: 92ce16b225345c7681c9ef3fd4916c1585efbb1a1aef407cbf0d95005db25ffd
 Homepage: https://www.stunnel.org/
 Description: Static libraries for stunnel
 
+Package: stuntman
+Version: 1.2.16-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 360
+Depends: libc++, openssl
+Filename: pool/main/s/stuntman/stuntman_1.2.16-6_aarch64.deb
+Size: 86736
+MD5sum: 81d5c7b420c2334da25509af37788103
+SHA1: 1a2c4f01b8bb65abbc568e3ca24d12986536a2b3
+SHA256: ade371d5317f8e8dbd4c19c97fd820eee51e71a0a3a8c699a8b2c401ef1462c8
+Homepage: https://www.stunprotocol.org/
+Description: An open source STUN server
+
+Package: stylua
+Version: 2.3.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 6768
+Filename: pool/main/s/stylua/stylua_2.3.0_aarch64.deb
+Size: 1738092
+MD5sum: 734aafa47b26c8e79c69081f9a8149f1
+SHA1: f89da5415513718b6d82b06af177cbcedf2ca8d1
+SHA256: baad3d5b39f5ed6c7cf16f016e634d5f48cbad1e1bef8f914f2d2da262dbe5b6
+Homepage: https://github.com/JohnnyMorganz/StyLua
+Description: An opinionated Lua code formatter
+
+Package: subtitleripper
+Version: 0.3.4-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 140
+Depends: libpng, netpbm, zlib
+Filename: pool/main/s/subtitleripper/subtitleripper_0.3.4-1_aarch64.deb
+Size: 25564
+MD5sum: a5ba2bb6c1884b064d1707215262144e
+SHA1: 1d94d7505ea1e791ee40cd64ee63702124730f9e
+SHA256: 254f58d3179965357ab3aed473d39505879fa824d8b9f953f2fa97899d742f84
+Homepage: https://subtitleripper.sourceforge.net/
+Description: DVD subtitle ripper for Linux
+
+Package: sudo
+Version: 1.2.0
+Architecture: all
+Maintainer: @agnostic-apollo
+Installed-Size: 464
+Depends: bash
+Conflicts: tsu
+Replaces: tsu
+Filename: pool/main/s/sudo/sudo_1.2.0_all.deb
+Size: 53400
+MD5sum: 1477b78f74ed0874e2196e6a3b678652
+SHA1: edbac58d99852f90842c8baf74f1da29636f6b57
+SHA256: 8c76cec11acf4a951ebbdf33100c8f68628becddfff5cd2581cab2e72ccc95df
+Homepage: https://github.com/agnostic-apollo/sudo
+Description: A wrapper script to drop to the supported shells or execute shell script files or their text passed as an argument as the root (superuser) user in the Termux app
+
+Package: suil
+Version: 0.10.22-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 88
+Depends: lv2
+Filename: pool/main/s/suil/suil_0.10.22-1_aarch64.deb
+Size: 7856
+MD5sum: 393fe3572503148d65e0bbaef5aab991
+SHA1: 1db19816552ecc3d28b9820e677bd0398b543e2e
+SHA256: 2d19ce0ce4b18654a9b445ab5b9d757df488106ede98ce6f8a326064eb370103
+Homepage: https://drobilla.net/software/suil.html
+Description: A library for loading and wrapping LV2 plugin UIs
+
+Package: suite3270
+Version: 4.1ga11-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3812
+Depends: less, libexpat, libiconv, ncurses
+Filename: pool/main/s/suite3270/suite3270_4.1ga11-2_aarch64.deb
+Size: 578412
+MD5sum: 028130d0d67107cbf08fadba5a267e96
+SHA1: 3bb9cffb86a1e64890f88ebb05d9ad77608a27c2
+SHA256: e9d68a08dca35147ee1e03b4b3ff917f5735d8b5870b8cfa244c3ab344a2c3aa
+Homepage: https://x3270.bgp.nu/
+Description: A family of IBM 3270 terminal emulators and related tools
+
+Package: sun
+Version: 1.0.0-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2536
+Filename: pool/main/s/sun/sun_1.0.0-3_aarch64.deb
+Size: 737764
+MD5sum: 90f76494a63dc8c9fb6d0f3e7abef83d
+SHA1: ba470eb2a43c383c1c3975529609b9d5ad339c92
+SHA256: 158ed519bb3f36107aec04d63e8752f92048b3b71d2074fd3cc9acf4d375f392
+Homepage: https://stand-up-notes.org
+Description: A very simple note taking cli app
+
+Package: supercollider
+Version: 3.14.0-1
+Architecture: aarch64
+Maintainer: @rene-descartes2021
+Installed-Size: 17920
+Depends: boost, fftw, jack2, libandroid-glob, libsndfile, libyaml-cpp, readline
+Filename: pool/main/s/supercollider/supercollider_3.14.0-1_aarch64.deb
+Size: 4534548
+MD5sum: ed890fe9c6cfc7df7f41bf2b85dc1aa7
+SHA1: 60487ed6f7cfd7998348eb82f2b4532293fbadd8
+SHA256: a39a258015a631d15b40b66098b15144137671eadd669f757571e330fd138a75
+Homepage: http://supercollider.github.io/
+Description: A platform for audio synthesis and algorithmic composition
+
+Package: surfraw
+Version: 2.3.0-10
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 684
+Depends: lynx, perl
+Filename: pool/main/s/surfraw/surfraw_2.3.0-10_aarch64.deb
+Size: 71944
+MD5sum: b797f7e81acba9ab8a556ebae3faa06a
+SHA1: a046ba95ab93179f0f85eb5b8ded6effe09eeae0
+SHA256: 1e868d38182a3c7cddaff460eb167cb2eea470b478825bd9cc2b7d1de620f202
+Homepage: https://gitlab.com/surfraw/Surfraw
+Description: Shell Users' Revolutionary Front Rage Against the Web
+
+Package: swaks
+Version: 20240103.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 280
+Depends: perl
+Filename: pool/main/s/swaks/swaks_20240103.0_all.deb
+Size: 58252
+MD5sum: 1b1ddf8d8675dec79071c50208ae51cc
+SHA1: 4aaecce69943e25fa0aeb958a775bdb70e211e6a
+SHA256: 4e6cabb83d5bf4d5e1c2cc981a7ccd6762e0b9d9640a3778c1ad5842a6bf0a4d
+Homepage: http://jetmore.org/john/code/swaks/
+Description: Swiss Army Knife for SMTP
+
 Package: unrar
 Version: 7.1.10-1
 Architecture: aarch64
