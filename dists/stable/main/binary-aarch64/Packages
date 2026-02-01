@@ -1482,6 +1482,199 @@ SHA256: 319d3ab784f3ed9e0cf2db0142d61bf5ec1a3dc55737ab30ef164d0fd02109e7
 Homepage: http://www.snmptt.org/
 Description: SNMP trap translator
 
+Package: snowflake
+Version: 2.11.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 40
+Filename: pool/main/s/snowflake/snowflake_2.11.0-1_aarch64.deb
+Size: 1732
+MD5sum: 5b3ea6f3b8a1d78f1dbe4df18bee92cb
+SHA1: 2a4aada552bc958a614d60fda6ba302d2fc1079d
+SHA256: bd4bdc5e31e073d22f42e49ce3c5ad9dc14f765210f36fbcccf25ac55d23f5ca
+Homepage: https://snowflake.torproject.org/
+Description: Pluggable Transport using WebRTC, inspired by Flashproxy
+
+Package: snowflake-client
+Version: 2.11.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 16048
+Filename: pool/main/s/snowflake-client/snowflake-client_2.11.0-1_aarch64.deb
+Size: 4057856
+MD5sum: 5a31a67e8d61564d15eeaf9191936953
+SHA1: c96a4cefd3e74027d95eeda89a40fcc4bff17c46
+SHA256: fdb31765f52127d61e10d3d49924aaad51e91d05d4adbbe006dfb9acf9e44eda
+Homepage: https://snowflake.torproject.org/
+Description: Pluggable Transport using WebRTC, inspired by Flashproxy (Client)
+
+Package: snowflake-proxy
+Version: 2.11.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 13520
+Filename: pool/main/s/snowflake-proxy/snowflake-proxy_2.11.0-1_aarch64.deb
+Size: 3502976
+MD5sum: bcb984c6290f1aecbed20db0cfc87393
+SHA1: 593a7285a29c98a9e5703f7e2fb44209d1311c5c
+SHA256: e2647779e85ba3c0e501a474ad233e406a917109aa42a7570f422857bbc0bd72
+Homepage: https://snowflake.torproject.org/
+Description: Pluggable Transport using WebRTC, inspired by Flashproxy (Proxy)
+
+Package: socat
+Version: 1.8.0.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 692
+Depends: openssl, readline
+Filename: pool/main/s/socat/socat_1.8.0.3-1_aarch64.deb
+Size: 190404
+MD5sum: ff4694dc664a4a7a839952023a9ef101
+SHA1: afe2e777090d2ea5052a45903629445676f23e35
+SHA256: 09f4c7c0cbee2fff8cce9461438d1d7aa4f5b0ea028a4544c208a355ae59d2b8
+Homepage: http://www.dest-unreach.org/socat/
+Description: Relay for bidirectional data transfer between two independent data channels
+
+Package: softether-vpn
+Version: 5.02.5180-5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 23208
+Depends: libiconv, libsodium, ncurses, openssl, readline, resolv-conf, zlib
+Filename: pool/main/s/softether-vpn/softether-vpn_5.02.5180-5_aarch64.deb
+Size: 3433796
+MD5sum: 44b5c16e5461d95d0442629b8e51a085
+SHA1: d067ba999db366ad4a908147dc6c804f679eaacb
+SHA256: 72670ee9a632bdbbb1cb165c10b9b86703586a212b3700c7c1c64ba734459520
+Homepage: https://www.softether.org/
+Description: An open-source cross-platform multi-protocol VPN program
+
+Package: soju
+Version: 0.9.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 26716
+Filename: pool/main/s/soju/soju_0.9.0-1_aarch64.deb
+Size: 6696320
+MD5sum: 9971eeb418ed6388e5cbc8fb3bbaf67c
+SHA1: 74b34e9dc4ddbb735730442fe59dce1ff542111d
+SHA256: 1577ee37d95ee1f9a42204676932ea4e56a3f3a245ff632157b48f70732f18b9
+Homepage: https://codeberg.org/emersion/soju
+Description: A user-friendly IRC bouncer
+
+Package: solidity
+Version: 0.8.30-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 16472
+Depends: boost, libc++
+Filename: pool/main/s/solidity/solidity_0.8.30-1_aarch64.deb
+Size: 3369372
+MD5sum: 1812ee2af81d94fa6f5689c99f21416c
+SHA1: 11e122712c0d9610bcfcdad6db784410bd38db76
+SHA256: f37f29f7b8372e91ac34a76d50a8eb376726f507685fd0884e9224a19a0d189d
+Homepage: https://solidity.readthedocs.io
+Description: An Ethereum smart contract-oriented language
+
+Package: sops
+Version: 3.10.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 46396
+Filename: pool/main/s/sops/sops_3.10.2-1_aarch64.deb
+Size: 8674568
+MD5sum: 7cf28d20b6985722076f56dc61e44d6d
+SHA1: e2059af3b6d9e750ec48c3c43aea6b1a1f7e7c9c
+SHA256: fa5ffd9cf13401d424e6dc6a6dee08cd57468b3d9d70800add93e8065063fd85
+Homepage: https://github.com/getsops/sops
+Description: Simple and flexible tool for managing secrets
+
+Package: sox
+Version: 14.4.2-28
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1512
+Depends: file, libandroid-glob, libao, libflac, libiconv, libid3tag, libltdl, libmad, libmp3lame, libogg, libpng, libsndfile, libvorbis, opusfile, pulseaudio, zlib, wget
+Breaks: sox-dev
+Replaces: sox-dev
+Filename: pool/main/s/sox/sox_14.4.2-28_aarch64.deb
+Size: 496056
+MD5sum: 293d16f62c4db0c33915a39fcbaabac1
+SHA1: 1447d1014ac5f1cdfaf0052cda4186fc098909e5
+SHA256: c548ad827317e299650f91b7008e7e2f47f9c460a5dbc1b5f12b2503ea774a50
+Homepage: https://sox.sourceforge.net/
+Description: Command line utility for converting between and applying effects to various audio files formats
+
+Package: sox-static
+Version: 14.4.2-28
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1248
+Depends: sox (= 14.4.2-28)
+Filename: pool/main/s/sox-static/sox-static_14.4.2-28_aarch64.deb
+Size: 258816
+MD5sum: 00cb17e10092a0e4ce37813645c95329
+SHA1: 55207a2824712f256633738ba6ebf4c5b9e96605
+SHA256: 7c2d117d365faa64c7bb2be8fffd0d1bc4690146b7ed7960f30a3a8e6309a3e1
+Homepage: https://sox.sourceforge.net/
+Description: Static libraries for sox
+
+Package: spatialite-tools
+Version: 5.0.1-5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 600
+Depends: libexpat, libiconv, libspatialite, libsqlite, libxml2
+Filename: pool/main/s/spatialite-tools/spatialite-tools_5.0.1-5_aarch64.deb
+Size: 151236
+MD5sum: 9d2bef8f455e71fa9c94e5c07608430f
+SHA1: 38b9612e1e7d9c7bfe3592fe63496a9084a0d430
+SHA256: a6112ae339af1950587565c40efbeadc84d5eec6ea47c3c340f0e70206953989
+Homepage: https://www.gaia-gis.it/fossil/spatialite-tools
+Description: Collection of tools supporting SpatiaLite
+
+Package: speechd
+Version: 0.11.5-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2700
+Depends: dotconf, espeak, glib, libiconv, libltdl, libsndfile, pulseaudio, python, speechd-data
+Filename: pool/main/s/speechd/speechd_0.11.5-2_aarch64.deb
+Size: 1102948
+MD5sum: a121e09ec81c348e9a3456e6aacc5fa4
+SHA1: 5df3c500fc4c7981d35fb9f254c77d76be538a0b
+SHA256: a761f8f140e167110d6d9ca1b3ffdc866f4e3791da0bb40c95da35c8a759e38a
+Homepage: https://github.com/brailcom/speechd
+Description: Common interface to speech synthesis
+
+Package: speechd-data
+Version: 0.11.5-2
+Architecture: all
+Maintainer: @termux
+Installed-Size: 26408
+Breaks: speechd (<< 0.11.4-1)
+Replaces: speechd (<< 0.11.4-1)
+Filename: pool/main/s/speechd-data/speechd-data_0.11.5-2_all.deb
+Size: 2707216
+MD5sum: 5cc51f2cbe39e37f503059e90fd17ff9
+SHA1: 8c834de77b675732649a640b95c222a7d312788f
+SHA256: a922c8ac1cee1f63fb84892d2fd23f10ec8df44f2b7d4d234d435605523828a1
+Homepage: https://github.com/brailcom/speechd
+Description: Platform-independent data for speechd
+
+Package: speedtest-go
+Version: 1.7.10-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 8680
+Filename: pool/main/s/speedtest-go/speedtest-go_1.7.10-1_aarch64.deb
+Size: 2378064
+MD5sum: 90c571f5d7e72f41d0bce4cb025d106f
+SHA1: 9d48d9b344ca969b977c2ccb197110f394db5c0b
+SHA256: 35071d45d9a2ddab3e7236445d9ef57bc130379cd50e8bd878e571fa626ffb0a
+Homepage: https://github.com/showwin/speedtest-go/
+Description: Command line interface to test internet speed using speedtest.net
+
 Package: unrar
 Version: 7.1.10-1
 Architecture: aarch64
