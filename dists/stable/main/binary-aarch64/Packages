@@ -863,6 +863,172 @@ SHA256: 55bfd2ae438d806b826f2c75bf78d017d64b1177987ad7d7ee807255147be9f1
 Homepage: https://www.tarsnap.com/scrypt.html
 Description: scrypt KDF library and file encryption tool
 
+Package: sd
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2244
+Filename: pool/main/s/sd/sd_1.0.0-2_aarch64.deb
+Size: 636760
+MD5sum: f7b629d0f8b081b0f73efccea45b4024
+SHA1: cab50904eeb40f5df47c17cf6c003750a5311430
+SHA256: 85246f88428bd047400db8bc4a1899dbe2deb62092090d03a2b5e08c6ea4f631
+Homepage: https://github.com/chmln/sd
+Description: An intuitive find & replace CLI
+
+Package: sdcv
+Version: 0.5.5-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 188
+Depends: glib, libc++, readline, zlib
+Filename: pool/main/s/sdcv/sdcv_0.5.5-2_aarch64.deb
+Size: 52872
+MD5sum: 64cbae033e1171d1e486624c3a5df5a9
+SHA1: 5d3978650b5de4938406a69b210236632194a9f9
+SHA256: 1f3d9b33d8eeccadeaa291f64dff15a565e2b15eeeb3f1cbff5301decc778168
+Homepage: http://dushistov.github.io/sdcv/
+Description: StarDict Console Version
+
+Package: seafile-client
+Version: 9.0.15
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 716
+Depends: argon2, glib, libcurl, libevent, libjansson, libsearpc, libsqlite, libuuid, libwebsockets, openssl, python, zlib
+Breaks: seafile-client-dev, ccnet
+Replaces: seafile-client-dev, ccnet
+Filename: pool/main/s/seafile-client/seafile-client_9.0.15_aarch64.deb
+Size: 169564
+MD5sum: 0324363a37c604044237554a2c10b7ec
+SHA1: 3d07a6886b5156f844f05a1ba315aa4dd346b1a0
+SHA256: 266efc1412866f8737de00f17af1f916dedbc8c9e2efc655eb142085088c9bd4
+Homepage: https://seafile.com
+Description: Seafile is a file syncing and sharing software with file encryption and group sharing
+
+Package: seafile-client-static
+Version: 9.0.15
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 140
+Depends: seafile-client (= 9.0.15)
+Filename: pool/main/s/seafile-client-static/seafile-client-static_9.0.15_aarch64.deb
+Size: 16396
+MD5sum: bea598f97b3889092d63f77271a905d4
+SHA1: 1441e1d206d63d921f4bb4b93740a10165cd19cc
+SHA256: 2e40a798ef6bac45952e4f2c0f461f040045fb064aeb9c437b70b5dd7dbb6d8c
+Homepage: https://seafile.com
+Description: Static libraries for seafile-client
+
+Package: seanime
+Version: 2.9.10
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 78016
+Filename: pool/main/s/seanime/seanime_2.9.10_aarch64.deb
+Size: 18344512
+MD5sum: 1027325975b08e4ad7d7b2f259fd9280
+SHA1: 74992699dcc88e04bb332fcc798688933ee55c64
+SHA256: 253678573f00a7216126538124f284e845bd89ee82986bda99388004d8107a10
+Homepage: https://github.com/5rahim/seanime
+Description: Self-hosted anime and manga server for sea rovers.
+
+Package: seccure
+Version: 0.5-8
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 108
+Depends: libgcrypt
+Filename: pool/main/s/seccure/seccure_0.5-8_aarch64.deb
+Size: 22468
+MD5sum: 87b27bbb734005fe0168f18ab7871284
+SHA1: 6bd8735a38a26ab1fa4cba8384b93f7171694be1
+SHA256: e41943466799f10c8f6101e57efb1434151cfb5b9caeacb8ee5193ce960bbddd
+Homepage: http://point-at-infinity.org/seccure/
+Description: SECCURE Elliptic Curve Crypto Utility for Reliable Encryption
+
+Package: secure-delete
+Version: 3.1-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 128
+Filename: pool/main/s/secure-delete/secure-delete_3.1-6_aarch64.deb
+Size: 19368
+MD5sum: eea4c6f212552ec147eb04f5e266f994
+SHA1: 40f81ed02fb23604f804d00d6f838b2f7fb4a0cd
+SHA256: 98a2a9e3d5b21458ad09a83594e4e68695d8d5c3428ffbdd5d2c8493a7d8e312
+Homepage: https://www.thc.org/
+Description: Secure file, disk, swap, memory erasure utilities
+
+Package: sendme
+Version: 0.27.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 20508
+Filename: pool/main/s/sendme/sendme_0.27.0_aarch64.deb
+Size: 5080068
+MD5sum: 55fddb060b1d546525ec34d1dc4a75c5
+SHA1: 707fd3eb2609729dfdea22fa158aa9dc77bdf61f
+SHA256: 393e0024614876aacebd959f1509ce25140119cd3b16a4ce119241bf019f98ab
+Homepage: https://github.com/n0-computer/sendme
+Description: A tool to send files and directories, based on iroh
+
+Package: sendxmpp
+Version: 1.24
+Architecture: all
+Maintainer: @termux
+Installed-Size: 60
+Depends: perl, clang, make
+Filename: pool/main/s/sendxmpp/sendxmpp_1.24_all.deb
+Size: 7560
+MD5sum: f899a3317f4b2de86e99e957736c4b61
+SHA1: d9afe2add6aefa175164fabe13733d2dd5f908ad
+SHA256: 7856c14710380f1d20acc7c066165438bdb344522d604d657962f6692c3f684b
+Homepage: https://sendxmpp.hostname.sk/
+Description: A perl-script to send XMPP (jabber) messages
+
+Package: senpai
+Version: 1:0.4.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 9092
+Filename: pool/main/s/senpai/senpai_1+0.4.1-1_aarch64.deb
+Size: 2473932
+MD5sum: 81fbab0c70de91f3b43d895a5f9fd0e2
+SHA1: 6936d8bedd51864769d1c56f121d9415e53c6bf7
+SHA256: 392f49eae431dc23e7a54886675ad991854e9561066306a9b630946276f4218a
+Homepage: https://git.sr.ht/~delthas/senpai
+Description: An IRC client that works best with bouncers
+
+Package: sensible-utils
+Version: 0.0.26
+Architecture: all
+Maintainer: @termux
+Installed-Size: 88
+Filename: pool/main/s/sensible-utils/sensible-utils_0.0.26_all.deb
+Size: 6024
+MD5sum: f7789fe287de4ff3d730b40b79fe209b
+SHA1: f9b7a1568ed2ab509f79cc3e38852685f5c09b39
+SHA256: 263dd6160958d65e886417f2eb8087ce01f3ad5b37c7f53bc7d2fffa0b979e0e
+Homepage: https://packages.debian.org/sid/sensible-utils
+Description: Small utilities used by programs to sensibly select and spawn an appropriate browser, editor, or pager
+
+Package: sfeed
+Version: 2.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 432
+Depends: ncurses
+Recommends: curl
+Suggests: lynx, termux-tools
+Filename: pool/main/s/sfeed/sfeed_2.2-1_aarch64.deb
+Size: 76296
+MD5sum: 3a2994bb48857892a08d32c2331694a7
+SHA1: 866b11255fad972b9a9bb60a5bfbb43a2b0a608c
+SHA256: a590f117da949445b1e1c7a351a42f36e3cf8568fb0999ccc291ca545db47bdb
+Homepage: https://codemadness.org/sfeed-simple-feed-parser.html
+Description: Shell-script/crontab oriented feed aggregator and parser utility (curses-based reader included)
+
 Package: unrar
 Version: 7.1.10-1
 Architecture: aarch64
