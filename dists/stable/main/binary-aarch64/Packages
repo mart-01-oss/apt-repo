@@ -1842,6 +1842,158 @@ SHA256: a171fc2255055a2ffd5076328820b2ccdd1429defd885d1dd278ed7b07403770
 Homepage: https://ssdb.io/
 Description: A Redis compatible NoSQL database stored on disk
 
+Package: ssdeep
+Version: 2.14.1-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 156
+Depends: libc++
+Filename: pool/main/s/ssdeep/ssdeep_2.14.1-2_aarch64.deb
+Size: 33752
+MD5sum: 90f04cba83ca3b967d9af7627a47e0cb
+SHA1: 43b01e3d6a3cdfefa9c48b92ca6a0afe9b0bc33e
+SHA256: 9a645ee461066af4132fc2523ea9ddd6744780462c3d55c9bfae3888fd0402cf
+Homepage: https://ssdeep-project.github.io/ssdeep/
+Description: A program for computing context triggered piecewise hashes (CTPH)
+
+Package: ssdeep-static
+Version: 2.14.1-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 52
+Depends: ssdeep (= 2.14.1-2)
+Filename: pool/main/s/ssdeep-static/ssdeep-static_2.14.1-2_aarch64.deb
+Size: 7188
+MD5sum: d65fc94d7de8eb4121f90c488401e1af
+SHA1: be99635896fd4b6ec120cc3756b5f14d033e83b2
+SHA256: 2324def42074be7eb59803bf9e3a7e55ef64fbf03641d6b6be7cf347a12a167c
+Homepage: https://ssdeep-project.github.io/ssdeep/
+Description: Static libraries for ssdeep
+
+Package: sse2neon
+Version: 1.8.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 444
+Filename: pool/main/s/sse2neon/sse2neon_1.8.0_all.deb
+Size: 47200
+MD5sum: e925a818ca2a5159bf6d538e46578a4e
+SHA1: 1b5fd9a705869fee85b0054a7c9f4ede8c589ec3
+SHA256: 6964cafe1af4b1f3ea2f1b0feae5be50f3577b1e8e4cadd4896c4c621504208e
+Homepage: https://github.com/DLTcollab/sse2neon
+Description: A C/C++ header file that converts Intel SSE intrinsics to Arm/Aarch64 NEON intrinsics
+
+Package: sshpass
+Version: 1.10-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 68
+Filename: pool/main/s/sshpass/sshpass_1.10-1_aarch64.deb
+Size: 8432
+MD5sum: 5f4aec58c1527cd4975a6a0a01d7b7ec
+SHA1: a9bc518db4e3025aff622122bb801f219a3b411f
+SHA256: 7f122389e9cbbea4a04f3d566d1d625ec2fb3b347c8d76f5cb80d11b670860f3
+Homepage: https://sourceforge.net/projects/sshpass/
+Description: Noninteractive ssh password provider
+
+Package: sshping
+Version: 0.1.4-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 120
+Depends: libc++, libssh
+Filename: pool/main/s/sshping/sshping_0.1.4-3_aarch64.deb
+Size: 28580
+MD5sum: 2e95ee474793d9b7417c261575c88ec1
+SHA1: a25be69103c98f1b0cd2b358804209f73a7dd248
+SHA256: 042e095ea8268e17f7f195ed0f0cd0d60cf4376ae5337bee19506ce9bd2a366b
+Homepage: https://github.com/spook/sshping
+Description: measure character-echo latency and bandwidth for an interactive ssh session
+
+Package: sslscan
+Version: 2.2.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 192
+Depends: openssl (>= 3.5.0)
+Filename: pool/main/s/sslscan/sslscan_2.2.0-1_aarch64.deb
+Size: 40516
+MD5sum: 7e5165a0a422d691eb3c4a7e04330d0c
+SHA1: 47f111b30bafb67d03360392d26cb0042d2c9868
+SHA256: 4293476970c41704343f71469305851ff3319ff33a99b899eb27eddb857a7e37
+Homepage: https://github.com/rbsec/sslscan
+Description: Utility to discover supported cipher suites on SSL/TLS enabled servers
+
+Package: sssnake
+Version: 0.3.2-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 92
+Depends: ncurses
+Filename: pool/main/s/sssnake/sssnake_0.3.2-2_aarch64.deb
+Size: 16448
+MD5sum: 0edff4b116872dc46b86eb2dfe924bf4
+SHA1: 122445d36c0f279e9ec87d4f94d3dde0b5788942
+SHA256: 714b8c601734b7d81e4cee6381ae94ca6659814e0d0f2b024395f8b78ad45db2
+Homepage: https://github.com/AngelJumbo/sssnake
+Description: cli snake game that plays itself
+
+Package: ssss
+Version: 0.5.7-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 72
+Depends: libgmp
+Filename: pool/main/s/ssss/ssss_0.5.7-1_aarch64.deb
+Size: 10796
+MD5sum: bac9f330c21d7f397fa013b555df18f9
+SHA1: c0efa5a37bbe94507b871bf3b8db9c02e0c0ec24
+SHA256: 1ff5e58de34ddf1ed250fb8dbdaa5818f0f99713fcc3ac178b86414eccd49cb9
+Homepage: https://github.com/MrJoy/ssss
+Description: Simple command-line implementation of Shamir's Secret Sharing Scheme
+
+Package: stag
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 68
+Depends: ncurses
+Filename: pool/main/s/stag/stag_1.0.0-2_aarch64.deb
+Size: 6668
+MD5sum: dd18a59fd76759438f8008544bfee389
+SHA1: 8fe4446a4fcd5a8ab7d81ce91ff78bc49b2f9e1a
+SHA256: 6dc42dbe3afb930d00a88f7dedb865f4d724b6cfb656fc5294872b3e98b7c0ad
+Homepage: https://github.com/seenaburns/stag
+Description: Streaming bar graphs. For stats and stuff.
+
+Package: starship
+Version: 1.23.0-1
+Architecture: aarch64
+Maintainer: Joshua Kahn @TomJo2000
+Installed-Size: 11056
+Suggests: nerdfix, taplo
+Filename: pool/main/s/starship/starship_1.23.0-1_aarch64.deb
+Size: 3116220
+MD5sum: f1ae2687e2115c598f8a2c0b5917f807
+SHA1: 340d927b6dfe5b90936eccca7669ed7a3957ff1e
+SHA256: 695043fb34531ea68d7c2b89732f3f911e4b971538a8613d9b1e1dd9ebb971e7
+Homepage: https://starship.rs
+Description: A minimal, blazing fast, and extremely customizable prompt for any shell
+
+Package: stdman
+Version: 2024.07.05
+Architecture: all
+Maintainer: @termux
+Installed-Size: 23104
+Depends: mandoc
+Filename: pool/main/s/stdman/stdman_2024.07.05_all.deb
+Size: 4802076
+MD5sum: 947fa70bc48da648137f882d739b695a
+SHA1: 94c65134aac570301f4b64c245d210455207d284
+SHA256: c037603210b589fa4b646c2e480b6b98ad0d4a6b872f634bca66a26222502fc1
+Homepage: https://github.com/jeaye/stdman
+Description: Formatted C++23 stdlib man pages (cppreference)
+
 Package: unrar
 Version: 7.1.10-1
 Architecture: aarch64
