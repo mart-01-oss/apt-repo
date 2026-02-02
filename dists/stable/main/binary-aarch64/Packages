@@ -2300,6 +2300,159 @@ SHA256: 4e6cabb83d5bf4d5e1c2cc981a7ccd6762e0b9d9640a3778c1ad5842a6bf0a4d
 Homepage: http://jetmore.org/john/code/swaks/
 Description: Swiss Army Knife for SMTP
 
+Package: swi-prolog
+Version: 9.3.22-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 17572
+Depends: libandroid-execinfo, libarchive, libcrypt, libgmp, libyaml, ncurses, openssl, ossp-uuid, readline, zlib, pcre2
+Filename: pool/main/s/swi-prolog/swi-prolog_9.3.22-1_aarch64.deb
+Size: 3093472
+MD5sum: ba7fcfa1805c819b299cd4d587516af8
+SHA1: 52f488abb52324eefff5849694cc40fa1eb41acc
+SHA256: bb60f63a555b4d924aa222e685e490ac51cb63d2f746da6fc91a82278f3711ad
+Homepage: https://swi-prolog.org/
+Description: Most popular and complete prolog implementation
+
+Package: swiftshader
+Version: 2025.06.25-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 21104
+Depends: libandroid-shmem, libc++, vulkan-loader-generic
+Filename: pool/main/s/swiftshader/swiftshader_2025.06.25-2_aarch64.deb
+Size: 5089168
+MD5sum: ea582c20cf7d4d23c779448cd5a3aaa1
+SHA1: ea14ecc77fccf76602957b43e9d0a611fad61668
+SHA256: b176fceabf78b8df871a4fe12ec408f604dcbf6a05c507bd6d05660805dcb807
+Homepage: https://swiftshader.googlesource.com/SwiftShader
+Description: A high-performance CPU-based implementation of the Vulkan graphics API
+
+Package: swtpm
+Version: 0.10.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 500
+Depends: glib, json-glib, libseccomp, libtpms, openssl
+Filename: pool/main/s/swtpm/swtpm_0.10.1-1_aarch64.deb
+Size: 137212
+MD5sum: 5e66585cc43644cfd4b7c1bed0a7fafd
+SHA1: f80166b56298bb47de35bdcec84e3c85f7775fe1
+SHA256: ea03825a7f1f10fb03b924eb719bd12890f0731daf960d206057c90f71538801
+Homepage: https://github.com/stefanberger/swtpm
+Description: Software TPM Emulator
+
+Package: swtpm-static
+Version: 0.10.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 244
+Depends: swtpm (= 0.10.1-1)
+Filename: pool/main/s/swtpm-static/swtpm-static_0.10.1-1_aarch64.deb
+Size: 47228
+MD5sum: 21a4762afab96bd1a602e8d3249dd9ee
+SHA1: 29b8e7290c69a9013030c08d39ec849222b266ca
+SHA256: 642935c3fec4d177003933a7e0dca0ffa18c78841383cb3eb44607d63b9683d2
+Homepage: https://github.com/stefanberger/swtpm
+Description: Static libraries for swtpm
+
+Package: syncthing
+Version: 2.0.10
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 26768
+Filename: pool/main/s/syncthing/syncthing_2.0.10_aarch64.deb
+Size: 8258240
+MD5sum: 94167a2b9fa81b2420f20a8aeb60f55f
+SHA1: 7e87e47c57acd86d4592ea6baa81d5cb71264686
+SHA256: 16ed60693a706d07f83a48f2fb1091d0fe353eba723bdedd785f39256c327002
+Homepage: https://syncthing.net/
+Description: Decentralized file synchronization
+
+Package: sysprop
+Version: 13.0.0.15-9
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 412
+Depends: aapt, fmt, libc++, libprotobuf
+Filename: pool/main/s/sysprop/sysprop_13.0.0.15-9_aarch64.deb
+Size: 73436
+MD5sum: 90b2252daf0b0e4ef075653813e392b8
+SHA1: 51bd176deb2f85052cfbdd784a8bdddf5af414a8
+SHA256: d4ef525b5bb67e4ff9e5723da9ac2c2150e6a5bd555709c928119fe2077056ac
+Homepage: https://android.googlesource.com/platform/system/tools/sysprop
+Description: Generates cpp / java sysprop
+
+Package: ta-lib
+Version: 0.5.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1016
+Breaks: talib
+Replaces: talib
+Filename: pool/main/t/ta-lib/ta-lib_0.5.0_aarch64.deb
+Size: 150360
+MD5sum: 498b0b93dd929af81503b9533b856d20
+SHA1: 54c564fb6919080d6d42ed36b5607e61694f460c
+SHA256: 944a7125de2f9605e5f355433509d2faf5413978ab5cb4c65ba7922e321c2122
+Homepage: https://ta-lib.org/
+Description: Technical analysis library with indicators like ADX
+
+Package: ta-lib-static
+Version: 0.5.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1160
+Depends: ta-lib (= 0.5.0)
+Filename: pool/main/t/ta-lib-static/ta-lib-static_0.5.0_aarch64.deb
+Size: 150320
+MD5sum: 7325853dd8915e432b9abe33015c7f09
+SHA1: e34c7f723e8d10452d5fa2428c244348c4b518bc
+SHA256: b2d5a9176bc36b34cad5c39bd242a216fda41868279bc6169422eb26bbf4d673
+Homepage: https://ta-lib.org/
+Description: Static libraries for ta-lib
+
+Package: taplo
+Version: 0.10.0-1
+Architecture: aarch64
+Maintainer: Joshua Kahn @TomJo2000
+Installed-Size: 10852
+Filename: pool/main/t/taplo/taplo_0.10.0-1_aarch64.deb
+Size: 3087188
+MD5sum: 66e9ef7222694e1786cd4228b67ae8b9
+SHA1: a7b6026a1075a66d4743e1d292303370377f479a
+SHA256: 2229987f3fe10f996ee94f01ee04d4f63209dcf673af79b816f818e46abab896
+Homepage: https://taplo.tamasfe.dev/
+Description: A TOML LSP and toolkit
+
+Package: tasksh
+Version: 1.2.0-11
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 356
+Depends: libc++, readline, taskwarrior, libandroid-glob
+Filename: pool/main/t/tasksh/tasksh_1.2.0-11_aarch64.deb
+Size: 93160
+MD5sum: 50fce2c99a3c3c148809d00954b270c0
+SHA1: 29f45ab1f5d00d0318f4b695ce38fc13b98f1970
+SHA256: 0eb6b70961f099eb0839ed1d50e2aa4d552946d198fbc122018d0c70d33e0cbe
+Homepage: https://taskwarrior.org
+Description: Shell command wrapping Taskwarrior commands
+
+Package: taskwarrior
+Version: 3.4.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 20796
+Depends: libandroid-glob, libc++, libgnutls, libuuid
+Filename: pool/main/t/taskwarrior/taskwarrior_3.4.1_aarch64.deb
+Size: 5391276
+MD5sum: e0dce01c19e711e032e9f47a064da090
+SHA1: 64f33029f74d612bf6a66f723ed2b0708cb93d34
+SHA256: a9335214728973386de19a07126e968b86c73e5766c6a28a5afb88a44197aef8
+Homepage: https://taskwarrior.org
+Description: Utility for managing your TODO list
+
 Package: unrar
 Version: 7.1.10-1
 Architecture: aarch64
