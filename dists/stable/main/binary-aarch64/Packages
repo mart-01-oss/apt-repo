@@ -1,3 +1,17 @@
+Package: python-ruff
+Version: 0.13.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 132
+Depends: python, python-pip, ruff (= 0.13.2-1)
+Filename: pool/main/p/python-ruff/python-ruff_0.13.2-1_aarch64.deb
+Size: 14416
+MD5sum: 2d558c303dbcb24c15fdd0c33b151761
+SHA1: ff932d9e44a80cfd1662bc3cece91f788074711f
+SHA256: 08a9294d4aa1e9290d529f1e6c5898d3802be441719075ebfd4ac2fb88ec895b
+Homepage: https://github.com/charliermarsh/ruff
+Description: An extremely fast Python linter, written in Rust (Python bindings)
+
 Package: quilt
 Version: 0.69
 Architecture: all
@@ -413,6 +427,19 @@ SHA1: 18d000859821b18e15c21b00ea14419d28cb3827
 SHA256: 2da3efac3a6d7cbe8a708c5c64a5430675bbe0903e65a1f567054ae0d32d86bb
 Homepage: https://github.com/been-jamming/rubiks_cube
 Description: A rubik's cube that runs in your terminal
+
+Package: ruff
+Version: 0.13.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 31456
+Filename: pool/main/r/ruff/ruff_0.13.2-1_aarch64.deb
+Size: 7444288
+MD5sum: c7d2209fcdeb1031e11211841316c6ba
+SHA1: 24f8432740fbd1652ac0ed1378290a5c08cc7878
+SHA256: a7451d4a0eefef7bbd000800d5ebb65be54e8511fd90ccf7fca57b3112114543
+Homepage: https://github.com/charliermarsh/ruff
+Description: An extremely fast Python linter, written in Rust
 
 Package: runit
 Version: 2.1.2-4
@@ -2466,6 +2493,19 @@ SHA256: 2229987f3fe10f996ee94f01ee04d4f63209dcf673af79b816f818e46abab896
 Homepage: https://taplo.tamasfe.dev/
 Description: A TOML LSP and toolkit
 
+Package: task-spooler
+Version: 1:1.0.3-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 112
+Filename: pool/main/t/task-spooler/task-spooler_1+1.0.3-2_aarch64.deb
+Size: 25412
+MD5sum: 4862cefcaa0d15dd700e07c30f7b8cdd
+SHA1: 4e2fc8ead554d4cdd52317dad2b0b45c1f4e3a4b
+SHA256: 13de92bab74cefa8a526e79a0c0561ec8c1b5e9995457b5f8c1e08f952ea33c9
+Homepage: https://vicerveza.homeunix.net/~viric/soft/ts/
+Description: Task spooler is a Unix batch system where the tasks spooled run one after the other
+
 Package: tasksh
 Version: 1.2.0-11
 Architecture: aarch64
@@ -2493,6 +2533,19 @@ SHA1: 64f33029f74d612bf6a66f723ed2b0708cb93d34
 SHA256: a9335214728973386de19a07126e968b86c73e5766c6a28a5afb88a44197aef8
 Homepage: https://taskwarrior.org
 Description: Utility for managing your TODO list
+
+Package: tcc
+Version: 1:0.9.27-p20230415-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1456
+Filename: pool/main/t/tcc/tcc_1+0.9.27-p20230415-3_aarch64.deb
+Size: 248976
+MD5sum: d64b2de3665b16c0157a5fb092564f0e
+SHA1: a4c2fcff93330f02204b6e00b901bb0edd547b23
+SHA256: 7e008177d6b247175b2fa830fef586b57ea2bc9e450464df66df3e14713c2a23
+Homepage: https://bellard.org/tcc/
+Description: Tiny C Compiler
 
 Package: tcllib
 Version: 2.0
@@ -2591,6 +2644,20 @@ SHA256: e09d262675061c3f92fd9c37d6c6271c51294b22bafc80f94835c47642576353
 Homepage: https://scripts.sil.org/teckitdownloads
 Description: Static libraries for teckit
 
+Package: tectonic
+Version: 0.15.0-5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 15300
+Depends: fontconfig, freetype, libc++, libgraphite, libicu, libpng, openssl, zlib
+Filename: pool/main/t/tectonic/tectonic_0.15.0-5_aarch64.deb
+Size: 3488996
+MD5sum: 176c1ca40befd594a76b2192fceb2ebb
+SHA1: 8f68bc32929e43e3af2416c2c7a4aba55c9bad83
+SHA256: af0c13a3d7ce3577cb5a059025a939675311d1bd6c3c6760f7995fc85cbf13b3
+Homepage: https://tectonic-typesetting.github.io/
+Description: A modernized, complete, self-contained TeX/LaTeX engine
+
 Package: telegram-bot-api
 Version: 20241031-2
 Architecture: aarch64
@@ -2672,6 +2739,118 @@ SHA1: 7438ca929fb756f78001f9fdfa7849c018dd68bd
 SHA256: 8c6cdad7cd80e18741153484a6692f8cf4ad6eedab052062d3e4028c2796cb20
 Homepage: https://github.com/aeolwyr/tergent
 Description: A cryptoki/PKCS#11 library for Termux that uses Android Keystore as its backend
+
+Package: termplay
+Version: 2.0.6-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1756
+Depends: glib, gst-plugins-base, gstreamer, libsixel
+Filename: pool/main/t/termplay/termplay_2.0.6-1_aarch64.deb
+Size: 570708
+MD5sum: 9658f93f6f169a307fb2b91d527e1fe0
+SHA1: 62c6bb6d2b76e6d8d16a945313be13620c290cf2
+SHA256: 5fd790e7f04d58ca15f876188aef3f45cb585d820cd7111638aacce78cfad27f
+Homepage: https://gitlab.com/jD91mZM2/termplay
+Description: Plays an image/video in your terminal
+
+Package: termux-apt-repo
+Version: 0.5-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 124
+Depends: binutils-is-llvm | binutils, python, tar
+Filename: pool/main/t/termux-apt-repo/termux-apt-repo_0.5-1_all.deb
+Size: 9304
+MD5sum: 49717769040720a5060c24bebb7bbf7f
+SHA1: 3ba60a39890a8221786605e3bc886e8062e091d5
+SHA256: 916bc7c0d61d53186527e4157308d70aa0a14dcee3d85ef1eb63fbeae2801fec
+Homepage: https://github.com/termux/termux-apt-repo
+Description: Script to create Termux apt repositories
+
+Package: termux-create-package
+Version: 0.12.0-2
+Architecture: all
+Maintainer: @termux
+Installed-Size: 232
+Depends: binutils-is-llvm | binutils, python
+Filename: pool/main/t/termux-create-package/termux-create-package_0.12.0-2_all.deb
+Size: 33376
+MD5sum: 6b61fc14e10816ec13e4694855a69e51
+SHA1: 5fb53df6874fb15ca86fc756a6260fc7fed6056e
+SHA256: cec960004388cfe0fa698f241653843cb5cc409b00e5b94b04d8c7da489937e3
+Homepage: https://github.com/termux/termux-create-package
+Description: Utility to create Termux packages
+
+Package: termux-elf-cleaner
+Version: 3.0.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 88
+Depends: libc++
+Filename: pool/main/t/termux-elf-cleaner/termux-elf-cleaner_3.0.1-1_aarch64.deb
+Size: 17936
+MD5sum: 9e10e31ccab6a98ad079a1636bba0bfe
+SHA1: e8705af7ac61d04552cdf2d6b76775dd47f90755
+SHA256: 3772e985ccb95296e0e22b020e2f4d71132a341434ea6c66d02c8d071a01f504
+Homepage: https://github.com/termux/termux-elf-cleaner
+Description: Cleaner of ELF files for Android
+
+Package: termux-gui-bash
+Version: 0.1.2-1
+Architecture: aarch64
+Maintainer: @tareksander
+Installed-Size: 132
+Depends: jq
+Filename: pool/main/t/termux-gui-bash/termux-gui-bash_0.1.2-1_aarch64.deb
+Size: 66956
+MD5sum: c76e04a45f23d68476f90bc591bf2d59
+SHA1: b5062d0e11ab26558f5db25c0e97ea4075585cbd
+SHA256: eb551afc818604fad7437abc10fea46e48ebd20aca3bdab648c81e707fef0778
+Homepage: https://github.com/tareksander/termux-gui-bash
+Description: A bash library for Termux:GUI
+
+Package: termux-gui-c
+Version: 0.1.3-5
+Architecture: aarch64
+Maintainer: @tareksander
+Installed-Size: 2188
+Depends: abseil-cpp, libc++, libandroid-stub, libprotobuf
+Filename: pool/main/t/termux-gui-c/termux-gui-c_0.1.3-5_aarch64.deb
+Size: 296260
+MD5sum: 98a5ae24aaba00ff87b68228bd1eddbe
+SHA1: 8a243ed89f3aaf843efe9ac0b782103cdcdc4cc6
+SHA256: 2a2c60166c9253b1ccfcac3ea5c108fb13f1483cdaec3ffa3473d3ee740b2765
+Homepage: https://github.com/tareksander/termux-gui-c-bindings
+Description: A C library for the Termux:GUI plugin
+
+Package: termux-gui-package
+Version: 0.1.6-2
+Architecture: all
+Maintainer: @tareksander
+Installed-Size: 572
+Depends: python, python-pip
+Filename: pool/main/t/termux-gui-package/termux-gui-package_0.1.6-2_all.deb
+Size: 361764
+MD5sum: b9ac79a2fac5b10efc1ef09be2699fd0
+SHA1: c2afb91d42a4fa600a6c88c3271f61173ebac476
+SHA256: 398fa945ff13217e36549accd9434782c3caf7aa19ec1c700b70112fa8cc31f3
+Homepage: https://github.com/tareksander/termux-gui-package
+Description: A Termux package containing utilities for Termux:GUI
+
+Package: termux-gui-pm
+Version: 1.0.0-2
+Architecture: all
+Maintainer: @tareksander
+Installed-Size: 60
+Depends: python, python-pip
+Filename: pool/main/t/termux-gui-pm/termux-gui-pm_1.0.0-2_all.deb
+Size: 20448
+MD5sum: 42f9a6c19fb044013a9cf721619ee1e1
+SHA1: 2a07854b62f76c778b6499bff09fbe11289f4820
+SHA256: 2bb6a5ba65fbb903f273f0b47045988ad2f9d7135ea4abd2e09a2fe845813ee2
+Homepage: https://github.com/tareksander/termux-gui-pm
+Description: A graphical package manager for various package formats for Termux and proot-distro distros
 
 Package: unrar
 Version: 7.1.10-1
