@@ -447,10 +447,10 @@ Architecture: aarch64
 Maintainer: Henrik Grimler @Grimler91
 Installed-Size: 272
 Filename: pool/main/r/runit/runit_2.1.2-4_aarch64.deb
-Size: 53104
-MD5sum: f615fefd2b0e4b95b368eae25eea6f83
-SHA1: 490b7096340cf95c9d575fe7f99a73bcae0ac165
-SHA256: 45bdda085b06b196148b08dafc5ddb0107a6514838e4b8c73e8a5898afd1dc18
+Size: 53120
+MD5sum: 194fab09d9c8f72e2df9a713839db116
+SHA1: ff026afd7f63fd6480944703363661982eea5b8a
+SHA256: 983bcde3ed6932eef1580524ab1cae3a1ed92ab4a6bf6a20f47855ab6b4d238a
 Homepage: http://smarden.org/runit
 Description: Tools to provide service supervision and to manage services
 
@@ -461,10 +461,10 @@ Maintainer: Henrik Grimler @Grimler91
 Installed-Size: 160
 Depends: runit (= 2.1.2-4)
 Filename: pool/main/r/runit-static/runit-static_2.1.2-4_aarch64.deb
-Size: 15972
-MD5sum: 4f9ae7d7b62df187b78c7c41ae6cf508
-SHA1: bf3217680b56b98be4a822e98f7c889769cbdb4a
-SHA256: 691a09e655eb639a75ad75ee4053c26d5699f41c789388b4caf847348a4b08c4
+Size: 15960
+MD5sum: 5a741b47789eac511585cc0d0bb2898b
+SHA1: 955e0a0d050fc7e9caad0b1bc814c1d7be966ec1
+SHA256: 48240b8bb46600a428df23ac87339f1e7d2e340f7f5185b1deaad403433756ff
 Homepage: http://smarden.org/runit
 Description: Static libraries for runit
 
@@ -1597,9 +1597,9 @@ Installed-Size: 692
 Depends: openssl, readline
 Filename: pool/main/s/socat/socat_1.8.0.3-1_aarch64.deb
 Size: 190404
-MD5sum: ff4694dc664a4a7a839952023a9ef101
-SHA1: afe2e777090d2ea5052a45903629445676f23e35
-SHA256: 09f4c7c0cbee2fff8cce9461438d1d7aa4f5b0ea028a4544c208a355ae59d2b8
+MD5sum: 3fd893f47f24a98b339f1cef5067d6fc
+SHA1: f554d2601f8d5a15e06d21d2d59758a8cd54e1c4
+SHA256: 8898f6b73622f642cd8af09de0ac126c5d2363cb0e934c37723f6fc8ce06e288
 Homepage: http://www.dest-unreach.org/socat/
 Description: Relay for bidirectional data transfer between two independent data channels
 
@@ -2851,6 +2851,142 @@ SHA1: 2a07854b62f76c778b6499bff09fbe11289f4820
 SHA256: 2bb6a5ba65fbb903f273f0b47045988ad2f9d7135ea4abd2e09a2fe845813ee2
 Homepage: https://github.com/tareksander/termux-gui-pm
 Description: A graphical package manager for various package formats for Termux and proot-distro distros
+
+Package: termux-services
+Version: 0.13-1
+Architecture: all
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 84
+Depends: coreutils, dpkg, runit
+Filename: pool/main/t/termux-services/termux-services_0.13-1_all.deb
+Size: 1936
+MD5sum: aeb848e3ad6593e020396bf29533c1b3
+SHA1: c9bb934e0362c41b0b7338810f0f4f2bbd80b6c5
+SHA256: c267b8e1e25629b16da91baa133bbce63b29047c436979e4a24cad6aa945d7ff
+Homepage: https://github.com/termux/termux-services/
+Description: Service daemon for Termux
+
+Package: teseq
+Version: 1.1.1-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 236
+Filename: pool/main/t/teseq/teseq_1.1.1-2_aarch64.deb
+Size: 49560
+MD5sum: 50f67613794804fc9a5e706b48c4cfc7
+SHA1: 6ea90cceb2996a71d1e9f53aa98e3ad629525232
+SHA256: ebd142c883f660c2bd2f9e9b57c93ff159e23c7f927f9e1a493449b5d810d25d
+Homepage: https://www.gnu.org/software/teseq/
+Description: Tool for analyzing control characters and terminal control sequences
+
+Package: testssl.sh
+Version: 3.2.2
+Architecture: all
+Maintainer: @termux
+Installed-Size: 3740
+Depends: bash, ca-certificates, coreutils, curl, gawk, openssl-tool, procps, resolv-conf, socat
+Filename: pool/main/t/testssl.sh/testssl.sh_3.2.2_all.deb
+Size: 853460
+MD5sum: 6a90b458d0123e85f8103fde8b6bd696
+SHA1: 8f636065049cb172d00f5e9ec748586a1024b8bd
+SHA256: 62f50ddb37038042d21268806e08311135f34a523b65464e71e449550898f452
+Homepage: https://testssl.sh/
+Description: Testing TLS/SSL encryption anywhere on any port.
+
+Package: texlab
+Version: 5.23.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 13740
+Filename: pool/main/t/texlab/texlab_5.23.1-1_aarch64.deb
+Size: 8798836
+MD5sum: 05038b2251287b003b9611257d485975
+SHA1: 3c924a61799f5845fd110a9ed3bd8e1dd40754a9
+SHA256: ef0c9ceb3881c1c9c97ee1ef6621ab61a99ad21be12ddb91335797b0a476cddb
+Homepage: https://texlab.netlify.app/
+Description: A cross-platform implementation of the Language Server Protocol providing rich cross-editing support for the LaTeX typesetting system
+
+Package: tgpt
+Version: 2.10.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 10592
+Filename: pool/main/t/tgpt/tgpt_2.10.0-1_aarch64.deb
+Size: 2737576
+MD5sum: 6b11f8c9c86eccbc2f9d7f486ee206d7
+SHA1: 927f6c0059716388eb64419a9b2f2734bcab01c1
+SHA256: 571c83b7b78fd0678a16022863388b61243f4694acc6b38e1c4ecc28a54d3d5d
+Homepage: https://github.com/aandrew-me/tgpt
+Description: AI Chatbots in terminal without needing API keys
+
+Package: tig
+Version: 2.6.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1112
+Depends: git, libandroid-support, libiconv, ncurses, pcre2
+Filename: pool/main/t/tig/tig_2.6.0_aarch64.deb
+Size: 226796
+MD5sum: f3152a78f660054ca6c97130d74f46c4
+SHA1: ab7e27143b3f64f084187fc793da21f3c5adf024
+SHA256: b69d31903f4c5fe4f8115dbafc8d5af35ca3919fb9368684e464ff7803631c0e
+Homepage: https://jonas.github.io/tig/
+Description: Ncurses-based text-mode interface for git
+
+Package: tilde
+Version: 1.1.3-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 704
+Depends: libc++, libt3config, libt3highlight, libt3widget, libtranscript, libunistring
+Filename: pool/main/t/tilde/tilde_1.1.3-2_aarch64.deb
+Size: 146584
+MD5sum: dfca8ddf1604b11bc6f2ea337e69a51b
+SHA1: b48ea72ed51fd0e7bd42f19bc373e64fbaf86c96
+SHA256: 59256c327e0397a8b6b0e3d933d4c83a704e80a5fa0d759bcaad3edfb595dcf9
+Homepage: https://os.ghalkes.nl/tilde/
+Description: A text editor for the console/terminal
+
+Package: time
+Version: 1.9-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 112
+Filename: pool/main/t/time/time_1.9-1_aarch64.deb
+Size: 21328
+MD5sum: 179f3de1c0749ba66a2250921e3362cf
+SHA1: b6bada2adce66a36dbab853e8507674eecf734f1
+SHA256: ac895e7a613528de29d1934255d180c8fb06997177913da3dc271bdb1a502d0b
+Homepage: https://www.gnu.org/software/time/
+Description: GNU time program for measuring CPU resource usage
+
+Package: timewarrior
+Version: 1.9.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 976
+Depends: libandroid-glob, libc++
+Filename: pool/main/t/timewarrior/timewarrior_1.9.1_aarch64.deb
+Size: 271924
+MD5sum: a13769aa10ab58da259977dd8f34b8a4
+SHA1: cdc72049ff3693ab173c971d6662cff9d101b533
+SHA256: 25332acc8d532041a5de15f4d447524063244c1e1607596f9dea03310578cf4c
+Homepage: https://timewarrior.net/
+Description: Command-line time tracker
+
+Package: timg
+Version: 1.6.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 300
+Depends: ffmpeg, graphicsmagick, libc++, libcairo, libdeflate, libjpeg-turbo, libexif, librsvg, libsixel, poppler, zlib
+Filename: pool/main/t/timg/timg_1.6.3_aarch64.deb
+Size: 93556
+MD5sum: efa25892d193b7343532d0932a56dcac
+SHA1: f41d445a645fa4506d042bac43dddf8ca32b85e8
+SHA256: 60fab0f21bd7a192c25e105f3128bdb6b5a86fabd355399f3198efe62801e41e
+Homepage: https://timg.sh/
+Description: A terminal image and video viewer
 
 Package: unrar
 Version: 7.1.10-1
