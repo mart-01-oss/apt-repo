@@ -2453,6 +2453,103 @@ SHA256: a9335214728973386de19a07126e968b86c73e5766c6a28a5afb88a44197aef8
 Homepage: https://taskwarrior.org
 Description: Utility for managing your TODO list
 
+Package: tcllib
+Version: 2.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 15124
+Depends: tcl
+Recommends: resolv-conf
+Filename: pool/main/t/tcllib/tcllib_2.0_all.deb
+Size: 3630780
+MD5sum: 118637020ff8c273b7695b5038cf1477
+SHA1: eebb254507ecc12f3b1aae4eec1698985fd8e8fa
+SHA256: 358307cf8cff94bd81e1fa7a30f41fde6f54a7cd78302e644c709a0ca42367e1
+Homepage: https://core.tcl-lang.org/tcllib/
+Description: Tcl Standard Library
+
+Package: tcsh
+Version: 6.24.16-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 484
+Filename: pool/main/t/tcsh/tcsh_6.24.16-1_aarch64.deb
+Size: 211268
+MD5sum: 3223b3d2e7a401468703cb44e3c1772d
+SHA1: 61bcef301d6af20f8c1cd4ac568b2bcf8c763105
+SHA256: 63d231d9346403875e5e4c279725d7bb2fab1f24364cb5e0d0f9b8e8ff6510a7
+Homepage: https://www.tcsh.org
+Description: TENEX C Shell, an enhanced version of Berkeley csh
+
+Package: tdl
+Version: 0.19.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 46876
+Filename: pool/main/t/tdl/tdl_0.19.2_aarch64.deb
+Size: 8177788
+MD5sum: 553a98ab036376e147d78eda79067bf1
+SHA1: bf43a0bef77abf3b52b5f230210a6b15bec53330
+SHA256: b0361917361418f0d7b9012d1a278226d5c6097b9da442a5232cd59f490595b1
+Homepage: https://docs.iyear.me/tdl/
+Description: Telegram downloader/tools written in Golang
+
+Package: tea
+Version: 0.11.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 24156
+Filename: pool/main/t/tea/tea_0.11.0_aarch64.deb
+Size: 5777856
+MD5sum: 8454027da70610e0ccfc0986038f4676
+SHA1: dcaed3d45a7476ec1c463ae0a911d1a544b7e83c
+SHA256: 6a5aaae0dba5c3580634426a329713c893287892a067b71073df03acd1baae9d
+Homepage: https://gitea.com/gitea/tea
+Description: The official CLI for Gitea
+
+Package: tealdeer
+Version: 1.7.2-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3260
+Filename: pool/main/t/tealdeer/tealdeer_1.7.2-2_aarch64.deb
+Size: 1246368
+MD5sum: 7bd18ff6942167cddd7dcdcc1dc3d1d8
+SHA1: a940af499b54d5d935855d761b921f68f1c4dc23
+SHA256: 8aba878c7ef71130bfda165afd5c5344e4d8311eeaf3f41d3d6ad0baa27270a5
+Homepage: https://tealdeer-rs.github.io/tealdeer/
+Description: A very fast implementation of tldr in Rust
+
+Package: teckit
+Version: 2.5.12-1
+Architecture: aarch64
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 2940
+Depends: libc++, zlib
+Breaks: teckit-dev
+Replaces: teckit-dev
+Filename: pool/main/t/teckit/teckit_2.5.12-1_aarch64.deb
+Size: 427472
+MD5sum: a91950728975a779f993eded588fa59a
+SHA1: 0f2a245823aa722e4bd028992a896b6bbe6e5362
+SHA256: 17e2260aeeee7e21c2e8bec691e329519fbdcd98cf946bd77f4f368ebe00cf8a
+Homepage: https://scripts.sil.org/teckitdownloads
+Description: TECkit is a library for encoding conversion
+
+Package: teckit-static
+Version: 2.5.12-1
+Architecture: aarch64
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 4892
+Depends: teckit (= 2.5.12-1)
+Filename: pool/main/t/teckit-static/teckit-static_2.5.12-1_aarch64.deb
+Size: 323624
+MD5sum: 889d12e837135d4675be9fbaf1ba767f
+SHA1: 4c80217c6d51fd97976dacc15b5358a0a3e78949
+SHA256: e09d262675061c3f92fd9c37d6c6271c51294b22bafc80f94835c47642576353
+Homepage: https://scripts.sil.org/teckitdownloads
+Description: Static libraries for teckit
+
 Package: unrar
 Version: 7.1.10-1
 Architecture: aarch64
