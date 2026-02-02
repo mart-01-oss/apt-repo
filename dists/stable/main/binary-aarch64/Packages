@@ -12,6 +12,20 @@ SHA256: d116927dcbfc01e896ae1346ef799036eaa870daccf56690e5323e0e33c6f8a2
 Homepage: https://savannah.nongnu.org/projects/quilt
 Description: Allows you to easily manage large numbers of patches
 
+Package: renameutils
+Version: 0.12.0-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 212
+Depends: libandroid-wordexp, readline
+Filename: pool/main/r/renameutils/renameutils_0.12.0-3_aarch64.deb
+Size: 47052
+MD5sum: 545499d1989a9d44526788de95b73770
+SHA1: d9a999e82a9a07354fb2559a955506a90353740c
+SHA256: 7e74db2a0336f37f9638486a8a1fe8a937d0ea482b77df2e50ad74545a781cc1
+Homepage: https://www.nongnu.org/renameutils/
+Description: A set of programs designed to make renaming of files faster and less cumbersome
+
 Package: reptyr
 Version: 0.10.0-1
 Architecture: aarch64
@@ -259,6 +273,19 @@ SHA1: d1b7edf567b9b64a15edbb28ee6d4552a12c6235
 SHA256: f5c8d8b84581a8462bf8f7a4a7bf3a44beb741d35520d4c90365ef2d69767b6d
 Homepage: https://github.com/termux/termux-root-packages
 Description: Package repository containing programs for rooted devices
+
+Package: rp-pppoe
+Version: 4.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 284
+Filename: pool/main/r/rp-pppoe/rp-pppoe_4.0-1_aarch64.deb
+Size: 67380
+MD5sum: b673c124ff66e948d5cbcc6edad8e962
+SHA1: a95cf3f466c576731b56e57b7a1251d1942e7bc0
+SHA256: 2ff09220767f81dac14a34d57ec4b136780030cf30d8868ac7474d8051df975e
+Homepage: https://dianne.skoll.ca/projects/rp-pppoe/
+Description: A PPP-over-Ethernet redirector for pppd
 
 Package: rpm
 Version: 4.18.1-1
@@ -1111,6 +1138,20 @@ SHA1: 1cce920edd4d1c68049f4d5a19b7ce07036a44d3
 SHA256: 70c39f2e3716746e924f0e678e6b043c5c9c40ad930f7b0db25b4c0b8eb6322e
 Homepage: https://github.com/msoap/shell2http
 Description: Executing shell commands via HTTP server
+
+Package: shellcheck
+Version: 0.11.0
+Architecture: aarch64
+Maintainer: Joshua Kahn @TomJo2000
+Installed-Size: 20224
+Depends: libffi, libgmp, libiconv
+Filename: pool/main/s/shellcheck/shellcheck_0.11.0_aarch64.deb
+Size: 2599892
+MD5sum: 2f7018ac8442d64b8b1bc9fd3a1a174e
+SHA1: 9341a3bbec91a3002bb0e6802c35a8792213f362
+SHA256: a2c52a51d93830efad83291f74c3d001c2dba06dc3dc6c8623b17906ed86f68f
+Homepage: https://www.shellcheck.net/
+Description: Shell script analysis tool
 
 Package: shellharden
 Version: 4.3.1-1
@@ -2549,6 +2590,88 @@ SHA1: 4c80217c6d51fd97976dacc15b5358a0a3e78949
 SHA256: e09d262675061c3f92fd9c37d6c6271c51294b22bafc80f94835c47642576353
 Homepage: https://scripts.sil.org/teckitdownloads
 Description: Static libraries for teckit
+
+Package: telegram-bot-api
+Version: 20241031-2
+Architecture: aarch64
+Maintainer: @Sarisan
+Installed-Size: 25096
+Depends: libc++, openssl, zlib
+Filename: pool/main/t/telegram-bot-api/telegram-bot-api_20241031-2_aarch64.deb
+Size: 5417312
+MD5sum: c1168048155a6a42120c596aa6a9789e
+SHA1: 5a6aac50474f7fa85521d912e0fcdb985192df53
+SHA256: 337780c92debd97ff8f5a7e6cc93b46628a97b70b833ac7d0d75b0e4b5206123
+Homepage: https://github.com/tdlib/telegram-bot-api
+Description: Telegram Bot API server
+
+Package: telegram-cli
+Version: 1:1.4.1-8
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2804
+Depends: libconfig, libevent, libjansson, openssl, readline, zlib
+Filename: pool/main/t/telegram-cli/telegram-cli_1+1.4.1-8_aarch64.deb
+Size: 683348
+MD5sum: 96d70a7760c573a637074a9b207244ec
+SHA1: d72d50f80698490e2ac994df581e0a81e9969d47
+SHA256: 744cdff1e6ba73b181644636b7bb95fd94edfb9569b3c86ccfc54a866b6848b2
+Homepage: https://github.com/vysheng/tg
+Description: Telegram messenger CLI
+
+Package: teleport-tsh
+Version: 18.2.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 121204
+Filename: pool/main/t/teleport-tsh/teleport-tsh_18.2.2_aarch64.deb
+Size: 20131820
+MD5sum: 1de41349dd3f7459d55d64b9c013c413
+SHA1: b7e24505407115de259f8fb89862de883490674c
+SHA256: 66bc753eadfda2e06c3ec0d0700e64fdc7a3bdbb12e178dfd38ee8de8415ac33
+Homepage: https://github.com/gravitational/teleport
+Description: Secure Access for Developers that doesn't get in the way
+
+Package: tenki-php
+Version: 2022.05.26
+Architecture: all
+Maintainer: @termux
+Installed-Size: 232
+Depends: apache2, php
+Filename: pool/main/t/tenki-php/tenki-php_2022.05.26_all.deb
+Size: 99284
+MD5sum: 9b6d16b41a4e056513818de04db4b589
+SHA1: 1d534a90576bfdfe92a3d18c6b9a89c252fe272f
+SHA256: 3127d4b388d39db3213a63bc90cc095353a851ae933d8c24d91fb9172abd1639
+Homepage: https://github.com/dmpop/tenki
+Description: A simple PHP application for logging current weather conditions, notes, and waypoints
+
+Package: tere
+Version: 1.6.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2492
+Filename: pool/main/t/tere/tere_1.6.0-1_aarch64.deb
+Size: 733140
+MD5sum: 6aafb828885b5da2e31e3c64334e1911
+SHA1: 6dcc5bfd5a93090b20bdab32178e92d66888f39b
+SHA256: d34606056785c347f93f790f4f05306a0e6f1e05f02d0e5049b0089690737fcb
+Homepage: https://github.com/mgunyho/tere
+Description: Terminal file explorer written in rust
+
+Package: tergent
+Version: 1.0.0-5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 684
+Depends: termux-api
+Filename: pool/main/t/tergent/tergent_1.0.0-5_aarch64.deb
+Size: 230244
+MD5sum: f505370bcca66907d2918d380ace32c4
+SHA1: 7438ca929fb756f78001f9fdfa7849c018dd68bd
+SHA256: 8c6cdad7cd80e18741153484a6692f8cf4ad6eedab052062d3e4028c2796cb20
+Homepage: https://github.com/aeolwyr/tergent
+Description: A cryptoki/PKCS#11 library for Termux that uses Android Keystore as its backend
 
 Package: unrar
 Version: 7.1.10-1
