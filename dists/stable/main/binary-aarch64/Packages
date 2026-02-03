@@ -4455,6 +4455,172 @@ SHA256: d6de0690fcb975c7b80bfbb24c733d8ee28c731dbdd26a93013eceab57287e55
 Homepage: https://github.com/directvt/vtm
 Description: Terminal multiplexer with TUI window manager and multi-party session sharing
 
+Package: vttest
+Version: 20241208-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 340
+Filename: pool/main/v/vttest/vttest_20241208-1_aarch64.deb
+Size: 91056
+MD5sum: 44efe8aa23eb9c3ec628a66c10599849
+SHA1: 003a360e329570bcdbb6fb793d77f0932220694c
+SHA256: 61c640aecb9cf7d02b5ccaffe531a734a117df555f80e036e879a6cf4951ed4d
+Homepage: https://invisible-island.net/vttest/
+Description: Program for testing the VT100 compatibility of terminal emulators
+
+Package: vtutils
+Version: 0.5-5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 100
+Depends: libc++
+Filename: pool/main/v/vtutils/vtutils_0.5-5_aarch64.deb
+Size: 10928
+MD5sum: b6fa665d459b879fdfcfd7f9748b159b
+SHA1: 09b0c20af0a8aa9b871295fbf9a02029d99f6f8d
+SHA256: b114b37744cd8bfb2b2a0bbb1d284008333164436948b9600d19e3f792c81991
+Homepage: https://github.com/fornwall/vtutils
+Description: Utilities for testing and working with virtual terminals
+
+Package: vulkan-extension-layer
+Version: 1.4.326
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3084
+Depends: libc++, vulkan-loader
+Filename: pool/main/v/vulkan-extension-layer/vulkan-extension-layer_1.4.326_aarch64.deb
+Size: 419088
+MD5sum: 5366e42b25f0b23ce86241a6a63d58d9
+SHA1: 58910ff6ad08f36b9fc8a0bd4d6d76c6cb169d2d
+SHA256: 7b6b5ca39c9bcb1f9bba4539063f1f5ab28f6c8da59f8c49bf496f3bffe0db22
+Homepage: https://github.com/KhronosGroup/Vulkan-ExtensionLayer
+Description: Vulkan Extension Layer
+
+Package: vulkan-tools
+Version: 1.4.328
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1980
+Depends: libc++, libwayland, libx11, libxcb, vulkan-loader
+Filename: pool/main/v/vulkan-tools/vulkan-tools_1.4.328_aarch64.deb
+Size: 358228
+MD5sum: 74aaf0789c1632bf794de85fd3c9d41b
+SHA1: 61ce4fce9cd8555ff5a4a4e1daf3e0617556278c
+SHA256: 1217c232c7b60b69c9f8383b395147cb3b78bdd9de2246479a926006e7bf2ecd
+Homepage: https://github.com/KhronosGroup/Vulkan-Tools
+Description: Vulkan Tools and Utilities
+
+Package: vulkan-utility-libraries
+Version: 1.4.328
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 7276
+Filename: pool/main/v/vulkan-utility-libraries/vulkan-utility-libraries_1.4.328_aarch64.deb
+Size: 564484
+MD5sum: 02b34ee7a8329168674a39bc68aefb19
+SHA1: e0f01a35a917b0aac8a20b188da0f077b8684fdc
+SHA256: 7f7b1de13e6af52757a0879cbf2e9b4eb5d53ed8962791d763f2d304fd788689
+Homepage: https://github.com/KhronosGroup/Vulkan-Utility-Libraries
+Description: Utility Libraries for Vulkan
+
+Package: vulkan-validation-layers
+Version: 1.4.328
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 24036
+Depends: libc++, vulkan-loader
+Filename: pool/main/v/vulkan-validation-layers/vulkan-validation-layers_1.4.328_aarch64.deb
+Size: 4199020
+MD5sum: a2bab588dcaf4180e0d684ae7d6fba28
+SHA1: cdd62f423d9118fd7bf3359c4b4cd0d516541203
+SHA256: 84acd5165d23f546eff25c97f941f53d5dfd5ed546b6b381f58fd598a9aaba26
+Homepage: https://github.com/KhronosGroup/Vulkan-ValidationLayers
+Description: Vulkan Validation Layers
+
+Package: vulkan-volk
+Version: 1.4.304
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 816
+Filename: pool/main/v/vulkan-volk/vulkan-volk_1.4.304_aarch64.deb
+Size: 57700
+MD5sum: 38388a9849587acc3fc65f1b7e4bbea3
+SHA1: ca420790cf7001f86dff3a7b32fe75ed4aa4dbb8
+SHA256: 790334a970786443b6321f0707f52de5c1b3a0de4d91da86fe5d8a6e94030f5b
+Homepage: https://github.com/zeux/volk
+Description: Meta loader for Vulkan API
+
+Package: w3m
+Version: 0.5.5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2084
+Depends: libgc, ncurses, openssl, zlib
+Suggests: libsixel, perl
+Filename: pool/main/w/w3m/w3m_0.5.5_aarch64.deb
+Size: 690672
+MD5sum: fc2d1e14a432764fae49988d76953f0d
+SHA1: 7d4d4e848baceb9f8ccd0e8104e937d059ba7340
+SHA256: e4ebf7fbd87d6176782b6ce5fe27cc0dae9e35fa0bf3b326f1f9c4aaf979ec91
+Homepage: https://w3m.sourceforge.net/
+Description: Text based Web browser and pager
+
+Package: w3m-img
+Version: 0.5.5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 48
+Depends: imlib2, libx11, w3m (= 0.5.5)
+Filename: pool/main/w/w3m-img/w3m-img_0.5.5_aarch64.deb
+Size: 5728
+MD5sum: cc0ee1208213b3db307a5d4179d60818
+SHA1: f8102b0c05f3f73703e2a4f885bd67f20ba6c41b
+SHA256: b996ba37d81629f0dd6b924a6b36b24054d064f7f245387dbcf884c9f80c3761
+Homepage: https://w3m.sourceforge.net/
+Description: Inline image extension support utilities for w3m
+
+Package: wabt
+Version: 1.0.37-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 19784
+Depends: libc++
+Filename: pool/main/w/wabt/wabt_1.0.37-1_aarch64.deb
+Size: 1440496
+MD5sum: 90352acbf2b61e340e5f95f959226503
+SHA1: 14fff2340abf21a16609ea661a85425a07891d3b
+SHA256: 8472be4ad8179e7ee4fe256dea01684d6e7d874cddb7067eea0c04d0cc095319
+Homepage: https://github.com/WebAssembly/wabt
+Description: The WebAssembly Binary Toolkit
+
+Package: wakatime-cli
+Version: 1.131.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 14764
+Filename: pool/main/w/wakatime-cli/wakatime-cli_1.131.0_aarch64.deb
+Size: 3578720
+MD5sum: 18c24956f22ed9a1514f2e8408fdadb3
+SHA1: 0ca1a434d18a935b50f163edbbacb6970a27828d
+SHA256: 183f2e228228b054688b9b1bf3f947a29a4fd903dfcc4a3e5f4ff55b28d065bc
+Homepage: https://wakatime.com/plugins/
+Description: Command line interface used by all WakaTime text editor plugins
+
+Package: walk
+Version: 1.13.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 9608
+Breaks: llama (<< 1.4.0-2)
+Replaces: llama (<< 1.4.0-2)
+Filename: pool/main/w/walk/walk_1.13.0_aarch64.deb
+Size: 2233924
+MD5sum: 5bac20566d444b166493d150513bffc6
+SHA1: 6dcf50c4c9cba2f8dd681153b9f41215c0d51e01
+SHA256: b255c3c2bb7315eef139e357e4ae2b2ba229ea8c915771add06bfb6c3079ecaf
+Homepage: https://github.com/antonmedv/walk
+Description: A terminal file manager
+
 Package: wasi-libc
 Version: 27
 Architecture: all
