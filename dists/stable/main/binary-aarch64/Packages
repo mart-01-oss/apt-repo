@@ -227,10 +227,10 @@ Maintainer: @termux
 Installed-Size: 424
 Depends: ncurses, readline
 Filename: pool/main/r/rlwrap/rlwrap_0.47.1_aarch64.deb
-Size: 95816
-MD5sum: ee44cfc6c835f2891922fbbd6d391cfc
-SHA1: 3efdb215a13684342224d1470dda2692e4ae834a
-SHA256: 071df4e42563c48ac21ed50d4f75022d0f0dd60d2f5648f06e626a836fd9ada8
+Size: 95856
+MD5sum: 192fb6b314ddcdd0656f94d423460fbf
+SHA1: 9c39b293e07c68f5f2622f5b3badc1c5d5426f76
+SHA256: 7c58896f7561f00507a8ed4404e9df6cc2f66557d020638ccb2da82ecfa79ab0
 Homepage: https://github.com/hanslub42/rlwrap
 Description: Wrapper using readline to enable editing of keyboard input for commands
 
@@ -364,9 +364,9 @@ Installed-Size: 580
 Depends: libiconv, liblz4, libpopt, openssh | dropbear, openssl, openssl-tool, xxhash, zlib, zstd
 Filename: pool/main/r/rsync/rsync_3.4.1-1_aarch64.deb
 Size: 268096
-MD5sum: 665bde832ea6fc4ad9148f9065f40708
-SHA1: 288f63224adda9e30c917291bf439c456b94aef4
-SHA256: b2ac86bd75fb6c73fc71076718d8bb0d3bf884363dccad1524368f37eb8e4c9c
+MD5sum: a4083483805b951b17c98bd46eb30af3
+SHA1: 54f2ac7477da5a9c06f5a15dedde7783c47870e0
+SHA256: a2adb878237fff15eb6026792b59238a2f0e62e6b356f1837faca070dff73f28
 Homepage: https://rsync.samba.org/
 Description: Fast incremental file transfer utility
 
@@ -1657,6 +1657,20 @@ SHA256: fa5ffd9cf13401d424e6dc6a6dee08cd57468b3d9d70800add93e8065063fd85
 Homepage: https://github.com/getsops/sops
 Description: Simple and flexible tool for managing secrets
 
+Package: sourcekit-lsp
+Version: 6.1.3-1
+Architecture: aarch64
+Maintainer: @finagolfin
+Installed-Size: 38416
+Depends: swift (= 6.1.3-1)
+Filename: pool/main/s/sourcekit-lsp/sourcekit-lsp_6.1.3-1_aarch64.deb
+Size: 9288752
+MD5sum: 2c1ae38d58b5f04983296544c06f846b
+SHA1: ab72527d3167af33a34b1b06ad23fa4a71624d76
+SHA256: e73e1675870e09ab33e1828d1f20fe1cb9048dc0abb59c18c9ac167277ecda0d
+Homepage: https://swift.org/
+Description: Language Server Protocol implementation for Swift and C-based languages
+
 Package: sox
 Version: 14.4.2-28
 Architecture: aarch64
@@ -2381,6 +2395,36 @@ SHA1: 52f488abb52324eefff5849694cc40fa1eb41acc
 SHA256: bb60f63a555b4d924aa222e685e490ac51cb63d2f746da6fc91a82278f3711ad
 Homepage: https://swi-prolog.org/
 Description: Most popular and complete prolog implementation
+
+Package: swift-runtime-aarch64
+Version: 6.1.3-1
+Architecture: all
+Maintainer: @finagolfin
+Installed-Size: 86904
+Depends: ndk-multilib
+Filename: pool/main/s/swift-runtime-aarch64/swift-runtime-aarch64_6.1.3-1_all.deb
+Size: 17597512
+MD5sum: cb9788980752dac91d04befebd8ed051
+SHA1: d84853f88c5de72b06fb879e1c00d37884840885
+SHA256: 982256150977b25278635c3c18fc28ae8f0058a3bedef5a2580da99d01fc8751
+Homepage: https://swift.org/
+Description: Swift runtime libraries for Android AArch64
+
+Package: swift-sdk-aarch64
+Version: 6.1.3-1
+Architecture: all
+Maintainer: @finagolfin
+Installed-Size: 204152
+Depends: swift-runtime-aarch64
+Breaks: swift (<< 5.8)
+Replaces: swift (<< 5.8)
+Filename: pool/main/s/swift-sdk-aarch64/swift-sdk-aarch64_6.1.3-1_all.deb
+Size: 34766032
+MD5sum: f42833cc2572e5ba750644d5acf588f3
+SHA1: 13732d7ca775918895118d04555e8bdd498d7398
+SHA256: ee02818c4377a755e6cfea4721908d34052307574329bbf07de718e6996f5f2d
+Homepage: https://swift.org/
+Description: Swift SDK for Android AArch64
 
 Package: swiftshader
 Version: 2025.06.25-2
@@ -3165,6 +3209,186 @@ SHA1: 7e87290bafc53de9c77883d184222c45091f3e33
 SHA256: 3c686bbe3b6bd66cf7f091519b50dcb8d02c2d40cb8eec1b6ff2ed6810448d7c
 Homepage: https://tmate.io
 Description: Terminal multiplexer with instant terminal sharing
+
+Package: toilet
+Version: 0.3-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 876
+Depends: libcaca
+Filename: pool/main/t/toilet/toilet_0.3-3_aarch64.deb
+Size: 718860
+MD5sum: b2113469cd0654cc634a9546528f2502
+SHA1: 34cd8121c10805427ed722bc74bb42db397555f9
+SHA256: c38db4b2b2a842b28c719faf4e2d88fdf58fff4dc2ea650e84ae20f1f99e6ed8
+Homepage: http://caca.zoy.org/wiki/toilet
+Description: FIGlet-compatible display of large colourful characters in text mode
+
+Package: tokei
+Version: 13.0.0-alpha.9-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4632
+Filename: pool/main/t/tokei/tokei_13.0.0-alpha.9-1_aarch64.deb
+Size: 1217944
+MD5sum: 351c9d000dff3c55da6db984120a2959
+SHA1: f60139993521d07c1543abdb1e750b2eb06cc2ed
+SHA256: 7163487e67925b059c8a87b459c06837344d353f99d7d3293e28ee953699ceac
+Homepage: https://github.com/XAMPPRocky/tokei
+Description: A blazingly fast CLOC (Count Lines Of Code) program
+
+Package: tome2
+Version: 2022.12.27-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 10864
+Depends: boost, libc++, libx11, ncurses
+Filename: pool/main/t/tome2/tome2_2022.12.27-6_aarch64.deb
+Size: 1487928
+MD5sum: 0f00de8471063a66c21ccf88a56357d6
+SHA1: 5433c3934f3b9ec0390716fd1083aa68e4b55b10
+SHA256: b591e1e6cbfe2abc9db9dc73649033fcce7eb3e76bde517cf3b63625e7e3b921
+Homepage: https://github.com/tome2/tome2
+Description: An open world roguelike adventure set in middle earth
+
+Package: toml11
+Version: 4.4.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 816
+Filename: pool/main/t/toml11/toml11_4.4.0_aarch64.deb
+Size: 73392
+MD5sum: 42d906a6ee7b9c26eb5f9e8a53db08a2
+SHA1: a93d038a3f87eaeacb797e31965754e0d73845a4
+SHA256: 2461f00873229260a92b1405a2cdc694de0b284d4814d0ca600416863352ae75
+Homepage: https://github.com/ToruNiina/toml11
+Description: toml11 is a C++11 (or later) header-only toml parser/encoder depending only on C++ standard library
+
+Package: topgrade
+Version: 16.0.4-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 7300
+Filename: pool/main/t/topgrade/topgrade_16.0.4-1_aarch64.deb
+Size: 2054392
+MD5sum: 93fa9ae8fb662263f12316239143df14
+SHA1: 87468fb5d95efc03913747595f99f1677099aa57
+SHA256: 9441fd07c5222812a5943de119dfc1f9696c5d8526811f232faaa349837dbcc4
+Homepage: https://github.com/topgrade-rs/topgrade/
+Description: Upgrade all the things
+
+Package: torsocks
+Version: 2.5.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 240
+Depends: tor
+Filename: pool/main/t/torsocks/torsocks_2.5.0-1_aarch64.deb
+Size: 50120
+MD5sum: 2c2f66df346a35cb471c4cc4d270b865
+SHA1: 308707ac5ab24b7d4e7fb792719ce69c991d564f
+SHA256: 8f4da6c5c0618c11c87f018c600dd27846cd5b2c6751be8b673bdb296d046730
+Homepage: https://gitlab.torproject.org/tpo/core/torsocks
+Description: Wrapper to safely torify applications
+
+Package: torsocks-static
+Version: 2.5.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 228
+Depends: torsocks (= 2.5.0-1)
+Filename: pool/main/t/torsocks-static/torsocks-static_2.5.0-1_aarch64.deb
+Size: 34368
+MD5sum: ddc5a9ed180ae413e72d9a8d537418d4
+SHA1: 7f146aa0c5e29e4df8a35fc2266cfe0cbb6a1002
+SHA256: 5db1fbfa38dfe6c370505e7f8b637e275b64294290e35d46e2a9b019e3b05457
+Homepage: https://gitlab.torproject.org/tpo/core/torsocks
+Description: Static libraries for torsocks
+
+Package: totem-pl-parser
+Version: 3.26.6-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 388
+Depends: glib, libarchive, libgcrypt, libxml2
+Filename: pool/main/t/totem-pl-parser/totem-pl-parser_3.26.6-2_aarch64.deb
+Size: 62440
+MD5sum: a32028bf9e636f93099c627af9884748
+SHA1: ff3535067f95fb0e65fb8bdc346074ce93326f0e
+SHA256: c65241e11ede5b5f7c3369f444c14a889a68a8d56537cea89766a4c4add0be83
+Homepage: https://gitlab.gnome.org/GNOME/totem-pl-parser
+Description: Simple GObject-based library to parse and save a host of playlist formats
+
+Package: toxic
+Version: 0.16.1-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2252
+Depends: c-toxcore, libconfig, libcurl, libpng, libqrencode, ncurses
+Filename: pool/main/t/toxic/toxic_0.16.1-3_aarch64.deb
+Size: 910608
+MD5sum: 8f5c08133f2bc20d9bbe64cf06e5b0fd
+SHA1: 93657961471559cd60f0647e11cd2de08af0bef1
+SHA256: f96a2da4c0256e8ed85de8fa2d43654aae7b3ecc6323be2b83f09cfee4bb25bb
+Homepage: https://github.com/JFreegman/toxic
+Description: A command line client for Tox
+
+Package: tracepath
+Version: 20250605-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 68
+Filename: pool/main/t/tracepath/tracepath_20250605-1_aarch64.deb
+Size: 8744
+MD5sum: 936258924cf7bd067045e38486d1ec5c
+SHA1: 9e9b7498ff665a8bf6d47d54cf81037b083f75ce
+SHA256: e860e7bd8bc69609fe55fc40c7986c1684d99fad659627b30d22710a5d14d229
+Homepage: https://github.com/iputils/iputils
+Description: Tool to trace the network path to a remote host
+
+Package: traceroute
+Version: 2.1.6-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 120
+Conflicts: tracepath (<< 20221126-1)
+Filename: pool/main/t/traceroute/traceroute_2.1.6-1_aarch64.deb
+Size: 32636
+MD5sum: 7b5872e3ef37fe6ff2f07f2e66712be1
+SHA1: 3e9abcc658849c609337136f437c249068186be1
+SHA256: cb87b1dad5b866bd57a1625a033325345f29d86f4500578ce1a598f99bc782fc
+Homepage: https://traceroute.sourceforge.net/
+Description: A new modern implementation of traceroute(8) utility for Linux systems
+
+Package: translate-shell
+Version: 0.9.7.1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 296
+Depends: bash, curl, gawk, less, rlwrap
+Recommends: hunspell, mpv
+Filename: pool/main/t/translate-shell/translate-shell_0.9.7.1_all.deb
+Size: 46088
+MD5sum: 787e861a0a2267a90e465fb283aba9d9
+SHA1: d5bf29be7c375c9ed5d7b135db8207ec7ebb64d0
+SHA256: a182e8bc2230de9b77668ce554001868706beda94a5c6782a0070586af07d435
+Homepage: https://www.soimort.org/translate-shell
+Description: Command-line translator using Google Translate, Bing Translator, Yandex.Translate, etc.
+
+Package: transmission
+Version: 4.0.6-5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 8304
+Depends: libc++, libcurl, libevent, libpsl, miniupnpc, natpmpc, openssl
+Suggests: jackett
+Filename: pool/main/t/transmission/transmission_4.0.6-5_aarch64.deb
+Size: 1112980
+MD5sum: fd4d748232ef9fd33ce13ad382de869e
+SHA1: 9112dc1e3e519aaf9191de3bdff7cb137ede6d92
+SHA256: 70b0b8bf96794b6f5d69d1b6b724627f7168e4bf05c601f44179ca841dbd53b8
+Homepage: https://transmissionbt.com/
+Description: Easy, lean and powerful BitTorrent client
 
 Package: unrar
 Version: 7.1.10-1
