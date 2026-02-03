@@ -759,10 +759,10 @@ Maintainer: @termux
 Installed-Size: 27460
 Depends: krb5, libandroid-execinfo, libandroid-spawn, libbsd, libcap, libcrypt, libgnutls, libiconv, libicu, libpopt, libtalloc, libtasn1, libtirpc, ncurses, openssl, readline, tdb-tools, zlib
 Filename: pool/main/s/samba/samba_4.16.11-5_aarch64.deb
-Size: 6228232
-MD5sum: f9d4f2b77bb151a87cdf524d01482bb6
-SHA1: a8db358657333bdb2ad2706a505e099923206cf8
-SHA256: 4b292bee78b372576f3586b1dd03d6b5ffa8f352da8492270555ac986de3e6e4
+Size: 6223788
+MD5sum: c077aa0859b51cf1cc448ec0fd658285
+SHA1: 6de366cb3e375a49be1507dd6994adbe71ec1349
+SHA256: a714d85c287988e8f55607652e8e30c04dc15d4ac32c0ccea9bf1435cbeb2972
 Homepage: https://www.samba.org/
 Description: SMB/CIFS fileserver
 
@@ -4259,6 +4259,201 @@ SHA1: 28a734646dc3f58c40d950b602ad9403fe6e6cd9
 SHA256: d8aaf3d322dc20806236a1f2df04b300cb61285e818aa02267669fcf43ae0240
 Homepage: https://github.com/sachaos/viddy
 Description: A modern watch command
+
+Package: vifm
+Version: 0.14.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3492
+Depends: ncurses, file
+Filename: pool/main/v/vifm/vifm_0.14.3-1_aarch64.deb
+Size: 837732
+MD5sum: 9f90976329d9c6e6d43d6d377a15c89d
+SHA1: 816f85eb83da660ef11227d2f4a894f37e0ba604
+SHA256: a1a078f288764cd251a1185313e0f11ebb33d994143a6dadee5ac6499e5fe5e5
+Homepage: https://vifm.info/
+Description: File manager with vi like keybindings
+
+Package: vile
+Version: 9.8z-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5248
+Depends: ncurses
+Filename: pool/main/v/vile/vile_9.8z-1_aarch64.deb
+Size: 882300
+MD5sum: 122f1d3a35ae4574ebe1470befbd8d34
+SHA1: 97b8dd41c92640f436a050a91d54ba8f0370b498
+SHA256: 73cb8063a275f54625a69c928c6562da0d25b57d529aadf1b046a0cc445c364e
+Homepage: https://invisible-island.net/vile/
+Description: VI Like Emacs - vi work-alike
+
+Package: virglrenderer
+Version: 1.2.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 748
+Depends: libdrm, libepoxy, libglvnd, libx11, mesa
+Filename: pool/main/v/virglrenderer/virglrenderer_1.2.0_aarch64.deb
+Size: 199140
+MD5sum: 23622d536720991898afe9680e14cfd4
+SHA1: 6024c5fad6ebabac52a1102b989adb54ac71a102
+SHA256: fc7cabd5189416d7c248fb67b1780c9ab9a8123c82b5e0e72d95db06dbb12108
+Homepage: https://virgil3d.github.io/
+Description: A virtual 3D GPU for use inside qemu virtual machines
+
+Package: virglrenderer-android
+Version: 1.0.1-4
+Architecture: aarch64
+Maintainer: @licy183
+Installed-Size: 4572
+Depends: angle-android
+Filename: pool/main/v/virglrenderer-android/virglrenderer-android_1.0.1-4_aarch64.deb
+Size: 796752
+MD5sum: eb094f033a080062aec10fff85854a35
+SHA1: 92c9970caddb8969be78b34b33bf928ace94d7e2
+SHA256: abce93f4a38b5ffc488395ab7e9de0a66e47195966d53fdafb33a6da6fecb709
+Homepage: https://virgil3d.github.io/
+Description: A virtual 3D GPU for use inside qemu virtual machines over OpenGLES libraries on Android
+
+Package: virustotal-cli
+Version: 1.1.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 11076
+Breaks: vt-cli
+Replaces: vt-cli
+Filename: pool/main/v/virustotal-cli/virustotal-cli_1.1.1-1_aarch64.deb
+Size: 2988120
+MD5sum: cef23e521aef599fbc21b32c820fb891
+SHA1: 4e615a378ab24700b8fc34edea2b328d95f73521
+SHA256: 76d3bacef174c81959b0575b9d62c0bcb73ab2eadadc1cb08c8e8e6f6c861960
+Homepage: https://github.com/VirusTotal/vt-cli
+Description: Command line interface for VirusTotal
+
+Package: vis
+Version: 0.9-5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1696
+Depends: liblua54, libunibilium, libtermkey, lua-lpeg, ncurses
+Filename: pool/main/v/vis/vis_0.9-5_aarch64.deb
+Size: 301652
+MD5sum: ecb1e80e6f37c48c7a4325767173151f
+SHA1: 448bdb4c127706085897dabb6c29603a57b70470
+SHA256: b3817f654db497d81e80c3131f6b37599653b3d8a640e625fcaec5f39fdb52f5
+Homepage: https://www.brain-dump.org/projects/vis/
+Description: Modern, legacy free, simple yet efficient vim-like editor
+
+Package: vitetris
+Version: 0.59.1-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 152
+Depends: ncurses
+Filename: pool/main/v/vitetris/vitetris_0.59.1-4_aarch64.deb
+Size: 45788
+MD5sum: a2971d72a86be5139ddcd57953858e4d
+SHA1: b1fa8d04b9ef403fa6bd47ecc87b315de81e0025
+SHA256: 846ad3d92c3f8220537f381255e27c668c91c889714028954ac73470bc946382
+Homepage: http://victornils.net/tetris/
+Description: Virtual terminal *tris clone
+
+Package: viu
+Version: 1.5.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3344
+Filename: pool/main/v/viu/viu_1.5.1-1_aarch64.deb
+Size: 998912
+MD5sum: 748fd26b3cf6fb4ed03528f61d9d965d
+SHA1: 338ee52059bcb7e2fd6e08069da1111a9ceb5cf1
+SHA256: 56b63d80045f30649545954183d620aa8010c9f3abad4edc2edbbc546f6344bf
+Homepage: https://github.com/atanunq/viu
+Description: Terminal image viewer with native support for iTerm and Kitty
+
+Package: vivid
+Version: 0.10.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 956
+Filename: pool/main/v/vivid/vivid_0.10.1-1_aarch64.deb
+Size: 331112
+MD5sum: 3a888191fff7f8520e6b5f5d4b60e234
+SHA1: fe0dee178384f10c7b93ef41d0579774b115d5d1
+SHA256: 3da1c0363ee7f71835bf692eb97ecfe466ea6cdba282c7e4793ac8cfdd8fe158
+Homepage: https://github.com/sharkdp/vivid
+Description: A themeable LS_COLORS generator with a rich filetype datebase
+
+Package: vlc
+Version: 3.0.21-11
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 12128
+Depends: libchromaprint, dbus, ffmpeg, fluidsynth, fontconfig, freetype, fribidi, glib, gst-plugins-base, gstreamer, harfbuzz, liba52, libandroid-shmem, libandroid-spawn, libaom, libarchive, libass, libbluray, libc++, libcaca, libcairo, libcddb, libdav1d, libdvbpsi, libdvdnav, libdvdread, libebml, libflac, libgcrypt, libgnutls, libgpg-error, libiconv, libidn, libjpeg-turbo, liblua52, libmad, libmatroska, libmpeg2, libnfs, libogg, libopus, libpng, librsvg, libsecret, libsoxr, libssh2, libtheora, libtwolame, libvorbis, libvpx, libx11, libx264, libx265, libxcb, libxml2, libmpg123, ncurses, opengl, pulseaudio, samba, taglib, zlib
+Filename: pool/main/v/vlc/vlc_3.0.21-11_aarch64.deb
+Size: 2639472
+MD5sum: 60b27f093c9674501795f6a0861b7591
+SHA1: 2dbe9ddab5690b2ea924ce6d80170b35e6d419a1
+SHA256: 7ca128f4bcef703034496c6236cd642ce382cc415834201ecb53bcf669b18d36
+Homepage: https://www.videolan.org/
+Description: A popular libre and open source media player and multimedia engine
+
+Package: vlc-static
+Version: 3.0.21-11
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1496
+Depends: vlc (= 3.0.21-11)
+Filename: pool/main/v/vlc-static/vlc-static_3.0.21-11_aarch64.deb
+Size: 16344
+MD5sum: 7d2ae49019748ff851379f8d5f5f750c
+SHA1: 108d620988e7307cbd3d8f4194864be76ea56cad
+SHA256: 83d1950f65f76c6ae0d5c64bc1cab80a62e7c6705d9cc3e5115e195515a2d99f
+Homepage: https://www.videolan.org/
+Description: Static libraries for vlc
+
+Package: vobsub2srt
+Version: 2017.12.18-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 144
+Depends: libc++, tesseract
+Filename: pool/main/v/vobsub2srt/vobsub2srt_2017.12.18-4_aarch64.deb
+Size: 38296
+MD5sum: bee1801fd66d393f7b3e54edc92e827e
+SHA1: 7c767c3ac862afe1b360bb7e2e301bbc5c5852bf
+SHA256: cf855e85349cd0072a87ca751ace0fa8e0d37d6ba8ad6be28db564056ada39db
+Homepage: https://github.com/ruediger/VobSub2SRT
+Description: A simple command line program to convert .idx / .sub subtitles into .srt text subtitles by using OCR
+
+Package: vorbis-tools
+Version: 1.4.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 252
+Depends: libiconv, libvorbis, libflac, libogg
+Filename: pool/main/v/vorbis-tools/vorbis-tools_1.4.3-1_aarch64.deb
+Size: 63360
+MD5sum: 0c7bf2823806aed9a4ce97bdfa11c802
+SHA1: 53e257b8b70f48aee16a9188aa6f87a681ce7a45
+SHA256: 87be1fa609f515304322ef5e615707293cb1ccf9a573b94892c515974fd84bd2
+Homepage: https://github.com/xiph/vorbis-tools
+Description: Ogg Vorbis tools
+
+Package: vtm
+Version: 2025.09.27
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 6036
+Depends: libc++
+Filename: pool/main/v/vtm/vtm_2025.09.27_aarch64.deb
+Size: 1175264
+MD5sum: 3666ffa947d2d8e7e1dc3f5beb692dbd
+SHA1: 299188353cb9bd6ab544a8ad02482db85052f168
+SHA256: d6de0690fcb975c7b80bfbb24c733d8ee28c731dbdd26a93013eceab57287e55
+Homepage: https://github.com/directvt/vtm
+Description: Terminal multiplexer with TUI window manager and multi-party session sharing
 
 Package: wasi-libc
 Version: 27
