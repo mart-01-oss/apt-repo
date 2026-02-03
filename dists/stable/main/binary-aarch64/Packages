@@ -4054,6 +4054,212 @@ SHA256: 6daaa9717e3ef8a629cf1b6dd40245633e6e1c343660f4d0799a1d6284c868b2
 Homepage: https://www.airs.com/ian/uucp.html
 Description: The standard UUCP package of the Free Software Foundation
 
+Package: uv
+Version: 0.8.22
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 40848
+Depends: zstd
+Filename: pool/main/u/uv/uv_0.8.22_aarch64.deb
+Size: 10942188
+MD5sum: db5b55109bc3a587f58346a6b4767da0
+SHA1: 1042d0ad86e781107ad1819b3268f365a31e2729
+SHA256: b51a7fd635b2dd35ae688033c68a20c5e23e1ac9ac2a7f2a603b81d4edf7d336
+Homepage: https://docs.astral.sh/uv/
+Description: An extremely fast Python package installer and resolver, written in Rust.
+
+Package: uwsgi
+Version: 2.0.30-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1216
+Depends: libandroid-glob, libandroid-sysv-semaphore, libandroid-utimes, libcap, libcrypt, libjansson, libuuid, libxml2, openssl, pcre2, python
+Filename: pool/main/u/uwsgi/uwsgi_2.0.30-1_aarch64.deb
+Size: 382672
+MD5sum: ffa63328175bb0729f19c1d333be5073
+SHA1: e4b211a87e98bf3bfa78dc063ad9ae25205c6f2c
+SHA256: 2b2fd6ca43867e59ecc5419dac05982c7f00bb3875587b44d55361b933c5cee6
+Homepage: https://projects.unbit.it/uwsgi
+Description: uWSGI application server container
+
+Package: v2ray
+Version: 5.39.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 58540
+Filename: pool/main/v/v2ray/v2ray_5.39.0_aarch64.deb
+Size: 10366076
+MD5sum: c480d5731cf7dac4acebafa4014825bd
+SHA1: 7a612dd9daa402d025fcd7a183e88281e1ebed44
+SHA256: 84231a604ee9469d8362985630cf9cbcd57c75af9a29ab45ad66ec106b1e4f00
+Homepage: https://www.v2fly.org/
+Description: A platform for building proxies to bypass network restrictions
+
+Package: vale
+Version: 3.12.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 39236
+Filename: pool/main/v/vale/vale_3.12.0-1_aarch64.deb
+Size: 6587260
+MD5sum: e183a54000c87cef5f8bab0c434af4e9
+SHA1: cf6d979eba845fccabaa03e40c63c28c73aabbd6
+SHA256: 67f696dd49227ef9e526f891806731b17f26e1b741987db945ea4eb02752d65a
+Homepage: https://vale.sh
+Description: A syntax-aware linter for prose built with speed and extensibility in mind
+
+Package: vapoursynth
+Version: 72-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1640
+Depends: libzimg, python
+Filename: pool/main/v/vapoursynth/vapoursynth_72-1_aarch64.deb
+Size: 453864
+MD5sum: c49b6fdfabf363c1b8682a32f5d033aa
+SHA1: 1a584d21ebbf2e4ec6266af7d9f55c03c6c43222
+SHA256: 4a10a51b810be0b7abadf1ae1df228b5e172fa02f5d3ca904a973b13d84207e7
+Homepage: https://www.vapoursynth.com/
+Description: Video processing framework with simplicity in mind
+
+Package: vapoursynth-static
+Version: 72-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2988
+Depends: vapoursynth (= 72-1)
+Filename: pool/main/v/vapoursynth-static/vapoursynth-static_72-1_aarch64.deb
+Size: 379796
+MD5sum: 74da3b4093fe90731934852ddab81ed0
+SHA1: 89e2346e5945ac8a84a74f54b1ad721d54906a76
+SHA256: 497ed61b19816002d2e075914177c0a60ea487ddfb810a306abfb8cfe8262b62
+Homepage: https://www.vapoursynth.com/
+Description: Static libraries for vapoursynth
+
+Package: vbindiff
+Version: 3.0-beta5-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 124
+Depends: libc++, ncurses, ncurses-ui-libs
+Filename: pool/main/v/vbindiff/vbindiff_3.0-beta5-1_aarch64.deb
+Size: 30724
+MD5sum: 9afc418021a0ca01640bd7c2f6ac035f
+SHA1: 9b8e4bbe99ba095f261f2326c363fdda83e4329d
+SHA256: 8f80d48e29f37a1fd059ebd164d55df085bcd57c666d3713c4df201de78dd6d8
+Homepage: https://www.cjmweb.net/vbindiff/
+Description: Visual binary diff
+
+Package: vcsh
+Version: 2.0.10
+Architecture: all
+Maintainer: @termux
+Installed-Size: 180
+Depends: git
+Filename: pool/main/v/vcsh/vcsh_2.0.10_all.deb
+Size: 30304
+MD5sum: d1de2a7a5570c452ffac334a18e55406
+SHA1: 2154b208930311f480207e64f7dcfce7961730bc
+SHA256: 375c00f8db7b038a4296c50e412dc05c5297e620844f70b731396e9c43e61bd3
+Homepage: https://github.com/RichiH/vcsh
+Description: Config manager based on Git
+
+Package: vde2
+Version: 2.3.3-5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 640
+Depends: libpcap, libwolfssl
+Filename: pool/main/v/vde2/vde2_2.3.3-5_aarch64.deb
+Size: 138972
+MD5sum: 16a2c93aa2494258e0c9a382e314174d
+SHA1: 4ca23e58180824e0f1d85a95bcad4ef62a812782
+SHA256: 8787e8583fcd45497fdafd903162616900c8cb1b2c6f86adc878cc65aa0a3a18
+Homepage: https://github.com/virtualsquare/vde-2
+Description: Virtual Distributed Ethernet for emulators like qemu
+
+Package: vde2-static
+Version: 2.3.3-5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 184
+Depends: vde2 (= 2.3.3-5)
+Filename: pool/main/v/vde2-static/vde2-static_2.3.3-5_aarch64.deb
+Size: 22092
+MD5sum: c4fcfe3863d46dcea706d6bd92fafc1c
+SHA1: f201a438ed8a679df3bc92c9824a5d2be92783ea
+SHA256: 70596550ca60e946364f1a0a4b0b8bbdb59f7b1e194371c1722ef1d671ebc91b
+Homepage: https://github.com/virtualsquare/vde-2
+Description: Static libraries for vde2
+
+Package: vegeta
+Version: 12.12.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 12616
+Filename: pool/main/v/vegeta/vegeta_12.12.0-1_aarch64.deb
+Size: 3279444
+MD5sum: 0ce0c7ffe570196351318c53c959cb28
+SHA1: dc73fe75287b37c5ef984a2e2237432bb9bc2203
+SHA256: 0e1087c7a1ee6874ac2c0616a8ec4f55d32439ca6c98dd0dea2d759ac6df616a
+Homepage: https://github.com/tsenart/vegeta
+Description: HTTP load testing tool
+
+Package: vera
+Version: 1.3.0-8
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 672
+Depends: boost, libc++, tcl
+Filename: pool/main/v/vera/vera_1.3.0-8_aarch64.deb
+Size: 143744
+MD5sum: 762c7f79eac0a939f17ba7c6b053d6cc
+SHA1: c9bf28a2093469fc77fcfb1d6a1903695af25df6
+SHA256: bb80ade37e47fd4e3d6fa77211a57ca9399b8962d5b6e0b990c4b5ecd6e97bf4
+Homepage: https://bitbucket.org/verateam/vera
+Description: A programmable tool for verification, analysis and transformation of C++ source code
+
+Package: vgmstream
+Version: 2023-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4880
+Depends: ffmpeg, libao, libjansson, libspeex, libvorbis, libmpg123
+Filename: pool/main/v/vgmstream/vgmstream_2023-2_aarch64.deb
+Size: 735556
+MD5sum: 05b4d0c29a620787aba4eec96be4d0c9
+SHA1: b5694ea11e416609c328d7d94cdc2edf96ce8992
+SHA256: c0f883e8da2047670cc725eca950da6e47435192bbb3f54b1c54ea347354152a
+Homepage: https://github.com/vgmstream/vgmstream
+Description: A library for playback of various streamed audio formats used in video games
+
+Package: vgmtools
+Version: 2023.01.27-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 748
+Depends: libandroid-glob, libc++, zlib
+Filename: pool/main/v/vgmtools/vgmtools_2023.01.27-1_aarch64.deb
+Size: 178784
+MD5sum: 2132650e82f764ad9f9e113e197df624
+SHA1: 0ecb6cb53ddc1c0a792702ec0c68f3f5fe965443
+SHA256: 217c0695f2fc204c19022d696adaf72ef523573ac07a9e94e5a1b44d6bf8d870
+Homepage: https://github.com/vgmrips/vgmtools
+Description: A collection of tools for the VGM file format
+
+Package: viddy
+Version: 1.3.0-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 7152
+Filename: pool/main/v/viddy/viddy_1.3.0-2_aarch64.deb
+Size: 2016172
+MD5sum: 9f630e59af54334744a2594b0c2ebc38
+SHA1: 28a734646dc3f58c40d950b602ad9403fe6e6cd9
+SHA256: d8aaf3d322dc20806236a1f2df04b300cb61285e818aa02267669fcf43ae0240
+Homepage: https://github.com/sachaos/viddy
+Description: A modern watch command
+
 Package: wasi-libc
 Version: 27
 Architecture: all
