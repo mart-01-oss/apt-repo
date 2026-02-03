@@ -3819,6 +3819,92 @@ SHA256: 90966a75f51547e6e13a012da0618c6a037edd516ade459d2e2e36e23c703dab
 Homepage: https://unicode.org/ucd/
 Description: The Unicode Character Database (UCD)
 
+Package: unicorn
+Version: 2.1.4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 19592
+Breaks: unicorn-dev
+Replaces: unicorn-dev
+Filename: pool/main/u/unicorn/unicorn_2.1.4_aarch64.deb
+Size: 2580788
+MD5sum: 438fc89e2b18bdb071a0383fc02eb20b
+SHA1: 21d0b9b5a04d133d016fd5dcf50e3a40af916af1
+SHA256: a5a7c6f2f06be8b75b47b20ed6abec472b720dd1b08f6695e0740196e8fe6104
+Homepage: https://www.unicorn-engine.org/
+Description: Unicorn is a lightweight multi-platform, multi-architecture CPU emulator framework
+
+Package: unicorn-static
+Version: 2.1.4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 28952
+Depends: unicorn (= 2.1.4)
+Filename: pool/main/u/unicorn-static/unicorn-static_2.1.4_aarch64.deb
+Size: 2242552
+MD5sum: a27d105b834944af40e33cb9ca3951a7
+SHA1: efb5c440ef6290af10e0b0370574af503681c41a
+SHA256: 9d99e07c42da912394883a980dcc420770ed205e89a7fd39dec7aa29756d80e2
+Homepage: https://www.unicorn-engine.org/
+Description: Static libraries for unicorn
+
+Package: unifdef
+Version: 2.12-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 92
+Filename: pool/main/u/unifdef/unifdef_2.12-1_aarch64.deb
+Size: 16296
+MD5sum: c861da28d9ce741a5dedc614ea0b8a43
+SHA1: 80d0257d88c5c5e011081cbef4c82f9bdbe4f3a8
+SHA256: d1e63afe5f78f570a1f7c94265699ed9ce59912bf7209063db8d200110e7e5c8
+Homepage: http://dotat.at/prog/unifdef/
+Description: Remove #ifdef'ed lines
+
+Package: units
+Version: 2.24-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1036
+Depends: readline, libandroid-support
+Filename: pool/main/u/units/units_2.24-1_aarch64.deb
+Size: 274164
+MD5sum: 83adbbdfc98e53d537bd6d11da3a246d
+SHA1: 29958166bc7ab47bba306373ae251448efda554c
+SHA256: d809b80bf4599e012f3456c40d12166f57d7132163a8dba9c7474b4e4924f18c
+Homepage: https://www.gnu.org/software/units/
+Description: Converts between different systems of units
+
+Package: units-cur
+Version: 2.24-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 52
+Depends: python, python-pip, units (= 2.24-1)
+Breaks: units (<< 2.22)
+Replaces: units (<< 2.22)
+Filename: pool/main/u/units-cur/units-cur_2.24-1_all.deb
+Size: 8244
+MD5sum: 7b7a518371a24077a34471440b5709ac
+SHA1: 8e772b69295be92380387882c75dc94655d74e6d
+SHA256: 4c8cd70d0e28d63e977247f6141cf091e3a38e1bef95cef74f74fd3fe101eeea
+Homepage: https://www.gnu.org/software/units/
+Description: units_cur Python script
+
+Package: unpaper
+Version: 1:7.0.0-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 120
+Depends: ffmpeg
+Filename: pool/main/u/unpaper/unpaper_1+7.0.0-3_aarch64.deb
+Size: 30468
+MD5sum: 7b0c6136e811ffe428e4875d99ed08cd
+SHA1: b37c62dcdd5a5d8482700c50170c3258124bb27b
+SHA256: 900072fa98a153be172dd5b567298adba77cd4ec4b039d448f0b9b73f79c80aa
+Homepage: https://www.flameeyes.com/projects/unpaper
+Description: A post-processing tool for scanned sheets of paper
+
 Package: unrar
 Version: 7.1.10-1
 Architecture: aarch64
@@ -3832,6 +3918,141 @@ SHA1: 6fd48ba1bf20a40fdebc170a9d67547e4b4c676c
 SHA256: 41af15f199fd89d25aff4a53b6fa257724dec1b711c47840f58a2459df6b9204
 Homepage: https://www.rarlab.com/
 Description: Tool for extracting files from .rar archives
+
+Package: unshield
+Version: 1.6.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 148
+Depends: libiconv, openssl, openssh, zlib
+Filename: pool/main/u/unshield/unshield_1.6.2-1_aarch64.deb
+Size: 23200
+MD5sum: 4b75dfbf6a67cc709af76857b3daf430
+SHA1: 2a61839422e03c10516970ea7905fe307a17d51e
+SHA256: 1fba30a0cbc904827d8ec302c311ac501e75978152995cda8706a5965f0d416b
+Homepage: https://github.com/twogood/unshield
+Description: Tool and library to extract CAB files from InstallShield installers
+
+Package: up
+Version: 0.4-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3128
+Filename: pool/main/u/up/up_0.4-4_aarch64.deb
+Size: 882932
+MD5sum: f566210a6dfff47fe5e2aa9a28a1eceb
+SHA1: bc5360de8ac89fd3aa1e1fdfeaa3f11f0c1e76cb
+SHA256: bf87ff23c44f3c7ae6488c8dd4115504a856388659acda85b99fc870b9eddfe0
+Homepage: https://github.com/akavel/up
+Description: Helps interactively and incrementally explore textual data in Linux
+
+Package: upower
+Version: 1.90.10
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 536
+Depends: glib, gobject-introspection
+Filename: pool/main/u/upower/upower_1.90.10_aarch64.deb
+Size: 75676
+MD5sum: b065d6d50ac60a03bdcd3dc266972c32
+SHA1: 9aad8f1707c487da240a1f1725242d24ccd4eeeb
+SHA256: a175db24b60a979318c87046a1f60e30dfb4b862318f0982c2e531172f2ad924
+Homepage: https://upower.freedesktop.org/
+Description: Power management support for DeviceKit
+
+Package: upx
+Version: 5.0.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2812
+Depends: libc++
+Filename: pool/main/u/upx/upx_5.0.2-1_aarch64.deb
+Size: 598440
+MD5sum: 8204d5f50242d8cfc9437c9d2a8e914e
+SHA1: 907f8bca33095e8a3dc128bc1962ccd15ff225e0
+SHA256: f19e29389ef98985dc89577b12258c67f500d15d6bd136e553c021cf555e58ba
+Homepage: https://upx.github.io/
+Description: the Ultimate Packer for eXecutables
+
+Package: urdfdom
+Version: 5.0.2-1
+Architecture: aarch64
+Maintainer: Pooya Moradi <pvonmoradi@gmail.com>
+Installed-Size: 572
+Depends: libc++, libtinyxml2, urdfdom-headers, console-bridge
+Filename: pool/main/u/urdfdom/urdfdom_5.0.2-1_aarch64.deb
+Size: 77128
+MD5sum: 5ca513d668f4fe7509a767255edd730f
+SHA1: 43ed07455e1dd1046bb0e70dceace9bd710e87ba
+SHA256: dc63621ff815aae86c7ee2d7fc43bf89bd7c517699ac8d885b0e87b748751b2a
+Homepage: https://github.com/ros/urdfdom
+Description: Unified Robot Description Format (URDF) parser library and tools
+
+Package: urdfdom-headers
+Version: 1.1.2
+Architecture: aarch64
+Maintainer: Pooya Moradi <pvonmoradi@gmail.com>
+Installed-Size: 184
+Filename: pool/main/u/urdfdom-headers/urdfdom-headers_1.1.2_aarch64.deb
+Size: 11968
+MD5sum: 479598045aaaabd5e7b6147567cef210
+SHA1: c74dbb0b9c4ef3695c08866c0a3b63f547bac266
+SHA256: c1d10065225c40d1430fde9bad841264d5d35084058368746fa40a6e05d6ee22
+Homepage: https://github.com/ros/urdfdom_headers
+Description: Headers for URDF parsers
+
+Package: usql
+Version: 0.19.25-1
+Architecture: aarch64
+Maintainer: @flipee
+Installed-Size: 159452
+Filename: pool/main/u/usql/usql_0.19.25-1_aarch64.deb
+Size: 26443348
+MD5sum: e7f10b165b63ea7b823594ac81d650df
+SHA1: d2d09b4b7a6b2e1c3a39147bbbf0127978ad0485
+SHA256: 1a30c7e731f9f6cefa278cbc4c567b83e7c34a2fcd43f6a0a57c65ae7ea776d8
+Homepage: https://github.com/xo/usql
+Description: A universal command-line interface for SQL databases
+
+Package: utfdecode
+Version: 0.3.4-7
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2292
+Depends: libc++
+Filename: pool/main/u/utfdecode/utfdecode_0.3.4-7_aarch64.deb
+Size: 233700
+MD5sum: 9b23d9ca11d1ed7df9a1edb874615812
+SHA1: c36b79bc4882f3dc19e8245e8a64139e1863f8c5
+SHA256: 168580872b1aeb330758117691dc4dbb0c64ba7533cb5cb192384df5aafdc96c
+Homepage: https://github.com/fornwall/utfdecode
+Description: Tool for decoding, encoding and debugging unicode
+
+Package: uthash
+Version: 2.3.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 240
+Filename: pool/main/u/uthash/uthash_2.3.0_all.deb
+Size: 19656
+MD5sum: a370eb93c4cf88d909ad311ddb6a5152
+SHA1: d4cfc28d4258015cb83a0f3bd184f7588ca13dc4
+SHA256: 70010b9b8b47cfa4c3dc8a57ae9768bbb8d6fce58e8f3c282bc827d5d49ae7fa
+Homepage: https://troydhanson.github.io/uthash/
+Description: C preprocessor implementations of a hash table and a linked list
+
+Package: uucp
+Version: 1.07-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1520
+Filename: pool/main/u/uucp/uucp_1.07-2_aarch64.deb
+Size: 316272
+MD5sum: 329db9f4c49f9546236c550d02cb875c
+SHA1: 40d66454e1c08a1e8ee2093700a2af57bffd965a
+SHA256: 6daaa9717e3ef8a629cf1b6dd40245633e6e1c343660f4d0799a1d6284c868b2
+Homepage: https://www.airs.com/ian/uucp.html
+Description: The standard UUCP package of the Free Software Foundation
 
 Package: wasi-libc
 Version: 27
