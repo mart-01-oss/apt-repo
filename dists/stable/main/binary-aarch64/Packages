@@ -2740,6 +2740,19 @@ SHA256: 8c6cdad7cd80e18741153484a6692f8cf4ad6eedab052062d3e4028c2796cb20
 Homepage: https://github.com/aeolwyr/tergent
 Description: A cryptoki/PKCS#11 library for Termux that uses Android Keystore as its backend
 
+Package: termimage
+Version: 1.2.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2444
+Filename: pool/main/t/termimage/termimage_1.2.1-1_aarch64.deb
+Size: 773356
+MD5sum: 90ca8c5c2f5bdce39f09af8699d8281e
+SHA1: 9b1d8f86fd60dbaa7f3357808cdf8a503d565446
+SHA256: 1ca49957c726250c158588282c22676baeda2fb824cb2f50cd669e87d41513d4
+Homepage: https://github.com/nabijaczleweli/termimage
+Description: Terminal image viewer
+
 Package: termplay
 Version: 2.0.6-1
 Architecture: aarch64
@@ -2987,6 +3000,171 @@ SHA1: f41d445a645fa4506d042bac43dddf8ca32b85e8
 SHA256: 60fab0f21bd7a192c25e105f3128bdb6b5a86fabd355399f3198efe62801e41e
 Homepage: https://timg.sh/
 Description: A terminal image and video viewer
+
+Package: timidity++
+Version: 2.15.0-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 912
+Filename: pool/main/t/timidity++/timidity++_2.15.0-2_aarch64.deb
+Size: 350592
+MD5sum: 4cf611f50b9cbbac79dbd2823140f37d
+SHA1: ccd84dfb5a069122ba1b691c5c6833de408577fa
+SHA256: 319dca996d3d9a94cb8590a10dbc5f2e7f456317a510c813b7c9ece8e4c74fe7
+Homepage: https://timidity.sourceforge.net/
+Description: MIDI-to-WAVE converter and player
+
+Package: tin-summer
+Version: 1.21.14-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2492
+Filename: pool/main/t/tin-summer/tin-summer_1.21.14-1_aarch64.deb
+Size: 722992
+MD5sum: 9d9c79cfcf73afe07fe8cce1fd6db312
+SHA1: 215d6c0e06548ac2c784c0e232e3e9290cce3345
+SHA256: 785f409e9b987dfe040612e1c8053278515953f67f78789d99326bde4a045928
+Homepage: https://github.com/vmchale/tin-summer
+Description: Find build artifacts that are taking up disk space
+
+Package: tintin++
+Version: 2.02.51-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5048
+Depends: pcre, libgnutls, zlib
+Filename: pool/main/t/tintin++/tintin++_2.02.51-1_aarch64.deb
+Size: 1398076
+MD5sum: 97bcbf291866319ed1309bd1ba4cf507
+SHA1: f4baa9c10068779a15ec52ab12e880904e941a3f
+SHA256: a41f0d1d33f7dc24f9ef0529875f8cdcb7c3d39995eed06c99cf1fdd9264b88e
+Homepage: https://tintin.mudhalla.net
+Description: Classic text-based MUD client
+
+Package: tinyfugue
+Version: 5.0b8-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1244
+Depends: ncurses, openssl, pcre, zlib
+Filename: pool/main/t/tinyfugue/tinyfugue_5.0b8-4_aarch64.deb
+Size: 301780
+MD5sum: 3cb4010bd109010fd2ce2f471e77a46d
+SHA1: 2d98637cdd4219babf48bf123afc3a2953964d16
+SHA256: a67a3986dfd75654b69afa1c8a143717aa7872f46e403d4817c823b5f5fab55e
+Homepage: https://tinyfugue.sourceforge.net/
+Description: Flexible, screen-oriented MUD client, for use with any type of MUD
+
+Package: tinygo
+Version: 0.39.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 105904
+Depends: binaryen, golang, libc++, tinygo-common
+Filename: pool/main/t/tinygo/tinygo_0.39.0_aarch64.deb
+Size: 23309000
+MD5sum: 7d839bad8ebf8d4d79bfbe61be9cb967
+SHA1: 84fa10395b36cc29108c57dcfce94a746ce3b021
+SHA256: bf0feaf8ef2a526b73cdd9a10e97589dc54b8fb11740a19e542d34f65030e807
+Homepage: https://tinygo.org
+Description: Go compiler for microcontrollers, WASM, CLI tools
+
+Package: tinygo-common
+Version: 0.39.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 868136
+Filename: pool/main/t/tinygo-common/tinygo-common_0.39.0_all.deb
+Size: 17917024
+MD5sum: eae98b5392781647384e297b3ff138da
+SHA1: 81ec02384d638798b06f434989ebfd1279b40298
+SHA256: 5f66fb6027bb7e6641dd84c5782d1f52842fa236375e05c1f808beedf2906d2c
+Homepage: https://tinygo.org
+Description: TinyGo common files
+
+Package: tinymist
+Version: 0.13.26
+Architecture: aarch64
+Maintainer: Joshua Kahn @TomJo2000
+Installed-Size: 47108
+Depends: openssl
+Breaks: typst-lsp
+Replaces: typst-lsp
+Filename: pool/main/t/tinymist/tinymist_0.13.26_aarch64.deb
+Size: 14508736
+MD5sum: 255d7c3dbb3905fc8d0f0106aeb5cac4
+SHA1: 73081f292ed8fabd52f70f8afe5770b69099df5b
+SHA256: cde21d19cf75aeeac91474d4282ea024b126803ce5bd4e5b3ff3a76fdd41651e
+Homepage: https://myriad-dreamin.github.io/tinymist
+Description: An integrated language service for Typst
+
+Package: tinyproxy
+Version: 1.11.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 220
+Filename: pool/main/t/tinyproxy/tinyproxy_1.11.2-1_aarch64.deb
+Size: 45220
+MD5sum: d3abcb6485f008298917711c3b12e6e6
+SHA1: 5936c94839f98f063e049182b940c853508e5d67
+SHA256: a8badfd95e8ac9ab276bcffea57ee9804b05a11054020c94d061e962ac24027c
+Homepage: https://tinyproxy.github.io/
+Description: Light-weight HTTP proxy daemon for POSIX operating systems
+
+Package: tinyscheme
+Version: 1.42-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 160
+Filename: pool/main/t/tinyscheme/tinyscheme_1.42-2_aarch64.deb
+Size: 32140
+MD5sum: 17e2fded78cb957300826bdfbe3b6174
+SHA1: 54e4e2d9075eb0444b09a4d025da6a45d033d7c3
+SHA256: 569fb52fcd33f2f5cae6c40ed7a0d8c2975aab185610035f12f69d98ca0b2017
+Homepage: https://tinyscheme.sourceforge.net/home.html
+Description: Very small scheme implementation
+
+Package: tinysparql
+Version: 3.9.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2168
+Depends: libicu, dbus, pygobject, python, json-glib, libxml2, sqlite
+Filename: pool/main/t/tinysparql/tinysparql_3.9.2-1_aarch64.deb
+Size: 688616
+MD5sum: 8b8e441cc3f4c587c68d5cdf685f57bf
+SHA1: 03690075e8b85623be45102ba2b128c5d4ae0497
+SHA256: b29ef7499ef712163f0035f807cefed96c1f01830033e00562407275bc380ff6
+Homepage: https://gnome.pages.gitlab.gnome.org/tinysparql
+Description: Desktop-neutral metadata-based search framework
+
+Package: tizonia
+Version: 0.22.0-20
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 9844
+Depends: boost, dbus, libandroid-wordexp, libc++, libcurl, libflac, liblog4c, libmad, libmediainfo, libmp3lame, liboggz, libopus, libsndfile, libsqlite, libuuid, libvpx, libmpg123, opusfile, pulseaudio, python, taglib
+Filename: pool/main/t/tizonia/tizonia_0.22.0-20_aarch64.deb
+Size: 1459188
+MD5sum: 7382b4f077f6a28d93104f700fc0770e
+SHA1: 998379e9d68af32e54ffd90153cd90f08f90e9fb
+SHA256: cc0a346a2f812055573255d5ca5a360091c330714cf81ea036152755a35d99fc
+Homepage: https://github.com/tizonia/
+Description: A command-line streaming music client/server for Linux
+
+Package: tmate
+Version: 2.4.0-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 696
+Depends: libandroid-support, libevent, libmsgpack, libssh, ncurses
+Filename: pool/main/t/tmate/tmate_2.4.0-3_aarch64.deb
+Size: 220480
+MD5sum: 93f7da5e58663b1db1b178f4a53cae69
+SHA1: 7e87290bafc53de9c77883d184222c45091f3e33
+SHA256: 3c686bbe3b6bd66cf7f091519b50dcb8d02c2d40cb8eec1b6ff2ed6810448d7c
+Homepage: https://tmate.io
+Description: Terminal multiplexer with instant terminal sharing
 
 Package: unrar
 Version: 7.1.10-1
