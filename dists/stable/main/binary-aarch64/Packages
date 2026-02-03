@@ -855,10 +855,10 @@ Architecture: aarch64
 Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
 Installed-Size: 96
 Filename: pool/main/s/scdoc/scdoc_1.11.3-1_aarch64.deb
-Size: 11904
-MD5sum: 2772493e9ebaf7df601c1c2e8f4a3b60
-SHA1: 176fb77290e930803edbf098d068194971dab61a
-SHA256: adee7bea4cfab94f86cccd1b25f7c991b2f9f9518a683e6c4cd64582d6d24414
+Size: 11912
+MD5sum: e2c8bcbd231b7ae7bbbdad4f53c81582
+SHA1: c3ca3521341a3a0e16cf2122c3c7ee4428e5a816
+SHA256: d71d0a763a3b7c34552bfe544ab0eeb7b77896c817ce679f12a0a8bb5228e518
 Homepage: https://git.sr.ht/~sircmpwn/scdoc
 Description: Small man page generator
 
@@ -4634,4 +4634,139 @@ SHA1: 63156976aaf386707df81c42a50a99aa9ce87a68
 SHA256: f71b9a72d0192f2d9daf3d3b5eae25fc5deeb0bc5a1b773cb6a83ac550731fd9
 Homepage: https://wasi.dev/
 Description: Libc for WebAssembly programs built on top of WASI system calls
+
+Package: wasm-component-ld
+Version: 0.5.17
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5684
+Filename: pool/main/w/wasm-component-ld/wasm-component-ld_0.5.17_aarch64.deb
+Size: 1404560
+MD5sum: e34c882d5644193b6ed49ed11b6a5140
+SHA1: fc1f159b59e5eaf71b781dd443b02155175c9e4a
+SHA256: d7535c361a78b83fa6dfbb2da217cdb4632a5cd2579d7fc9068658c681c6ecf3
+Homepage: https://github.com/bytecodealliance/wasm-component-ld
+Description: Command line linker for creating WebAssembly components
+
+Package: wasmedge
+Version: 0.15.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2748
+Depends: libc++, libspdlog
+Filename: pool/main/w/wasmedge/wasmedge_0.15.0_aarch64.deb
+Size: 454376
+MD5sum: ff14cdae27d87cae3ba595487a04d796
+SHA1: 44bbb57414b0a334fac4ecc96e856765e6218b7b
+SHA256: 5d49539eb1e083ce83daf3376040f1902705d9f9823ff08abee74d2defbb48f9
+Homepage: https://wasmedge.org/
+Description: A lightweight, high-performance, and extensible WebAssembly runtime
+
+Package: wasmer
+Version: 6.0.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 270160
+Filename: pool/main/w/wasmer/wasmer_6.0.1-1_aarch64.deb
+Size: 45488016
+MD5sum: 3c841a9a78db69a67ed6284f4d033214
+SHA1: 73aaf8cc8783c83d95fd763688ea030f74e41330
+SHA256: 31e9a45ca185fcaa0ad0b5736d1e20a85d562faf31eecc201153d25d2102e415
+Homepage: https://wasmer.io/
+Description: A fast and secure WebAssembly runtime
+
+Package: wasmtime
+Version: 37.0.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 38184
+Filename: pool/main/w/wasmtime/wasmtime_37.0.1_aarch64.deb
+Size: 7254304
+MD5sum: e9e430994e18ebb6f06ba15fc070ca1b
+SHA1: 34272c9a2c742955753e42e87b59d9723c08837d
+SHA256: 36a449ff5692fabb6a08482a31ad61a590d32914e95bcfda104b82716e801bd3
+Homepage: https://wasmtime.dev/
+Description: A standalone runtime for WebAssembly
+
+Package: watchexec
+Version: 2.3.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 9136
+Filename: pool/main/w/watchexec/watchexec_2.3.0-1_aarch64.deb
+Size: 2536588
+MD5sum: 757a4a5572931d48812004e0983b74ed
+SHA1: d8186fcba58c653650485be34849b2cbb8384114
+SHA256: 2f2f5898d5cb19005d5d78ab921b543e32892cd2bbd70d65f52cd20019d357dc
+Homepage: https://github.com/watchexec/watchexec
+Description: Executes commands in response to file modifications
+
+Package: waypipe
+Version: 0.10.4-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 228
+Depends: libandroid-spawn, liblz4, libwayland, zstd
+Filename: pool/main/w/waypipe/waypipe_0.10.4-1_aarch64.deb
+Size: 65476
+MD5sum: f7c8c82ff23005d273395bae00a17d92
+SHA1: 90ecc2c509de2ba0860e5bec5125e61dddd639b7
+SHA256: 626dd22901234c44eebdd7acd4d3546f677aa60376bd8e3c392e962a596c5cc6
+Homepage: https://gitlab.freedesktop.org/mstoeckl/waypipe
+Description: A proxy for Wayland clients
+
+Package: wcalc
+Version: 2.5-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 396
+Depends: flex,libmpfr,libgmp,readline
+Filename: pool/main/w/wcalc/wcalc_2.5-6_aarch64.deb
+Size: 96828
+MD5sum: 38ead5bed9a86d2ab70857044721d353
+SHA1: 119d92340a405bd35fb70cad2aff3259b2abc7fe
+SHA256: 7c696a8805893fea51b6d4e7e43d846ab5c96c5b1ca499ae5b2830b0e23c834d
+Homepage: https://w-calc.sourceforge.net
+Description: Capable calculator
+
+Package: webp-pixbuf-loader
+Version: 0.2.7-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 84
+Depends: gdk-pixbuf, glib, libwebp
+Filename: pool/main/w/webp-pixbuf-loader/webp-pixbuf-loader_0.2.7-1_aarch64.deb
+Size: 7484
+MD5sum: e443f976456b95194c50a5271b0a6e15
+SHA1: cd014698db80f0b1d48dfc394624b24b2fbe5e07
+SHA256: 8271aff8758eb5f7fd0b0229a1a4bea0b41125e884e63c149a7d75baa90aec3e
+Homepage: https://github.com/aruiz/webp-pixbuf-loader
+Description: WebM GDK Pixbuf Loader library
+
+Package: websocat
+Version: 1.14.0-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3652
+Depends: openssl
+Filename: pool/main/w/websocat/websocat_1.14.0-2_aarch64.deb
+Size: 981220
+MD5sum: 93b0fcf05386622dfad981494dd5ae0c
+SHA1: f2f81fc01ddae3184c5311990a3ac3844924064e
+SHA256: 3b99fa7e81382a93fd8d8b927645425dc9fa52c9a13b27a02acefbaa851907c9
+Homepage: https://github.com/vi/websocat
+Description: Command-line client for WebSockets, like netcat (or curl) for ws:// with advanced socat-like functions
+
+Package: websocketd
+Version: 0.4.1-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 6864
+Filename: pool/main/w/websocketd/websocketd_0.4.1-4_aarch64.deb
+Size: 1984748
+MD5sum: 8169d21e111db765c52922989e49360f
+SHA1: 3be2413d57ff23aefacefa044cdb6f7782bbd78c
+SHA256: bbc84e9f655b8329072c3097e1d7ec84584af3f677d82bd77e0a8669d20adc20
+Homepage: http://websocketd.com/
+Description: Turn any program that uses STDIN/STDOUT into a WebSocket server
 
