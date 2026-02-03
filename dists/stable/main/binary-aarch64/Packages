@@ -2667,10 +2667,10 @@ Depends: libc++, zlib
 Breaks: teckit-dev
 Replaces: teckit-dev
 Filename: pool/main/t/teckit/teckit_2.5.12-1_aarch64.deb
-Size: 427472
-MD5sum: a91950728975a779f993eded588fa59a
-SHA1: 0f2a245823aa722e4bd028992a896b6bbe6e5362
-SHA256: 17e2260aeeee7e21c2e8bec691e329519fbdcd98cf946bd77f4f368ebe00cf8a
+Size: 449620
+MD5sum: ad4478283a3fec08af81e455244a6eba
+SHA1: b3cf7bee00bb48bdcfb882a16e9a814596f788f8
+SHA256: 757fc041f70153903d2de9e662e9d3bc532c15e936e1f8bc21841efb539ba76e
 Homepage: https://scripts.sil.org/teckitdownloads
 Description: TECkit is a library for encoding conversion
 
@@ -2681,10 +2681,10 @@ Maintainer: Henrik Grimler @Grimler91
 Installed-Size: 4892
 Depends: teckit (= 2.5.12-1)
 Filename: pool/main/t/teckit-static/teckit-static_2.5.12-1_aarch64.deb
-Size: 323624
-MD5sum: 889d12e837135d4675be9fbaf1ba767f
-SHA1: 4c80217c6d51fd97976dacc15b5358a0a3e78949
-SHA256: e09d262675061c3f92fd9c37d6c6271c51294b22bafc80f94835c47642576353
+Size: 322956
+MD5sum: fda01c1b35716af92421349deda6950e
+SHA1: 294be5989f4dfc372e100f698f0249011fd4b020
+SHA256: f95a400a900465e5c3e03342dae9e1caab808c5e5aa58549ac7396664478237a
 Homepage: https://scripts.sil.org/teckitdownloads
 Description: Static libraries for teckit
 
@@ -2962,6 +2962,53 @@ SHA1: 3c924a61799f5845fd110a9ed3bd8e1dd40754a9
 SHA256: ef0c9ceb3881c1c9c97ee1ef6621ab61a99ad21be12ddb91335797b0a476cddb
 Homepage: https://texlab.netlify.app/
 Description: A cross-platform implementation of the Language Server Protocol providing rich cross-editing support for the LaTeX typesetting system
+
+Package: texlive-bin
+Version: 1:2025.0-1
+Architecture: aarch64
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 54164
+Depends: freetype, libc++, libcairo, libgd, libgmp, libiconv, libicu, liblua52, libmpfr, libpaper, libpixman, libpng, teckit, zlib
+Recommends: texlive-installer
+Breaks: texlive (<< 20180414), texlive-bin-dev
+Replaces: texlive (<< 20170524-3), texlive-bin-dev
+Filename: pool/main/t/texlive-bin/texlive-bin_1+2025.0-1_aarch64.deb
+Size: 10696028
+MD5sum: 27247c1d22d1c9e25422e6428aa12a70
+SHA1: 731e557ed91a1aed77144e81ef1e925e9c6b0982
+SHA256: 085ae6e44d748f3afcf2eced8356e046b3cd90904fba1a8c944e1243b68b6736
+Homepage: https://www.tug.org/texlive/
+Description: TeX Live is a distribution of the TeX typesetting system. This package contains architecture dependent binaries.
+
+Package: texlive-bin-static
+Version: 1:2025.0-1
+Architecture: aarch64
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 1832
+Depends: texlive-bin (= 1:2025.0-1)
+Filename: pool/main/t/texlive-bin-static/texlive-bin-static_1+2025.0-1_aarch64.deb
+Size: 440036
+MD5sum: f326b635f31cb17f22d98232679dbcaa
+SHA1: 2d1fd038bae1b104fdf88739c833ab2ec1892393
+SHA256: 68a3c9cd758ca0a0293055e189d0156d1a5c0ddd812a3b31405b26019d4a710e
+Homepage: https://www.tug.org/texlive/
+Description: Static libraries for texlive-bin
+
+Package: texlive-installer
+Version: 20250308
+Architecture: all
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 2760
+Depends: perl, texlive-bin (>= 20240310), gnupg, curl, lz4, xz-utils
+Breaks: texlive
+Replaces: texlive
+Filename: pool/main/t/texlive-installer/texlive-installer_20250308_all.deb
+Size: 407856
+MD5sum: 7520d8f01ab63b5c113ff93b4a6a0ac2
+SHA1: 856a0a67284ef07829579a0a87b954c438dcd130
+SHA256: d9ea019d40b168644caab9a8d3517b55e6bdb008c0b9feba295efb848e7694d5
+Homepage: https://www.tug.org/texlive/
+Description: Wrapper around texlive's install-tl script
 
 Package: tgpt
 Version: 2.10.0-1
@@ -3389,6 +3436,182 @@ SHA1: 9112dc1e3e519aaf9191de3bdff7cb137ede6d92
 SHA256: 70b0b8bf96794b6f5d69d1b6b724627f7168e4bf05c601f44179ca841dbd53b8
 Homepage: https://transmissionbt.com/
 Description: Easy, lean and powerful BitTorrent client
+
+Package: trojan-go
+Version: 0.10.6-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 16004
+Filename: pool/main/t/trojan-go/trojan-go_0.10.6-4_aarch64.deb
+Size: 4006076
+MD5sum: db9d9442fcd4c879a8c2d9839268d106
+SHA1: fc91aee3af7d74c562286b159701835cde55d529
+SHA256: bc8e87a891c502c1557210577b2b95fa332a5616a1f755f9f6f867d0dd6c4fb9
+Homepage: https://p4gefau1t.github.io/trojan-go
+Description: A Trojan proxy written in Go. An unidentifiable mechanism that helps you bypass GFW
+
+Package: trurl
+Version: 0.16.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 96
+Depends: libcurl
+Filename: pool/main/t/trurl/trurl_0.16.1-1_aarch64.deb
+Size: 21920
+MD5sum: b9187e393cc884ff0599ffe226ec6389
+SHA1: 7610278a6aa4104c3a8468e1f259db4ca366794e
+SHA256: f17bd51800b54a13f2e05042790e7479b973ceeef0fc0ce7962abb264e376e91
+Homepage: https://curl.se/trurl/
+Description: trurl is a command line tool that parses and manipulates URLs
+
+Package: trzsz-go
+Version: 1.1.8-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 15696
+Recommends: trzsz-ssh
+Filename: pool/main/t/trzsz-go/trzsz-go_1.1.8-1_aarch64.deb
+Size: 2686940
+MD5sum: f799fa2a9d2706ceeca00a1d29e0c838
+SHA1: 6573533574d972f455215f0eac577e1eba3ddecb
+SHA256: ef9a87e1949222afc72dd9759854c589bdc16147e28603eae6e3cb98a5c879c5
+Homepage: https://trzsz.github.io/
+Description: A simple file transfer tools, similar to lrzsz ( rz / sz )
+
+Package: trzsz-ssh
+Version: 0.1.22-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 14420
+Recommends: trzsz-go
+Filename: pool/main/t/trzsz-ssh/trzsz-ssh_0.1.22-1_aarch64.deb
+Size: 3751424
+MD5sum: 3b21b465b206a8057e69d78b9ca0a4c8
+SHA1: b1672326a1dd5173e12d8b30ff3fbea7fa52a331
+SHA256: 172e5063e3d6685af1ed05e26b4417fc659a17bb401312964d56d3ba810a1066
+Homepage: https://trzsz.github.io/ssh
+Description: An openssh client alternative
+
+Package: tsocks
+Version: 1.8beta5-5
+Architecture: aarch64
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Installed-Size: 112
+Filename: pool/main/t/tsocks/tsocks_1.8beta5-5_aarch64.deb
+Size: 19640
+MD5sum: f23beafae07f981f3d0ec77db6a3b6b3
+SHA1: ca04c33ca8cc6f2cdebac9897101c43890157c61
+SHA256: 29f40d659dbcff7d79bb7831ae4ccf3cebc99ff7f50f091ee95e5267c7e70920
+Homepage: http://tsocks.sf.net
+Description: transparent network access through a SOCKS 4 or 5 proxy
+
+Package: tsu
+Version: 8.6.0-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 52
+Filename: pool/main/t/tsu/tsu_8.6.0-1_all.deb
+Size: 4388
+MD5sum: 1b38f122daf6d78372dcddf4c6713f4c
+SHA1: e418c7519cb4a8a4f3df646dd96f34071733b087
+SHA256: 92d7ca6fbf4580a63a552fd0e1215ed37e665970c1520a1687657320bab949c5
+Homepage: https://github.com/cswl/tsu
+Description: A su wrapper for Termux
+
+Package: tty-clock
+Version: 2.3-2
+Architecture: aarch64
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Installed-Size: 76
+Depends: ncurses
+Filename: pool/main/t/tty-clock/tty-clock_2.3-2_aarch64.deb
+Size: 8848
+MD5sum: 814aad44d838233d8c1d3a4917cd3a88
+SHA1: e76eab899bad4bc31e2145f00dcd507d7bb642bc
+SHA256: dd14ab3b0669235b1a8c18cca9a91a8ba8a240650377ff7c5026c14d9f4ebcaf
+Homepage: https://github.com/xorg62/tty-clock
+Description: Simple terminal clock
+
+Package: tty-solitaire
+Version: 1.4.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 68
+Depends: ncurses
+Filename: pool/main/t/tty-solitaire/tty-solitaire_1.4.1-1_aarch64.deb
+Size: 9436
+MD5sum: 599d26db5212e0ca4d2601f14f0b56dc
+SHA1: 9c09cf80855636493e2fe3ea821705c3c32cb3a1
+SHA256: 8ce0b03d83dd00cea0923ff7ce506f3032b5c1bddbf3c5a5b083313079d98143
+Homepage: https://github.com/mpereira/tty-solitaire
+Description: Klondike solitaire game
+
+Package: ttyc
+Version: 0.4-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 7308
+Filename: pool/main/t/ttyc/ttyc_0.4-4_aarch64.deb
+Size: 2089552
+MD5sum: 5cbb4ef114dc6a58b0742721f3d2b709
+SHA1: c20efdffca8f37d5d74cd5552fb3b32a001eee7d
+SHA256: 16ae5684e99a38b2aac7ea72f7d88a9f558516f8d334f74305f6f8ac5ff3c39a
+Homepage: https://github.com/Depau/ttyc
+Description: ttyd protocol client
+
+Package: ttyd
+Version: 1.7.7-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 284
+Depends: json-c, libcap, libuv, libwebsockets, openssl, zlib
+Filename: pool/main/t/ttyd/ttyd_1.7.7-2_aarch64.deb
+Size: 210104
+MD5sum: 5ae5aaef24e7ca0d87d00b1ecef6ad27
+SHA1: acca04311b6b47f2a70797882760704488ae7b98
+SHA256: 18ca5de8e3e552c032e79a87a7024395a3d38743c8ca5f988148b351c9376c7a
+Homepage: https://tsl0922.github.io/ttyd/
+Description: Command-line tool for sharing terminal over the web
+
+Package: ttyper
+Version: 1.6.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1816
+Filename: pool/main/t/ttyper/ttyper_1.6.0-1_aarch64.deb
+Size: 602248
+MD5sum: b8f909ec0ed1f8027d563df742804752
+SHA1: 71abac527c0bc0ba38963a3008f5d76682249d49
+SHA256: 8ba821500511185e331de93b1ff781dd08c4eaf9bbc5569f5bc64190f17080ff
+Homepage: https://github.com/max-niederman/ttyper
+Description: Terminal-based typing test
+
+Package: ttyplot
+Version: 1.7.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 60
+Depends: ncurses
+Filename: pool/main/t/ttyplot/ttyplot_1.7.1-1_aarch64.deb
+Size: 7616
+MD5sum: 714f4235ed84ca08acc9a612f66535ec
+SHA1: 88bbfa324db033808e24b842406bd9e76dc08b39
+SHA256: b192e3af393524fb3a5c46bf3c975561f62d9bf27aafb74259184b8b4b59ccdf
+Homepage: https://github.com/tenox7/ttyplot
+Description: A realtime plotting utility for terminal with data input from stdin
+
+Package: ttyrec
+Version: 1.0.8-8
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 96
+Filename: pool/main/t/ttyrec/ttyrec_1.0.8-8_aarch64.deb
+Size: 10712
+MD5sum: 6487bdd441e256f7c440bbd7320852f5
+SHA1: 37da9be96b2e0cfc2118b812a55bca11a308e51e
+SHA256: e2aa1d667272a73f0de4145d7b39a615cff9cfe48721c95d7c557cef0d305b47
+Homepage: http://0xcc.net/ttyrec/
+Description: Terminal recorder and player
 
 Package: unrar
 Version: 7.1.10-1
