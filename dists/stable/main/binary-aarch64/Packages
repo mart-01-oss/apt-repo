@@ -4729,6 +4729,20 @@ SHA256: 7c696a8805893fea51b6d4e7e43d846ab5c96c5b1ca499ae5b2830b0e23c834d
 Homepage: https://w-calc.sourceforge.net
 Description: Capable calculator
 
+Package: wdiff
+Version: 1.2.2-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 100
+Depends: ncurses
+Filename: pool/main/w/wdiff/wdiff_1.2.2-2_aarch64.deb
+Size: 16396
+MD5sum: 67fed4ca52df0919f4dd1e21ee6a8403
+SHA1: ae4ea24e67504d6a9d58b69119f149d8407b6df2
+SHA256: eb4b9724ff2b0f7d8ecd18c624e1423963874c71abc52243282815a95c9a91a8
+Homepage: https://www.gnu.org/software/wdiff/
+Description: Display word differences between text files
+
 Package: webp-pixbuf-loader
 Version: 0.2.7-1
 Architecture: aarch64
@@ -4937,4 +4951,113 @@ SHA1: 0315ba01f48786364e28fcb49721736671edb4a4
 SHA256: b721470c26ff83f0fbb377004ac5c96ded298f3a7ba162095b8c17548f4c0efc
 Homepage: https://github.com/pufferffish/wireproxy
 Description: Wireguard client that exposes itself as a socks5 proxy
+
+Package: wiz
+Version: 2022.06.02-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 788
+Depends: libc++
+Filename: pool/main/w/wiz/wiz_2022.06.02-1_aarch64.deb
+Size: 224516
+MD5sum: f9b6ee1d898927efc1d8f4384ef904fd
+SHA1: 16b8cb2cdeb9c45cc9b67cbc930eb302d5dc0d7d
+SHA256: 01c20e982e273c00c752a3520074cbe7bd69f771b6f17416600ec520e1a1ca1f
+Homepage: http://wiz-lang.org/
+Description: A high-level assembly language for writing homebrew software for retro console platforms
+
+Package: woff2
+Version: 1.0.2-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 384
+Depends: brotli, libc++
+Filename: pool/main/w/woff2/woff2_1.0.2-4_aarch64.deb
+Size: 67208
+MD5sum: c57f5ca27d89b99b92296e50d7f528f4
+SHA1: 3225cb6e1e0850c1ad92300b5ba9984ee60946eb
+SHA256: 96664d237890d22c7bd820d4229ac9ed1f660198b42e24ad864ada69a2972a61
+Homepage: https://www.w3.org/TR/WOFF2/
+Description: font compression reference code
+
+Package: wol
+Version: 0.7.1-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 84
+Filename: pool/main/w/wol/wol_0.7.1-4_aarch64.deb
+Size: 13784
+MD5sum: 7ef113ed89d4d402089605443cab7384
+SHA1: 140d156197bffddb675128b90d50b34436bbf9f7
+SHA256: 9374b81fa02b4da039917e4fc4e01b7cd8fccb3b1f160dd31ffa5360c5aafe97
+Homepage: https://sourceforge.net/projects/wake-on-lan/
+Description: Program implementing Wake On LAN functionality
+
+Package: wordgrinder
+Version: 0.8
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 540
+Depends: liblua53, ncurses, zlib
+Filename: pool/main/w/wordgrinder/wordgrinder_0.8_aarch64.deb
+Size: 104820
+MD5sum: d31cb8eb68a35daa8ab030baebe16820
+SHA1: 869ca5ed6980894cfa446ddb0096eb2f5892402a
+SHA256: 0287eefe75d4f48dc4fc4a1a5b83250f85f2ee52c430545d4110a4098ebcc2e9
+Homepage: http://cowlark.com/wordgrinder/
+Description: A Unicode-aware character cell word processor
+
+Package: wren
+Version: 0.4.0-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 268
+Depends: libuv
+Filename: pool/main/w/wren/wren_0.4.0-2_aarch64.deb
+Size: 62404
+MD5sum: 9c79267c47e56a3af63d15076a2b2564
+SHA1: 9100f765475b3e377a3078a5b7d292a793fd49e2
+SHA256: 1d805bf71e9c1e9be48f40f2f98a7b946ab88310e17784ef94359ad5651b88fe
+Homepage: https://wren.io/
+Description: Small, fast, class-based concurrent scripting language interpreter
+
+Package: wrk
+Version: 4.2.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 168
+Depends: openssl, luajit
+Filename: pool/main/w/wrk/wrk_4.2.0-1_aarch64.deb
+Size: 31296
+MD5sum: 2d6e3d036673f6ab0c6e135b38edea90
+SHA1: 7f285197fb17b3b0b056d9f9bd119bd9fab71293
+SHA256: b55e5cf0b02c797971f15f2c9f56bd91303d09b8a13408d29d6ce2b312d23533
+Homepage: https://github.com/wg/wrk
+Description: Modern HTTP benchmarking tool
+
+Package: wtfutil
+Version: 0.46.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 82968
+Filename: pool/main/w/wtfutil/wtfutil_0.46.1_aarch64.deb
+Size: 14412984
+MD5sum: 7911d3fb021fad654bd1c4cbe6da884f
+SHA1: 32c38c1bd7d5be8f3c591af9c7493c514972b6f6
+SHA256: cabd9c7b7d991556108a565d2b9ad5ffd758537c7b8bde2d87646e73010d109d
+Homepage: https://wtfutil.com/
+Description: The personal information dashboard for your terminal
+
+Package: wuzz
+Version: 0.5.0-5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 9084
+Filename: pool/main/w/wuzz/wuzz_0.5.0-5_aarch64.deb
+Size: 2500456
+MD5sum: f088a808d77cf3dc9d1880825e13b395
+SHA1: cc446bd50126bca34429e7eb481fed01738848c6
+SHA256: 693780d79c4ed3e2a56f99508d89bf7f9aae909514371a597d11b074a6da3fbc
+Homepage: https://github.com/asciimoo/wuzz
+Description: Interactive command line tool for HTTP inspection
 
