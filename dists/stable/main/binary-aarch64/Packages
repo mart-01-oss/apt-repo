@@ -5061,3 +5061,114 @@ SHA256: 693780d79c4ed3e2a56f99508d89bf7f9aae909514371a597d11b074a6da3fbc
 Homepage: https://github.com/asciimoo/wuzz
 Description: Interactive command line tool for HTTP inspection
 
+Package: x11-repo
+Version: 8.4-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 52
+Depends: termux-keyring
+Filename: pool/main/x/x11-repo/x11-repo_8.4-1_all.deb
+Size: 1196
+MD5sum: d9fed9da7c04a9549e350c3e00632897
+SHA1: fc0d400e176da5c2b9a9a5514be2fd8620cb48c6
+SHA256: fd1faa46c4dae1f5e03cdaf4be0371aaaa0205e3af2dc4714d19acda0b2d61e1
+Homepage: https://github.com/termux/x11-packages
+Description: Package repository containing X11 programs and libraries
+
+Package: xdelta3
+Version: 3.1.0-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 172
+Depends: liblzma
+Filename: pool/main/x/xdelta3/xdelta3_3.1.0-3_aarch64.deb
+Size: 53124
+MD5sum: e181d3609f26d5abcc2fbd2e9b69d77c
+SHA1: a311886328b4bf1d6acae4a3a7ce6b3cd72dd242
+SHA256: a00ea535f1634cc3832171dc2c1af92649b3b86fbe3ee21ce0455e0f1227b13b
+Homepage: https://github.com/jmacd/xdelta
+Description: xdelta3 - VCDIFF (RFC 3284) binary diff tool
+
+Package: xh
+Version: 0.25.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 9356
+Filename: pool/main/x/xh/xh_0.25.0_aarch64.deb
+Size: 2718944
+MD5sum: 32cf7e443baca60ea214eac9fd7f1fb9
+SHA1: 757605633a48fb4ac8925417d797be46b6b668e4
+SHA256: e215e86896d395ed86eea4be636e831d7de7d836cebb132f041c038709b18533
+Homepage: https://github.com/ducaale/xh
+Description: A friendly and fast tool for sending HTTP requests
+
+Package: xmake
+Version: 3.0.3
+Architecture: aarch64
+Maintainer: Ruki Wang @waruqi
+Installed-Size: 14988
+Depends: ncurses
+Filename: pool/main/x/xmake/xmake_3.0.3_aarch64.deb
+Size: 994804
+MD5sum: 468e7f0431bae62ca2a414de6dbd0fa9
+SHA1: 288ea9348bfbd5040b25af6b10e3c4330361f9bf
+SHA256: 0f8c82049559ba0e2af97cf2e3c22c07d4e708d1cd6f0f924b3dd68820cf46c9
+Homepage: https://xmake.io/
+Description: A cross-platform build utility based on Lua
+
+Package: xmlstarlet
+Version: 1.6.1-8
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 240
+Depends: libxslt, libxml2
+Filename: pool/main/x/xmlstarlet/xmlstarlet_1.6.1-8_aarch64.deb
+Size: 42160
+MD5sum: 1511b423e5a6448e1bbb63f0b126a176
+SHA1: 4d73f9005b5dfc5f07f74e093c7da94fd26628f3
+SHA256: 6a424db5600cfc52ecb0b916a4357c208d9ab925fc3b7c8ad6958891648d1998
+Homepage: https://xmlstar.sourceforge.net/
+Description: Command line XML toolkit
+
+Package: xmlto
+Version: 0.0.29-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 264
+Depends: xsltproc
+Filename: pool/main/x/xmlto/xmlto_0.0.29-2_aarch64.deb
+Size: 21188
+MD5sum: e87888432b2d8a927c2f5b38a9993ad0
+SHA1: 4d9a7cb202e30d750f5cf7170f9d56f681d4217e
+SHA256: 31942eb826ad64139c90b830da7a36de8af5712a90427b812d3f143c26b2bc15
+Homepage: https://pagure.io/xmlto/
+Description: Convert xml to many other formats
+
+Package: xmppc
+Version: 0.1.2-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 116
+Depends: libstrophe, glib, gpgme
+Filename: pool/main/x/xmppc/xmppc_0.1.2-3_aarch64.deb
+Size: 20260
+MD5sum: d579b151bd8d3a854e466f8c3129fec9
+SHA1: d9b804915aa17208e03c03cc7dbbd35214b9e065
+SHA256: 68171bfa83147a2fc4edc21c24b2c3af722807174cf84489c08c2b646f12ea15
+Homepage: https://codeberg.org/Anoxinon_e.V./xmppc
+Description: Command Line Interface Tool for XMPP
+
+Package: yadm
+Version: 3.5.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 164
+Depends: git
+Filename: pool/main/y/yadm/yadm_3.5.0_aarch64.deb
+Size: 29148
+MD5sum: 670701d97895e77d55a91db9a737f0eb
+SHA1: f3e91320a2602e7408f5050c692e1720c8674db2
+SHA256: e8e31408c156d6dfc23d6f4a56d1685a615ecaaa52ff570c015be036c81cb3b4
+Homepage: https://yadm.io/
+Description: Yet Another Dotfiles Manager
+
