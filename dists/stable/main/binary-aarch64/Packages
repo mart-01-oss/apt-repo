@@ -5301,3 +5301,130 @@ SHA256: 6108bf0deb9e942d5e30872bcf9ba23f790479d7a1f3b43d5926acd6864106b1
 Homepage: https://github.com/pystardust/ytfzf
 Description: A POSIX script that helps you find Youtube videos (without API)
 
+Package: yuma123
+Version: 2.13-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4956
+Depends: libssh2, libxml2, openssl, readline
+Filename: pool/main/y/yuma123/yuma123_2.13-4_aarch64.deb
+Size: 838748
+MD5sum: 1c3097e2a399a47b42e8a7927bd9b3ec
+SHA1: ce41c48ea4db0ca6c557394ce4eea8c5721eb765
+SHA256: 5c4a4c5307409dad0745c8dee5de1a3f456c1eee92ec685917f8b70d3e648b6b
+Homepage: https://yuma123.org/
+Description: Provides an opensource YANG API in C
+
+Package: yuma123-static
+Version: 2.13-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 14008
+Depends: yuma123 (= 2.13-4)
+Filename: pool/main/y/yuma123-static/yuma123-static_2.13-4_aarch64.deb
+Size: 2123360
+MD5sum: 524e5243ea6cde4af50db2269321e63b
+SHA1: ca725bed6c241d05dfb97a95ade48f633f079824
+SHA256: b1f274fbf4de5708b55eb42418b0c8ca7b9c8015dcc1cb5cc77a8083374c15b4
+Homepage: https://yuma123.org/
+Description: Static libraries for yuma123
+
+Package: z-push
+Version: 2.7.6
+Architecture: all
+Maintainer: @termux
+Installed-Size: 4404
+Depends: apache2, php
+Filename: pool/main/z/z-push/z-push_2.7.6_all.deb
+Size: 505276
+MD5sum: 5cf881c1a56194cd10c83a8ff5602f78
+SHA1: 4c643c671b64acec2f8633e2af67ec342ac925ff
+SHA256: 02bccf8f86754deb12f7cae31ce191b69561d4869d4e23311b6060bc1954d408
+Homepage: https://z-push.org/
+Description: An open-source application to synchronize ActiveSync compatible devices and Outlook
+
+Package: z3
+Version: 4.15.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 46252
+Depends: libc++
+Filename: pool/main/z/z3/z3_4.15.3_aarch64.deb
+Size: 11420232
+MD5sum: ddd6c1648a7bb07c58770f69f5a59d84
+SHA1: 25bfe2c61560a2b93730d4a7b9f89788c75cf250
+SHA256: 8949be0b2a17557ab3cf950cc6addefb44e3f5e720dde5a20b5683ae265a6d71
+Homepage: https://github.com/Z3Prover/z3
+Description: Z3 is a theorem prover from Microsoft Research
+
+Package: zbar
+Version: 0.23.93-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 480
+Depends: imagemagick, libiconv, libjpeg-turbo
+Breaks: zbar-dev
+Replaces: zbar-dev
+Filename: pool/main/z/zbar/zbar_0.23.93-1_aarch64.deb
+Size: 128088
+MD5sum: 8746fd33007ffecb5aa30185f4e3e716
+SHA1: 3c3bdf642feff5712b2cc1289314ac8cb9af2daf
+SHA256: e6470a0ddda0d167b3fdff77f12c941a0923a9e14ba0237a7efd54e26c522c67
+Homepage: https://github.com/mchehab/zbar
+Description: Software suite for reading bar codes from various sources
+
+Package: zbar-static
+Version: 0.23.93-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 380
+Depends: zbar (= 0.23.93-1)
+Filename: pool/main/z/zbar-static/zbar-static_0.23.93-1_aarch64.deb
+Size: 92960
+MD5sum: 16ccd7da9f7609bf65df1679c61e4b0b
+SHA1: 259043e27a97858b33f77d6e04729df4741acee2
+SHA256: 54430583e6301e13dfd128f56d48b29d271c9c9285944ae5a7084eb1e9159c0a
+Homepage: https://github.com/mchehab/zbar
+Description: Static libraries for zbar
+
+Package: zellij
+Version: 0.43.1
+Architecture: aarch64
+Maintainer: Jonathan Lei <me@xjonathan.dev>
+Installed-Size: 40120
+Filename: pool/main/z/zellij/zellij_0.43.1_aarch64.deb
+Size: 8621836
+MD5sum: e73503e9f599ee223c8d84e5227b9f4b
+SHA1: 456405fa5c5506df57a6441f433507ec43e25f08
+SHA256: 45c3c8ce2338392028b6162ada4c186aac02ae4e7070fdf633e169b93c023d7e
+Homepage: https://zellij.dev/
+Description: A terminal workspace with batteries included
+
+Package: zeronet
+Version: 0.7.1-9
+Architecture: all
+Maintainer: @termux
+Installed-Size: 6252
+Depends: bash, clang, make, openssl-tool, pkg-config, python
+Recommends: tor
+Filename: pool/main/z/zeronet/zeronet_0.7.1-9_all.deb
+Size: 1106228
+MD5sum: 05e7cf2140881c1b78c62e49b2dbd042
+SHA1: 03fa36ca60a50890713089d6f4c2c4995e84e1b3
+SHA256: 0a3bb9262e19f68a6e12bd0aff20b5678d63867d3f6e9e8c4dae86f53a88f0cf
+Homepage: https://zeronet.io/
+Description: Decentralized websites using Bitcoin crypto and BitTorrent network
+
+Package: zig
+Version: 0.15.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 375864
+Filename: pool/main/z/zig/zig_0.15.1_aarch64.deb
+Size: 51042492
+MD5sum: 1a3c9fbade8ef79e7a4a4cb786cfacaf
+SHA1: 357990823399ff74bd415e9dc91ed2b1232721a0
+SHA256: a7be1bde425966aab39bd5af3725734344bfc12560aae64b8b833c688973088b
+Homepage: https://ziglang.org
+Description: General-purpose programming language and toolchain
+
