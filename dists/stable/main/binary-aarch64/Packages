@@ -5550,3 +5550,113 @@ SHA256: 49a42cb8c7366aba5b5441f8df6d6bc67d3743dac5a81e6224f4b85b5d0fb92b
 Homepage: https://github.com/ajeetdsouza/zoxide
 Description: A faster way to navigate your filesystem
 
+Package: zpaq
+Version: 7.15-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 400
+Depends: libc++
+Filename: pool/main/z/zpaq/zpaq_7.15-1_aarch64.deb
+Size: 149056
+MD5sum: 0a78f86b2aa1bd487218d110590902cf
+SHA1: 403536fc7503fd0595057c12de2d783f1228b8f2
+SHA256: 234bde3f906c14a3a741bb52908e2498f73c4fade89ce7970b6b96f5a590ce32
+Homepage: http://mattmahoney.net/dc/zpaq.html
+Description: Programmable file compressor, library and utilities. Based on the PAQ compression algorithm
+
+Package: zrok
+Version: 1.1.5
+Architecture: aarch64
+Maintainer: Joshua Kahn @TomJo2000
+Installed-Size: 143248
+Filename: pool/main/z/zrok/zrok_1.1.5_aarch64.deb
+Size: 31957924
+MD5sum: 95e1676af39a273a65fb6eb12c623117
+SHA1: 1da1f45c222209abfa66442b38e15b519829b638
+SHA256: ba31f96c630df0e49ae72dc514bbba3272fc59e5c36d758c48d32bb6e6badfdf
+Homepage: https://zrok.io/
+Description: An open source sharing solution built on OpenZiti.
+
+Package: zsh
+Version: 5.9-9
+Architecture: aarch64
+Maintainer: Joshua Kahn @TomJo2000
+Installed-Size: 9676
+Depends: libandroid-support, libcap, ncurses, termux-tools, pcre2
+Recommends: command-not-found, zsh-completions
+Filename: pool/main/z/zsh/zsh_5.9-9_aarch64.deb
+Size: 2038008
+MD5sum: 8be82c2c41244bcd71b6f7167fb81fad
+SHA1: d16c008feed5552a0cf5ff7de6bbeaa31ed592a3
+SHA256: 528df2901895e77ec1ee226b99c8433bc3591d1ed572901d108a6541bd6b36cd
+Homepage: https://www.zsh.org
+Description: Shell with lots of features
+
+Package: zsh-completions
+Version: 0.35.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 1676
+Depends: zsh
+Filename: pool/main/z/zsh-completions/zsh-completions_0.35.0_all.deb
+Size: 246348
+MD5sum: 2efdac221de86905d3978793765da549
+SHA1: 72ecfb4f86f2cea03d3b3054b401f1fb31ca5703
+SHA256: 407056c7cb06e3de14ae568238515862cf05d65f65d06cf262cc3c5d6ec53db6
+Homepage: https://github.com/zsh-users/zsh-completions
+Description: Additional completion definitions for Zsh
+
+Package: zsync
+Version: 0.6.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 240
+Filename: pool/main/z/zsync/zsync_0.6.3-1_aarch64.deb
+Size: 66232
+MD5sum: a08947cfc899d6a21157944c0d6d92d4
+SHA1: fa2d6be61c49210fcc0febfcff3adeaad0925ad4
+SHA256: da9edbf46bf984370ae3cf1ff00a5ee46f5ba5f9380c563c8ac17e36bf58c715
+Homepage: https://zsync.moria.org.uk/
+Description: A file transfer program to download files from remote web servers
+
+Package: zziplib
+Version: 0.13.80-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 424
+Depends: zlib
+Filename: pool/main/z/zziplib/zziplib_0.13.80-1_aarch64.deb
+Size: 55120
+MD5sum: 2de609df5257231baaf7a90b9c768a03
+SHA1: de43f4085db46d1a079d8892a1621b8d5350840f
+SHA256: 81f412a3d702ee54d6150d1ab5e347076b3e7522ea63e27ddff5746eb76c6544
+Homepage: https://zziplib.sourceforge.net/
+Description: Provides read access to zipped files in a zip-archive, using compression based on free algorithms
+
+Package: zzuf
+Version: 2022.05.29-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 204
+Filename: pool/main/z/zzuf/zzuf_2022.05.29-1_aarch64.deb
+Size: 50084
+MD5sum: cf3bb7d88450a5f1aac8a889c6cda504
+SHA1: 1f8223e74ec980dc4520517da5d0799e8078c044
+SHA256: 95ecb58105fd6ad3053e626ec04f803dbfe5f6e9e81a48665f584c3230e462e1
+Homepage: http://caca.zoy.org/wiki/zzuf
+Description: A transparent application input fuzzer
+
+Package: zzuf-static
+Version: 2022.05.29-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 420
+Depends: zzuf (= 2022.05.29-1)
+Filename: pool/main/z/zzuf-static/zzuf-static_2022.05.29-1_aarch64.deb
+Size: 66632
+MD5sum: 5989ceae4319b9e4dd31f88d777e42f1
+SHA1: 97de4be8d1c7c7cb8e9fc7c70a27442b64fd918c
+SHA256: cc596bd86829534764372a49fb5e550942ff331a1883fc2a9448016b701c047d
+Homepage: http://caca.zoy.org/wiki/zzuf
+Description: Static libraries for zzuf
+
