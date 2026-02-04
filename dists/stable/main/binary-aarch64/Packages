@@ -5691,6 +5691,20 @@ SHA256: 407056c7cb06e3de14ae568238515862cf05d65f65d06cf262cc3c5d6ec53db6
 Homepage: https://github.com/zsh-users/zsh-completions
 Description: Additional completion definitions for Zsh
 
+Package: zssh
+Version: 1.5c-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 88
+Depends: libandroid-glob, lrzsz, openssh, readline
+Filename: pool/main/z/zssh/zssh_1.5c-1_aarch64.deb
+Size: 14188
+MD5sum: bf2d9549d44dda6710652b50e29d6dee
+SHA1: cf202ed1f4666a05366d58f75e6c0b83f633f6da
+SHA256: ebcec95fce83dd3b3efaf9ce437f490b35e1b8530dd0a636baf104ffe0a92c6c
+Homepage: https://zssh.sourceforge.net/
+Description: A program for interactively transferring files to a remote machine while using the secure shell (ssh)
+
 Package: zsync
 Version: 0.6.3-1
 Architecture: aarch64
