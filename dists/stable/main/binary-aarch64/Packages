@@ -3764,6 +3764,20 @@ SHA256: ebcae670147f679bc0b6da7d44f4d04614848f7741e8e20f309ec6d29058dcc6
 Homepage: https://indigo-dc.github.io/udocker
 Description: A basic user tool to execute simple docker containers in batch or interactive systems without root privileges.
 
+Package: uftrace
+Version: 0.18.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1824
+Depends: capstone, libandroid-execinfo, libandroid-glob, libandroid-spawn, libc++, libdw, libelf, libluajit, ncurses, python
+Filename: pool/main/u/uftrace/uftrace_0.18.1_aarch64.deb
+Size: 367880
+MD5sum: ebebdd83e2179b15b61c577fa60c3891
+SHA1: d978e3c0dca7553d23fafb0c01e8d59e45b04186
+SHA256: 521c2ddffc97dc1fc0afc0567344aa2e7829b97883cba35ce2d21e208bd2740a
+Homepage: https://uftrace.github.io/slide
+Description: Function (graph) tracer for user-space
+
 Package: ugit
 Version: 5.9
 Architecture: all
