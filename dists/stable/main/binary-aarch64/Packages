@@ -4108,6 +4108,35 @@ SHA256: 67f696dd49227ef9e526f891806731b17f26e1b741987db945ea4eb02752d65a
 Homepage: https://vale.sh
 Description: A syntax-aware linter for prose built with speed and extensibility in mind
 
+Package: valgrind
+Version: 3.22.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 22004
+Breaks: valgrind-dev
+Replaces: valgrind-dev
+Filename: pool/main/v/valgrind/valgrind_3.22.0-1_aarch64.deb
+Size: 2635608
+MD5sum: a3059cd83e521616a245b199df7361ed
+SHA1: 94e576f3dc024b0c10d80067546605893d4f6179
+SHA256: 386880a504f7189764c143fe959ee705f4498a3d3703aa1050033a5f8c0d13d7
+Homepage: https://valgrind.org/
+Description: Instrumentation framework for building dynamic analysis tools
+
+Package: valgrind-static
+Version: 3.22.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 31812
+Depends: valgrind (= 3.22.0-1)
+Filename: pool/main/v/valgrind-static/valgrind-static_3.22.0-1_aarch64.deb
+Size: 5185460
+MD5sum: 636d35629e640a438815132802f8101b
+SHA1: cdb8acc4265877471d2d4208b7a91907abb0bbd6
+SHA256: b20bd791e87334b3d010493290ec94f7f64a5b43a9a2795776a42361e42deaeb
+Homepage: https://valgrind.org/
+Description: Static libraries for valgrind
+
 Package: vapoursynth
 Version: 72-1
 Architecture: aarch64
@@ -4793,10 +4822,10 @@ Depends: libandroid-support, libcurl, libgcrypt, libgnutls, libiconv, ncurses, z
 Breaks: weechat-dev
 Replaces: weechat-dev
 Filename: pool/main/w/weechat/weechat_4.7.1_aarch64.deb
-Size: 789688
-MD5sum: afeb1af76ff4b1759b9831c4022c5480
-SHA1: cf7f176298bcddb3ff6c83c6182638f2116aa208
-SHA256: 3565ff6a954d83909e94120dfe678ced7b1f41f49a41b3fffc4c96340420b045
+Size: 789452
+MD5sum: 9b4c825f4a6b9bff3fb0c533f99b7e17
+SHA1: 171c0c76c5dc084c483d586932f3e8502653732b
+SHA256: 65fe22dfb3ff2f308897fa45a732e501ca4c93eb33f26e34ab34b397aa26f65a
 Homepage: https://weechat.org/
 Description: Fast, light and extensible IRC chat client
 
@@ -4807,12 +4836,26 @@ Maintainer: @termux
 Installed-Size: 240
 Depends: liblua53, weechat (= 4.7.1)
 Filename: pool/main/w/weechat-lua-plugin/weechat-lua-plugin_4.7.1_aarch64.deb
-Size: 39780
-MD5sum: 057f09af15a04be8a1837cdafeb17f1c
-SHA1: 4039299494e826e6b5975eb81d3b74819896f7bb
-SHA256: 4e5e79325ce310bb01c9732488fff2ac4fff72307c074431aff3d61aaa3e2350
+Size: 39856
+MD5sum: 12971d4e7e8fe883ca0887125ff80051
+SHA1: 0f931b0be47aea15bcebea6d46afdbed977dcc7f
+SHA256: 666d95adf44555edc441c685abb93648210eb11709a6063c41da6d161685f602
 Homepage: https://weechat.org/
 Description: WeeChat Lua Plugin
+
+Package: weechat-matrix-rs
+Version: 2022.10.04-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 18704
+Depends: weechat, openssl
+Filename: pool/main/w/weechat-matrix-rs/weechat-matrix-rs_2022.10.04-1_aarch64.deb
+Size: 4316660
+MD5sum: 99363f797cc3294d62c66b348cecbaba
+SHA1: 2c9eb12aaf628ad18e18a5500e4b613e369891cb
+SHA256: 5fc393d449603cd322f3b954ef402487344db0bb64b9e5f272c3de55a7499979
+Homepage: https://github.com/poljar/weechat-matrix-rs
+Description: Rust rewrite of the python weechat-matrix script
 
 Package: weechat-perl-plugin
 Version: 4.7.1
@@ -4821,10 +4864,10 @@ Maintainer: @termux
 Installed-Size: 368
 Depends: perl, weechat (= 4.7.1)
 Filename: pool/main/w/weechat-perl-plugin/weechat-perl-plugin_4.7.1_aarch64.deb
-Size: 61868
-MD5sum: d9411ed10538f75c830ce3a7a2f88a00
-SHA1: 2597c728497f9cfa396e865df319a8243a6cc816
-SHA256: 866e26127039cc5a16c7739d4e24b9ddfcd26dfd3894fb6e3f435e83c94df5a5
+Size: 61904
+MD5sum: ac2bbe2e06cd55ba8b426bbd216c9cfd
+SHA1: d978d5df362f0c00ffd51badfa5cb5080c294305
+SHA256: 682d4b0304baa7d6743a3b8d4d09ba3a40d9c6e6b62357210b72e81ed9a4501f
 Homepage: https://weechat.org/
 Description: WeeChat Perl Plugin
 
@@ -4835,10 +4878,10 @@ Maintainer: @termux
 Installed-Size: 276
 Depends: python, weechat (= 4.7.1)
 Filename: pool/main/w/weechat-python-plugin/weechat-python-plugin_4.7.1_aarch64.deb
-Size: 43404
-MD5sum: 3cb0b503d8882bc19c88074d3c3d94a6
-SHA1: 1f05520b5fe7c05e70dd60e7a1ff754b212814a6
-SHA256: 160d1328bc3c186ac11d277057dea588e94536eca5f6dd34542dcec93ff8c4f7
+Size: 43464
+MD5sum: d85858360b20a51e3e34c62a7aed8930
+SHA1: 5d0eee8b208595f66e8c8fbb82d399e5679d03d7
+SHA256: 92be83826b0cf23cf7cb23fc6d5194c81b310d9ede164d504528be0e46356f33
 Homepage: https://weechat.org/
 Description: WeeChat Python3 Plugin
 
@@ -4849,10 +4892,10 @@ Maintainer: @termux
 Installed-Size: 260
 Depends: ruby, weechat (= 4.7.1)
 Filename: pool/main/w/weechat-ruby-plugin/weechat-ruby-plugin_4.7.1_aarch64.deb
-Size: 46304
-MD5sum: 35b8553850c87bc095b375e00de98252
-SHA1: c1c24b53177d642fa5b5665b2568e5085dccda2d
-SHA256: ee111ee6badfbb125c66e3b4f3c9354d97f3bf859bbaff6c2829fd02cc3417fc
+Size: 46344
+MD5sum: e7fd7bfd0fd98314d7872df72835251c
+SHA1: 4d5d4a79c962ab30eb9190d35d31689f173ff686
+SHA256: fde5828086d964b5cd57cde19c920aa99403a1db75244988ff32f9a52ba277ab
 Homepage: https://weechat.org/
 Description: WeeChat Ruby Plugin
 
@@ -5186,6 +5229,20 @@ SHA256: 68171bfa83147a2fc4edc21c24b2c3af722807174cf84489c08c2b646f12ea15
 Homepage: https://codeberg.org/Anoxinon_e.V./xmppc
 Description: Command Line Interface Tool for XMPP
 
+Package: xorriso
+Version: 1:1.5.7-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2544
+Depends: libiconv, libandroid-support, readline, libbz2, zlib
+Filename: pool/main/x/xorriso/xorriso_1+1.5.7-3_aarch64.deb
+Size: 895372
+MD5sum: 9b9d95ddfcbce9bcec719a8d524bf7db
+SHA1: 8f1a611927f7c0ea537a9b9b55894e8a073008b5
+SHA256: d2aeae4b87e778df5b90830b251ee1017b53d8b14773a4c12fa46290c2b3d9c9
+Homepage: https://www.gnu.org/software/xorriso
+Description: Tool for creating ISO files
+
 Package: yadm
 Version: 3.5.0
 Architecture: aarch64
@@ -5328,6 +5385,20 @@ SHA1: 6228a1d33eab18e413e1fe74434b2a39e912182f
 SHA256: 6108bf0deb9e942d5e30872bcf9ba23f790479d7a1f3b43d5926acd6864106b1
 Homepage: https://github.com/pystardust/ytfzf
 Description: A POSIX script that helps you find Youtube videos (without API)
+
+Package: ytui-music
+Version: 2.0.0-beta-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2476
+Depends: libsqlite, mpv, openssl, python-pip
+Filename: pool/main/y/ytui-music/ytui-music_2.0.0-beta-2_aarch64.deb
+Size: 790820
+MD5sum: ea13d999a11caeb274bfab49e1032e0e
+SHA1: b1dc7d15bbdd00659080811424fc8eaffd38c5dc
+SHA256: 5d5c71f0e131d824ace73c466ca444008ebe3b6f18c020b21f3a50ce2236d2dc
+Homepage: https://github.com/sudipghimire533/ytui-music
+Description: Youtube client in terminal for music
 
 Package: yuma123
 Version: 2.13-4
