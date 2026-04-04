@@ -202,6 +202,140 @@ SHA256: 1e827af3010207613368a4cb0bf7e8255bf767135ea93e544b1972726a5c359f
 Homepage: https://github.com/StackExchange/dnscontrol
 Description: Infrastructure as code for DNS!
 
+Package: emmylua-ls
+Version: 0.22.0
+Architecture: aarch64
+Maintainer: Steven Xu @stevenxxiu
+Installed-Size: 46148
+Filename: pool/main/e/emmylua-ls/emmylua-ls_0.22.0_aarch64.deb
+Size: 13134420
+MD5sum: c523e7ca4bcd3408711fe8d712ba0a6d
+SHA1: f401311363493efd9cea56c1769f59452fc2c83f
+SHA256: f3b1c3de141e4f3b15fbdf36b993ad073a6d40d090c095a92c82232a6ecfaeb7
+Homepage: https://github.com/EmmyLuaLs/emmylua-analyzer-rust
+Description: Emmy Lua Language Server coded in Rust
+
+Package: fcgi
+Version: 2.4.7
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 248
+Breaks: fcgi-dev
+Replaces: fcgi-dev
+Filename: pool/main/f/fcgi/fcgi_2.4.7_aarch64.deb
+Size: 49420
+MD5sum: 9f9da91aa9e9635d38932c3905fbc1b8
+SHA1: 9a9e279b976387c33c5b90c56552eb7054097f6d
+SHA256: 9c06c8c40dcb1c39d4fe47ebb33fc1468d58dc5fdf9d6c22326a4cec361d1bdb
+Homepage: https://fastcgi-archives.github.io/
+Description: A language independent, high performant extension to CGI
+
+Package: fcgi-static
+Version: 2.4.7
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 120
+Depends: fcgi (= 2.4.7)
+Filename: pool/main/f/fcgi-static/fcgi-static_2.4.7_aarch64.deb
+Size: 20152
+MD5sum: dac47fd1392a03b46caa8c13e91f2cb5
+SHA1: 68a4adf36c920af37d5ed75ab94edac8ccf2b6b6
+SHA256: e87775b061ffe0bb75c6fc189e63b8dca5ba5e8168e87b24b4a4e890aa92c06d
+Homepage: https://fastcgi-archives.github.io/
+Description: Static libraries for fcgi
+
+Package: fcgiwrap
+Version: 1.1.0+g99c942c
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 76
+Depends: fcgi
+Filename: pool/main/f/fcgiwrap/fcgiwrap_1.1.0+g99c942c_aarch64.deb
+Size: 9448
+MD5sum: a8796023a6c86409032dcece1026bd66
+SHA1: b5e14888b89234d9c5d38acfdfd5ed918a27355d
+SHA256: 79fa6a1a2e6c933de5d6806818273d81cb650390e09f265a3f808486b7dbf76b
+Homepage: https://github.com/gnosek/fcgiwrap
+Description: A simple server for running CGI applications over FastCGI
+
+Package: fresh-editor
+Version: 0.2.21
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 61420
+Filename: pool/main/f/fresh-editor/fresh-editor_0.2.21_aarch64.deb
+Size: 10282220
+MD5sum: 2cf8c1700afb579fb9980397b6ca4bce
+SHA1: eeddd95a5f317f088e3caea5bb82b7facdfe8aaa
+SHA256: 548b5c3149f0fe13edeeb3b9b1bb4ee4b1399d6db96b475de8412ca2ef7fb9bf
+Homepage: https://getfresh.dev/
+Description: Text editor for your terminal: easy, powerful and fast
+
+Package: git-town
+Version: 22.2.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 22508
+Filename: pool/main/g/git-town/git-town_22.2.0_aarch64.deb
+Size: 4432816
+MD5sum: d77a1e57a4da9c1f90ad976040235fc4
+SHA1: 1c497c8bd6c4a5be893794b84856575f6cf799ac
+SHA256: 96b4027f5d2435d9eb84b152a1e5c8a19439912afeb76881a8f48973c1df035b
+Homepage: https://www.git-town.com
+Description: Git branches made easy
+
+Package: goresym
+Version: 3.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4032
+Filename: pool/main/g/goresym/goresym_3.3_aarch64.deb
+Size: 1016508
+MD5sum: 810b20b64f203e328f792af1f96aae8c
+SHA1: 680c72e4eb4ae2b23cc592466678084e9bcf8d95
+SHA256: cff460c052ccb1130d0e5cb9eb3bf8c3e417de4169bfe2ff72d54f2387f8c7b4
+Homepage: https://github.com/mandiant/GoReSym
+Description: Go symbol recovery tool
+
+Package: gotify
+Version: 2.9.1
+Architecture: aarch64
+Maintainer: Izumi Sena Sora <info@unordinary.eu.org>
+Installed-Size: 55984
+Filename: pool/main/g/gotify/gotify_2.9.1_aarch64.deb
+Size: 10362632
+MD5sum: 161b1eb8ff148a2218a0e10dee4a1649
+SHA1: af02612098a2ad52a27818fe528d5395b9246e84
+SHA256: 7be50cab6d670eef9940b1659dd2bf0f767513ea5807b79a658bf8aa04b73ade
+Homepage: https://github.com/gotify/server
+Description: A simple server for sending and receiving messages in real-time per WebSocket.
+
+Package: grap
+Version: 1.49
+Architecture: aarch64
+Maintainer: @xingguangcuican6666 <xingguangcuican666@foxmail.com>
+Installed-Size: 432
+Filename: pool/main/g/grap/grap_1.49_aarch64.deb
+Size: 103824
+MD5sum: 4ad755217f22fee67cd5dc4d0041c8f3
+SHA1: 924353515f9b8e885713d1edb5aa3eb5eb5146f5
+SHA256: 24a90c01b5575f7981530fb5791bd2912d909727dbca31d6b8f476c0eaee1d94
+Homepage: https://www.lunabase.org/~faber/Vault/software/grap/
+Description: Language for typesetting graphs
+
+Package: grpcurl
+Version: 1.9.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 27588
+Filename: pool/main/g/grpcurl/grpcurl_1.9.3_aarch64.deb
+Size: 5463112
+MD5sum: a61026efdab49299c7a394f03d264c43
+SHA1: 4fbfa317d62bd8f9614a5f32a10e69d49911766f
+SHA256: ff38b2c6fed23fcd02a7927ca1db0ac7bdce688985c1808cbf09975e64761ad2
+Homepage: https://github.com/fullstorydev/grpcurl
+Description: Like cURL, but for gRPC: Command-line tool for interacting with gRPC servers
+
 Package: python-ruff
 Version: 0.13.2-1
 Architecture: aarch64
