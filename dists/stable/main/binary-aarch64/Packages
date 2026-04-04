@@ -389,6 +389,20 @@ SHA256: 1e0437268192d47e65ce1237d375793d22f53342d3615c2e977727cdf10e834c
 Homepage: https://github.com/ericsink/SQLitePCL.raw
 Description: SQLitePCLRaw is a Portable Class Library for low-level access to SQLite (native library)
 
+Package: libkeyfinder
+Version: 2.2.8
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 272
+Depends: fftw, libc++
+Filename: pool/main/libk/libkeyfinder/libkeyfinder_2.2.8_aarch64.deb
+Size: 44720
+MD5sum: 94ad6c32c832ff0f0f02759764d29617
+SHA1: d073f30b9bc874bf6e648d9b8cf3009bd46da716
+SHA256: 2054dfcbee648c8663bf8a32edc05d849263f6f593b65b49df30f0a3080ef457
+Homepage: https://mixxxdj.github.io/libkeyfinder
+Description: Musical key detection for digital audio
+
 Package: python-ruff
 Version: 0.13.2-1
 Architecture: aarch64
