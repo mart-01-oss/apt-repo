@@ -336,6 +336,59 @@ SHA256: ff38b2c6fed23fcd02a7927ca1db0ac7bdce688985c1808cbf09975e64761ad2
 Homepage: https://github.com/fullstorydev/grpcurl
 Description: Like cURL, but for gRPC: Command-line tool for interacting with gRPC servers
 
+Package: iat
+Version: 0.1.7
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 188
+Filename: pool/main/i/iat/iat_0.1.7_aarch64.deb
+Size: 24300
+MD5sum: cca835eda1fdda676444b9193f431c96
+SHA1: 97ca9ef0470f26ce2dcfc2699450babe6d92a858
+SHA256: bbad5dd1574abeb9e844adbb6d89cdf3a4740f1b764d8a7a665ae436993cb6cd
+Homepage: http://iat.berlios.de/
+Description: Iso9660 Analyzer Tool
+
+Package: lego
+Version: 4.33.0
+Architecture: aarch64
+Maintainer: Izumi Sena Sora <info@unordinary.eu.org>
+Installed-Size: 67040
+Filename: pool/main/l/lego/lego_4.33.0_aarch64.deb
+Size: 12130000
+MD5sum: 9beb9dfae26c06aa8ef6bce801f70b60
+SHA1: 91eb7638f9bbf8677591dcf9de4f9793c0f73804
+SHA256: a9de49829a3293cdd76c97ddc4fd3b0162deccc30ae58de11c51bc2980e18d65
+Homepage: https://github.com/go-acme/lego
+Description: Let's Encrypt/ACME client and library written in Go
+
+Package: libblosc2
+Version: 2.23.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 884
+Depends: liblz4, zlib, zstd
+Filename: pool/main/libb/libblosc2/libblosc2_2.23.1_aarch64.deb
+Size: 226348
+MD5sum: 36c11a46093e11e1fe5138b71634f71f
+SHA1: 057394e96a25c66888cd95cf01a54ac924921009
+SHA256: 53b2df72d05705766c2a108e060b3e5cea61c2cb080a7c09e23ced77f4a731ba
+Homepage: https://www.blosc.org
+Description: A blocking, shuffling and loss-less compression library
+
+Package: libesqlite3
+Version: 3.49.1.20250307
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1632
+Filename: pool/main/libe/libesqlite3/libesqlite3_3.49.1.20250307_aarch64.deb
+Size: 610996
+MD5sum: 212cb0e9a385a35c074a962974a74f44
+SHA1: 4af213f312079085885d8b094a1ed04a03bf1456
+SHA256: 1e0437268192d47e65ce1237d375793d22f53342d3615c2e977727cdf10e834c
+Homepage: https://github.com/ericsink/SQLitePCL.raw
+Description: SQLitePCLRaw is a Portable Class Library for low-level access to SQLite (native library)
+
 Package: python-ruff
 Version: 0.13.2-1
 Architecture: aarch64
