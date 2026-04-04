@@ -1,3 +1,207 @@
+Package: ascii
+Version: 3.31
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 104
+Filename: pool/main/a/ascii/ascii_3.31_aarch64.deb
+Size: 13488
+MD5sum: f676001b294bd0852f9ad29e9ddc78a3
+SHA1: fb446eed4e53591e817b87ceb2e948c7f27dc0e0
+SHA256: 34031666de8cf86f9f8a498db6ed43c2a527466bac20e44dfc3f5221f24f2fdf
+Homepage: http://www.catb.org/~esr/ascii/
+Description: List ASCII idiomatic names and octal/decimal code-point forms
+
+Package: audiofile
+Version: 0.3.6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 464
+Depends: flac, libc++
+Filename: pool/main/a/audiofile/audiofile_0.3.6_aarch64.deb
+Size: 92172
+MD5sum: 741db28d2529b70a35a5749cd9b31639
+SHA1: 23c4d2d752233c05b67349596d228fc060174e00
+SHA256: b98910c62787bcf5d019f2cddaebd1607dbc0afc2dd05d512e6a50edd1aece75
+Homepage: https://audiofile.68k.org/
+Description: Silicon Graphics Audio File Library
+
+Package: audiofile-static
+Version: 0.3.6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1616
+Depends: audiofile (= 0.3.6)
+Filename: pool/main/a/audiofile-static/audiofile-static_0.3.6_aarch64.deb
+Size: 180928
+MD5sum: a108b65548ab73e3de2b13215c701549
+SHA1: d1b8ce1e3f6a37a5e81b66b1c3db7ddf82002661
+SHA256: df9468b1f3dd0d3d8002034ba61b0670c9244f7191164222b54264bc611d0f02
+Homepage: https://audiofile.68k.org/
+Description: Static libraries for audiofile
+
+Package: bchunk
+Version: 1.2.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 68
+Filename: pool/main/b/bchunk/bchunk_1.2.2_aarch64.deb
+Size: 7528
+MD5sum: d7d3ee22efd2960b9e2642182dbef5a3
+SHA1: 07424f1c420b387e684791c4b41915d58e4ace66
+SHA256: 2ce09f5f88a8fc8874cd68323d97d067441e7c6fba5cfe1780080aa521dc07e4
+Homepage: http://he.fi/bchunk/
+Description: Tool to convert .bin + .cue files to .iso files
+
+Package: bear
+Version: 4.1.0
+Architecture: aarch64
+Maintainer: Nguyen Khanh @nguynkhn
+Installed-Size: 4688
+Filename: pool/main/b/bear/bear_4.1.0_aarch64.deb
+Size: 1368892
+MD5sum: 4e32d8ec8b2d1e1c12616f2389d1e1a6
+SHA1: d8f1bfcabe1cd1d1cdcdbe2c60b49f77cc0da0c9
+SHA256: 3c792e4c7db2666d97aee72d9141f44bfae57e27a24c6a0e94b8bdb4afed3117
+Homepage: https://github.com/rizsotto/Bear
+Description: Bear is a tool that generates a compilation database for clang tooling.
+
+Package: cargo-binstall
+Version: 1.17.9
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 15656
+Depends: resolv-conf
+Filename: pool/main/c/cargo-binstall/cargo-binstall_1.17.9_aarch64.deb
+Size: 4848576
+MD5sum: 909f6479ceae4522609d0635a17f7b67
+SHA1: d0fe7b22a2f5b3ab79516a53efefbae1ce67c40c
+SHA256: b284af96d27fd3e81db9548b666dd83a0d82d8de3ea760a5f6c7b1d6ed524f33
+Homepage: https://github.com/cargo-bins/cargo-binstall
+Description: Tool to fetch and install precompiled musl-based static binaries from the Rust ecosystem
+
+Package: cargo-cache
+Version: 0.8.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2864
+Depends: zlib
+Filename: pool/main/c/cargo-cache/cargo-cache_0.8.3_aarch64.deb
+Size: 907796
+MD5sum: f40754c6052d2f66adbf66c9ab0a835b
+SHA1: 3ff85f5336fcb5c3ac81c587cec40ea25388a19c
+SHA256: 4cdf78ff39bab747690d911837aea895423de6db8e3614d42164ed22b17e0177
+Homepage: https://github.com/matthiaskrgr/cargo-cache
+Description: Tool to manage cargo cache
+
+Package: cavif
+Version: 1.5.6-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3476
+Breaks: cavif-rs
+Replaces: cavif-rs
+Filename: pool/main/c/cavif/cavif_1.5.6-1_aarch64.deb
+Size: 1242156
+MD5sum: d50c62c317ae88993283d29d4102ebff
+SHA1: 52275e403d70e6d74e3cabe4a46653aa32e4429e
+SHA256: 1913f4ce25eb568d6a638f55a2e23ffc3b3812c4fdced5750af5984b4f70840b
+Homepage: https://lib.rs/cavif
+Description: AVIF image creator in pure Rust
+
+Package: chntpw
+Version: 140201
+Architecture: aarch64
+Maintainer: @xingguangcuican6666
+Installed-Size: 696
+Filename: pool/main/c/chntpw/chntpw_140201_aarch64.deb
+Size: 97132
+MD5sum: 8d5c04f05b5e63877be33bf91abf6164
+SHA1: d00feeb7a3132580f7aa570fcd0503ef44c81bc7
+SHA256: eb3187d819114f205d270dbd5e0fb01e72502b5b72e172c00a09517d73c69d53
+Homepage: https://pogostick.net/~pnh/ntpasswd/
+Description: Offline Windows NT Password & Registry Editor
+
+Package: cjson
+Version: 1.7.19
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 180
+Filename: pool/main/c/cjson/cjson_1.7.19_aarch64.deb
+Size: 25388
+MD5sum: e9ff20ae6634b265b40296b110392bf5
+SHA1: 590879b12888d160fea643faf34d5c8c43e0983b
+SHA256: 8336acbdb3c9fd1b90ed840048bfd1bddde4d635184afac7f93772a59babf1f7
+Homepage: https://github.com/DaveGamble/cJSON
+Description: Ultralightweight JSON parser in ANSI C
+
+Package: corrosion
+Version: 0.6.1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 232
+Depends: libc++
+Recommends: cmake, rust
+Filename: pool/main/c/corrosion/corrosion_0.6.1_all.deb
+Size: 35184
+MD5sum: af9873700f3cda5de48c0d63e3061141
+SHA1: db7001150211e95c8166703efd09d7884fd7cb97
+SHA256: fd9b076b6cc30c52b9bbe023af4c6ca57c4d8f0de77f7d9550d2218d1e45e62c
+Homepage: https://github.com/corrosion-rs/corrosion
+Description: Tool for integrating Rust into an existing CMake project
+
+Package: cppunit
+Version: 1.15.1-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 896
+Filename: pool/main/c/cppunit/cppunit_1.15.1-2_aarch64.deb
+Size: 127452
+MD5sum: d1f26fad4ec216a7a5fb109b926c64dc
+SHA1: 5a4711a4f428e74be97d517dce0165e01efd09dd
+SHA256: c5ca94c97d150e4b0c6f8ef2c9bde2b2f1c043c708d015f077d91c93d8de1475
+Homepage: https://www.freedesktop.org/wiki/Software/cppunit
+Description: A C++ unit testing framework
+
+Package: cppunit-static
+Version: 1.15.1-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1080
+Depends: cppunit (= 1.15.1-2)
+Filename: pool/main/c/cppunit-static/cppunit-static_1.15.1-2_aarch64.deb
+Size: 111724
+MD5sum: 1c6f8de9f036be297f713d3f17a16367
+SHA1: dd2da9b42e8505fab781561c789ef20a83dc90cc
+SHA256: cd34658ff8cccc1a1eedf2529d836262b737fe39f41e426ddc046b675d46d6a8
+Homepage: https://www.freedesktop.org/wiki/Software/cppunit
+Description: Static libraries for cppunit
+
+Package: discount
+Version: 3.0.1.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 204
+Filename: pool/main/d/discount/discount_3.0.1.2_aarch64.deb
+Size: 44196
+MD5sum: cea9d613c6b8d5b08203811a570c9780
+SHA1: 5569a5c598235470f55c2c4f9da28b7a0212c404
+SHA256: 6b2d2e6ce450c9161efdb851078c8d3878402b8b381888ab88a16b7cb51cb000
+Homepage: https://www.pell.portland.or.us/~orc/Code/discount/
+Description: Markdown implementation written in C
+
+Package: dnscontrol
+Version: 4.36.1
+Architecture: aarch64
+Maintainer: Izumi Sena Sora <info@unordinary.eu.org>
+Installed-Size: 62524
+Filename: pool/main/d/dnscontrol/dnscontrol_4.36.1_aarch64.deb
+Size: 11311096
+MD5sum: 373dc7c1197fbc7d0625c87b355bbaf2
+SHA1: 86d4814290e78133679e28268ebf739f68ef0ea3
+SHA256: 1e827af3010207613368a4cb0bf7e8255bf767135ea93e544b1972726a5c359f
+Homepage: https://github.com/StackExchange/dnscontrol
+Description: Infrastructure as code for DNS!
+
 Package: python-ruff
 Version: 0.13.2-1
 Architecture: aarch64
